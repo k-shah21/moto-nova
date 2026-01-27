@@ -692,7 +692,7 @@
                                 <h3 class="twm-title">Launch portals</h3>
                                 <p>
                                     Open up secure access for investors and dealers to browse,
-                                    submit offers and track deals in real time.
+                                    submit offers in real time.
                                 </p>
                             </div>
                         </div>

@@ -11,9 +11,10 @@
     <meta name="description" content="" />
 
     <!-- FAVICONS ICON -->
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
-
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
     <!-- PAGE TITLE HERE -->
     <title>Moto Nowa</title>
 
@@ -66,7 +67,7 @@
                     <div class="logo-header">
                         <div class="logo-header-inner logo-header-one">
                             <a href="/">
-                                <img src="{{asset('images/logo-light.webp')}}" alt="Logo" />
+                                <img src="{{asset('images/logo/logo-transparent.png')}}" alt="Logo" style="width: 100%; height: 100%;" />
                             </a>
                         </div>
                     </div>
@@ -191,7 +192,7 @@
                         <div class="col-xl-4 col-lg-4">
                             <div class="widget widget_about">
                                 <div class="logo-footer clearfix">
-                                    <a href="/"><img src="{{asset('images/logo-light.webp')}}" alt="Image" /></a>
+                                    <a href="/"><img src="{{asset('images/logo/logo-transparent.png')}}" alt="Image" /></a>
                                 </div>
                                 <div class="f-about-info">
                                     We offer a range of the finest and most premium cars and

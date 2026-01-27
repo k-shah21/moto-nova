@@ -2896,8 +2896,7 @@ ol li {
     }
 }
 .header-style-1 .logo-header {
-    /*--logo for header---*/
-    width: 190px;
+    width: 115px !important;
     padding: 0px;
     font-size: 36px;
     color: var(--theme-black);
@@ -2907,12 +2906,12 @@ ol li {
 }
 @media (max-width: 1199px) {
     .header-style-1 .logo-header {
-        width: 130px;
+        width: 100px;
     }
 }
 @media (max-width: 400px) {
     .header-style-1 .logo-header {
-        width: 150px;
+        width: 90px;
     }
 }
 .header-style-1 .logo-header .logo-header-inner {
