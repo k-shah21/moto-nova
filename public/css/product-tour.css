@@ -1,0 +1,312 @@
+/* ======================================
+   PRODUCT TOUR SECTION - Modern Tab Layout
+   ====================================== */
+
+.twm-product-tour-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.twm-product-tour-section .tour-subtitle {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 700px;
+    margin: 20px auto 0;
+}
+
+/* Equal Height Row */
+.twm-product-tour-section .row {
+    display: flex;
+    align-items: stretch;
+}
+
+.twm-product-tour-section .row > [class*="col-"] {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Tab Navigation */
+.tour-tabs-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 100%;
+    max-height: 600px;
+}
+
+.tour-tab-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.tour-tab-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: var(--theme-secondary);
+    transform: scaleY(0);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tour-tab-item:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.15);
+    transform: translateX(8px);
+}
+
+.tour-tab-item.active {
+    background: linear-gradient(135deg, rgba(185, 28, 28, 0.15) 0%, rgba(220, 38, 38, 0.1) 100%);
+    border-color: var(--theme-secondary);
+    box-shadow: 0 8px 24px rgba(185, 28, 28, 0.25);
+}
+
+.tour-tab-item.active::before {
+    transform: scaleY(1);
+}
+
+.tour-tab-icon {
+    flex-shrink: 0;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.tour-tab-item.active .tour-tab-icon {
+    background: var(--theme-secondary);
+    box-shadow: 0 4px 16px rgba(185, 28, 28, 0.4);
+}
+
+.tour-tab-icon i {
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease;
+}
+
+.tour-tab-item.active .tour-tab-icon i {
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.tour-tab-content {
+    flex: 1;
+}
+
+.tour-tab-content h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 6px 0;
+    transition: color 0.3s ease;
+}
+
+.tour-tab-content p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+    line-height: 1.5;
+}
+
+.tour-tab-item.active .tour-tab-content p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.tour-tab-arrow {
+    flex-shrink: 0;
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: all 0.3s ease;
+}
+
+.tour-tab-item:hover .tour-tab-arrow,
+.tour-tab-item.active .tour-tab-arrow {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.tour-tab-arrow i {
+    font-size: 24px;
+    color: var(--theme-secondary);
+}
+
+/* Tab Content */
+.tour-content-wrapper {
+    position: relative;
+    min-height: 600px;
+    height: 100%;
+}
+
+.tour-content-panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(30px);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+}
+
+.tour-content-panel.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+    pointer-events: auto;
+    position: relative;
+}
+
+.tour-content-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.tour-screenshot {
+    position: relative;
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.03);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.tour-screenshot img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.tour-content-card:hover .tour-screenshot img {
+    transform: scale(1.02);
+}
+
+.tour-screenshot-overlay {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    right: 24px;
+    bottom: 24px;
+    border-radius: 12px;
+    background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.2) 100%);
+    pointer-events: none;
+}
+
+.tour-info {
+    padding: 36px 32px;
+}
+
+.tour-info h3 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+    margin: 0 0 16px 0;
+    line-height: 1.3;
+}
+
+.tour-info p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.7;
+    margin: 0 0 24px 0;
+}
+
+.tour-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 12px;
+}
+
+.tour-features li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 500;
+}
+
+.tour-features li i {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(185, 28, 28, 0.2);
+    border-radius: 50%;
+    color: var(--theme-secondary);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .tour-tabs-nav {
+        margin-bottom: 40px;
+    }
+
+    .tour-content-wrapper {
+        min-height: auto;
+    }
+
+    .tour-tab-item {
+        padding: 20px;
+    }
+
+    .tour-tab-icon {
+        width: 48px;
+        height: 48px;
+    }
+
+    .tour-tab-icon i {
+        font-size: 24px;
+    }
+
+    .tour-tab-content h4 {
+        font-size: 16px;
+    }
+
+    .tour-tab-content p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 767px) {
+    .tour-info {
+        padding: 28px 24px;
+    }
+
+    .tour-info h3 {
+        font-size: 22px;
+    }
+
+    .tour-info p {
+        font-size: 15px;
+    }
+
+    .tour-screenshot {
+        padding: 16px;
+    }
+}

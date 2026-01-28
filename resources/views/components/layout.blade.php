@@ -5,21 +5,43 @@
     <!-- META -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
-    <meta name="robots" content="" />
-    <meta name="description" content="" />
+    <meta name="keywords"
+        content="automotive investment, car trading platform, SaaS automotive, dealer management, vehicle investing, car portfolio, Moto Nova, Pakistan auto trading" />
+    <meta name="author" content="Moto Nova" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description"
+        content="Moto Nova is Pakistan's leading automotive SaaS platform for investing, trading, and dealer management. Invest in curated car portfolios with real-time performance tracking." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://motonova.io/" />
+    <meta property="og:title" content="Moto Nova | Automotive Investment Platform" />
+    <meta property="og:description"
+        content="Pakistan's leading automotive SaaS platform for investing, trading, and dealer management." />
+    <meta property="og:image" content="https://motonova.io/images/og-image.jpg" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://motonova.io/" />
+    <meta name="twitter:title" content="Moto Nova | Automotive Investment Platform" />
+    <meta name="twitter:description"
+        content="Pakistan's leading automotive SaaS platform for investing, trading, and dealer management." />
+    <meta name="twitter:image" content="https://motonova.io/images/og-image.jpg" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://motonova.io/" />
 
     <!-- FAVICONS ICON -->
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
     <!-- PAGE TITLE HERE -->
-    <title>Moto Nowa</title>
+    <title>Moto Nova | Automotive Investment Platform</title>
 
     <!-- MOBILE SPECIFIC -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="theme-color" content="#b91c1c" />
 
     <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}" />
     <!-- BOOTSTRAP STYLE SHEET -->
@@ -42,32 +64,81 @@
     <!-- DATETIMEPICKER STYLE SHEET -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <!-- MAIN STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/product-tour.css" />
+    <!-- PRODUCT TOUR SECTION -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
     <!-- REMIX ICON -->
     <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css" />
     <!-- CUSTOM SCROLLBAR -->
+    <!-- Structured Data - JSON-LD -->
+    <script type="application/ld+json">
+                                                                                                                                                                    {
+                                                                                                                                                                        "@@context": "https://schema.org",
+                                                                                                                                                                        "@type": "Organization",
+                                                                                                                                                                        "name": "Moto Nova",
+                                                                                                                                                                        "url": "https://motonova.io",
+                                                                                                                                                                        "logo": "https://motonova.io/images/logo/logo-transparent.png",
+                                                                                                                                                                        "description": "Pakistan's leading automotive SaaS platform for investing, trading, and dealer management.",
+                                                                                                                                                                        "contactPoint": {
+                                                                                                                                                                            "@type": "ContactPoint",
+                                                                                                                                                                            "telephone": "+92-316-212-6865",
+                                                                                                                                                                            "contactType": "customer service",
+                                                                                                                                                                            "email": "info@motonova.io",
+                                                                                                                                                                            "areaServed": "PK",
+                                                                                                                                                                            "availableLanguage": ["English", "Urdu"]
+                                                                                                                                                                        },
+                                                                                                                                                                        "address": {
+                                                                                                                                                                            "@type": "PostalAddress",
+                                                                                                                                                                            "streetAddress": "Civic Center, Azade Trade Center",
+                                                                                                                                                                            "addressLocality": "Bahria Town",
+                                                                                                                                                                            "addressCountry": "PK"
+                                                                                                                                                                        },
+                                                                                                                                                                        "sameAs": [
+                                                                                                                                                                            "https://www.facebook.com/motonova",
+                                                                                                                                                                            "https://www.instagram.com/motonova",
+                                                                                                                                                                            "https://www.twitter.com/motonova"
+                                                                                                                                                                        ]
+                                                                                                                                                                    }
+                                                                                                                                                                    </script>
+    <script type="application/ld+json">
+                                                                                                                                                                    {
+                                                                                                                                                                        "@@context": "https://schema.org",
+                                                                                                                                                                        "@type": "WebSite",
+                                                                                                                                                                        "name": "Moto Nova",
+                                                                                                                                                                        "url": "https://motonova.io",
+                                                                                                                                                                        "potentialAction": {
+                                                                                                                                                                            "@type": "SearchAction",
+                                                                                                                                                                            "target": "https://motonova.io/search?q={search_term_string}",
+                                                                                                                                                                            "query-input": "required name=search_term_string"
+                                                                                                                                                                        }
+                                                                                                                                                                    }
+                                                                                                                                                                    </script>
 </head>
 
 <body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link"
+        style="position: absolute; left: -9999px; z-index: 9999; padding: 1em; background: #b91c1c; color: white; text-decoration: none;">Skip
+        to main content</a>
     <!-- LOADING AREA START ===== -->
     <div class="loading-area">
         <div class="loading-box"></div>
         <div class="loading-pic">
-            <img class="loader-gif" src="{{asset('images/loader-car.gif')}}" alt="loader Image">
+            <img class="loader-gif" src="{{asset('images/loader-car.gif')}}" alt="Loading Moto Nova">
         </div>
     </div>
     <!-- LOADING AREA  END ====== -->
 
     <div class="page-wraper">
         <!-- HEADER START -->
-        <header
-            class="site-header header-style-1 mobile-sider-drawer-menu light-hdr">
+        <header class="site-header header-style-1 mobile-sider-drawer-menu light-hdr">
             <div class="header-middle-wraper sticky-header">
                 <div class="header-middle main-bar">
                     <div class="logo-header">
                         <div class="logo-header-inner logo-header-one">
                             <a href="/">
-                                <img src="{{asset('images/logo/logo-transparent.png')}}" alt="Logo" style="width: 100%; height: 100%;" />
+                                <img src="{{asset('images/logo/logo-transparent.png')}}" alt="Moto Nova - Automotive Investment Platform"
+                                    style="width: 100%; height: 100%;" />
                             </a>
                         </div>
                     </div>
@@ -78,11 +149,7 @@
                                 <div class="container-block clearfix">
                                     <div class="navigation-bar">
                                         <!-- NAV Toggle Button -->
-                                        <button
-                                            id="mobile-side-drawer"
-                                            data-target=".header-nav"
-                                            data-toggle="collapse"
-                                            type="button"
+                                        <button id="mobile-side-drawer" data-target=".header-nav" data-toggle="collapse" type="button"
                                             class="navbar-toggler collapsed">
                                             <span class="sr-only">Toggle navigation</span>
                                             <span class="icon-bar icon-bar-first"></span>
@@ -95,14 +162,24 @@
                                         <div
                                             class="nav-animation header-nav navbar-collapse collapse d-flex justify-content-between">
                                             <ul class="nav navbar-nav">
-                                                <li class="{{ request()->is('/') ? 'active' : '' }}"><a
-                                                        href="/">Home</a></li>
-                                                <li class="{{ request()->is('pricing') ? 'active' : '' }}"><a
-                                                        href="/pricing">Pricing</a></li>
-                                                <li class="{{ request()->is('portfolio') ? 'active' : '' }}"><a
-                                                        href="/portfolio">Portfolio</a></li>
-                                                <li class="{{ request()->is('about-us') ? 'active' : '' }}"><a
-                                                        href="/about-us">About Us</a></li>
+                                                <li class="{{ request()->is('/') ? 'active' : '' }}">
+                                                    <a href="/">Home</a>
+                                                </li>
+                                                <li class="{{ request()->is('pricing') ? 'active' : '' }}">
+                                                    <a href="/pricing">Pricing</a>
+                                                </li>
+                                                <li class="{{ request()->is('portfolio') ? 'active' : '' }}">
+                                                    <a href="/portfolio">Portfolio</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/#about-us" class="nav-link" data-section="about-us">About
+                                                        Us</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a href="/#contact-us" class="nav-link" data-section="contact-us">Contact Us</a>
+                                                </li>
+
                                             </ul>
                                         </div>
                                     </div>
@@ -115,13 +192,13 @@
                         <div class="extra-cell one">
                             <ul class="wt-topbar-left-info">
                                 <li>
-                                    <a href="tel:+923162126865">
-                                        <span><i class="ri-mail-line"></i></span>0316 21 26 865
+                                    <a href="mailto:info@motonova.io">
+                                        <span><i class="ri-mail-line"></i></span>info@motonova.io
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="mailto:[EMAIL_ADDRESS]">
-                                        <span><i class="ri-phone-line"></i></span>fossphorus@gmail.com
+                                    <a href="tel:+923162126865">
+                                        <span><i class="ri-phone-line"></i></span>+92 316 212 6865
                                     </a>
                                 </li>
                             </ul>
@@ -145,36 +222,32 @@
                 <div class="container">
                     <div class="twm-banner-left-content-section">
                         <div class="twm-banner-left-content">
-                            <div class="twm-sm-title left">Premium</div>
+                            <div class="twm-sm-title left">The Future of Automotive</div>
                             <h2 class="twm-banner-title">
-                                <em>Your<span class="txt-type" data-wait="3000"
-                                        data-words='["Choice", "Car"]'></span></em>
-                                <span>Buy</span>Sell & Invest
+                                <em>One Platform<span class="txt-type" data-wait="3000" data-words='["to Invest", "to Trade", "to Grow"]'></span></em>
+                                <span>Buy</span>Sell & Manage
                             </h2>
                             <div class="twm-bnr-discription">
-                                You can also buy or sell a vehicle of your choice and enjoy the freedom to travel
-                                wherever you want.
+                                The all-in-one SaaS platform for automotive investors, dealers, and teams.
+                                Manage portfolios, track performance, and close deals faster.
                             </div>
-                            <div class="twm-bnr-buttons">
-                                <a href="/portfolio" class="site-button-secondry btn-large">
-                                    <em>View Full Detail</em>
-                                </a>
-                                <a href="/pricing" class="site-button btn-large">
-                                    <em>Invest Now</em>
-                                </a>
-                            </div>
-                        </div>
+                            <!-- SaaS CTA Section -->
+                            <div class="twm-bnr-cta-wrap">
+                                <div class="twm-bnr-buttons">
+                                    <a href="#contact-us" class="site-button btn-large cta-primary">
+                                        <em><i class="ri-calendar-line"></i> Book a Demo</em>
+                                    </a>
+                                    <a href="#pricing" class="site-button-secondry btn-large cta-secondary">
+                                        <em><i class="ri-rocket-line"></i> Start Free Trial</em>
+                                    </a>
+                                    </div>
+                            
+                                </div>
+                                </div>
                     </div>
-                    <!-- <div class="twm-banner-product-price">
-                        <div class="twm-product-name">harley davidson</div>
-                        <div class="twm-price-section">
-                            <div class="v-price">$800</div>
-                            <div class="v-duration">/ Day</div>
-                        </div>
-                    </div> -->
                 </div>
                 <div class="twm-bnr-lg-text">
-                    <span>For Invest</span>
+                    <span>Moto Nova</span>
                 </div>
             </div>
             <!--BANNER END-->
@@ -195,15 +268,15 @@
                                     <a href="/"><img src="{{asset('images/logo/logo-transparent.png')}}" alt="Image" /></a>
                                 </div>
                                 <div class="f-about-info">
-                                    We offer a range of the finest and most premium cars and
-                                    bikes on rent.
+                                    Moto Nova is the all-in-one SaaS platform for automotive investing,
+                                    trading, and dealer management.
                                 </div>
                                 <ul class="ftr-list">
                                     <li>
-                                        <i class="ri-phone-line"></i><a href="tel:+923162126865">0316 21 26 865</a>
+                                        <i class="ri-phone-line"></i><a href="tel:+923162126865">+92 316 212 6865</a>
                                     </li>
                                     <li>
-                                        <i class="ri-mail-line"></i>fossphorus@gmail.com
+                                        <i class="ri-mail-line"></i>info@motonova.io
                                     </li>
                                     <li>
                                         <i class="ri-map-pin-line"></i>Civic Center - Azade Trade center
@@ -249,26 +322,24 @@
                                         <div class="widget widget_services">
                                             <h3 class="widget-title">Quick Links</h3>
                                             <ul>
-                                                <li><a href="/about-us">About us</a></li>
                                                 <li><a href="/pricing">Pricing</a></li>
                                                 <li><a href="/portfolio">Portfolio</a></li>
-                                                <li><a href="/contact-us">Contact</a></li>
+                                                <li><a href="/about-us">About us</a></li>
                                             </ul>
                                         </div>
                                     </div>
 
                                     <div class="col-lg-4 col-md-12 col-sm-12 m-b20">
                                         <div class="widget widget_services">
-                                            <h3 class="widget-title">Vehicles Type</h3>
+                                            <h3 class="widget-title">Platform</h3>
                                             <ul class="gris-2-column">
-                                                <li><a href="cars-detail.html">SUVs</a></li>
-                                                <li><a href="cars-detail.html">Sport Coupe</a></li>
-                                                <li><a href="cars-detail.html">Convertible</a></li>
-                                                <li><a href="cars-detail.html">Wagon</a></li>
-                                                <li><a href="cars-detail.html">Sedan</a></li>
-                                                <li><a href="cars-detail.html">Yamaha R15</a></li>
-                                                <li><a href="cars-detail.html">BMW S 1000 RR</a></li>
-                                                <li><a href="/portfolio">Portfolio</a></li>
+                                                <li><a href="#">Investor Portal</a></li>
+                                                <li><a href="#">Dealer Dashboard</a></li>
+                                                <li><a href="#">SOR Management</a></li>
+                                                <li><a href="#">Sales Pipeline</a></li>
+                                                <li><a href="#">Accounts Module</a></li>
+                                                <li><a href="#">Analytics</a></li>
+                                                <li><a href="#">API Access</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -349,7 +420,7 @@
 
     <script>
         // Initialize Testimonial Carousel
-        jQuery(document).ready(function($) {
+                        jQuery(document).ready(function ($) {
             if ($('.twm-blog-carousel').length) {
                 $('.twm-blog-carousel').owlCarousel({
                     loop: true,
@@ -383,7 +454,7 @@
             const scrollToTopBtn = $('#scrollToTop');
 
             // Show/hide button based on scroll position
-            $(window).scroll(function() {
+                        $(window).scroll(function () {
                 if ($(this).scrollTop() > 300) {
                     scrollToTopBtn.addClass('show');
                 } else {
@@ -392,13 +463,95 @@
             });
 
             // Smooth scroll to top on click
-            scrollToTopBtn.on('click', function(e) {
+                        scrollToTopBtn.on('click', function (e) {
                 e.preventDefault();
                 $('html, body').animate({
                     scrollTop: 0
                 }, 100, 'swing');
             });
+
+
+
+                        // ScrollSpy and Smooth Scroll
+                        function scrollSpy() {
+                            var scrollPos = $(document).scrollTop();
+                            var navLinks = $('.nav-link');
+                            var topOffset = 100;
+
+                            navLinks.each(function () {
+                                var currLink = $(this);
+
+                                var href = currLink.attr('href');
+                                if (href.includes('#')) {
+                                    var targetId = href.split('#')[1];
+                                    var refElement = $('#' + targetId);
+
+                                    if (refElement.length) {
+                                        if (refElement.offset().top - topOffset <= scrollPos && refElement.offset().top + refElement.height() > scrollPos) {
+                                            $('.nav li').removeClass('active');
+                                            currLink.parent('li').addClass('active');
+                                        }
+                                        else {
+                                            currLink.parent('li').removeClass('active');
+                                        }
+                                    }
+                                }
+                            });
+                        }
+
+                        // Bind scroll event
+                        $(window).scroll(function () {
+                            scrollSpy();
+                            console.log('scrollSpy');
+                        });
+
+                        // Smooth Scroll on Click
+                        $('.nav-link').on('click', function (e) {
+                            var targetHref = $(this).attr('href');
+                            if (targetHref.includes('#')) {
+                                var targetId = targetHref.split('#')[1];
+                                var target = $('#' + targetId);
+
+                                if (target.length) {
+                                    e.preventDefault();
+
+                                    // Update Active Class immediately
+                                    $('.nav li').removeClass('active');
+                                    $(this).parent('li').addClass('active');
+
+                                    $('html, body').animate({
+                                        scrollTop: target.offset().top - 80
+                                    }, 800, 'swing', function () {
+                                        // Optional: Update hash without jumping
+                                        if (history.pushState) {
+                                            history.pushState(null, null, '#' + targetId);
+                                        } else {
+                                            window.location.hash = targetId;
+                                        }
+                                    });
+                                }
+                            }
+                        });
+
+                        // Initial call to set active state on load
+                        scrollSpy();
+
+                        // Product Tour Tab Switching
+                        $('.tour-tab-item').on('click', function () {
+                            const targetTab = $(this).data('tab');
+
+                            // Remove active class from all tabs and panels
+                            $('.tour-tab-item').removeClass('active');
+                            $('.tour-content-panel').removeClass('active');
+
+                            // Add active class to clicked tab and corresponding panel
+                            $(this).addClass('active');
+                            $('#' + targetTab).addClass('active');
+                        });
         });
+
+
+
     </script>
 </body>
 

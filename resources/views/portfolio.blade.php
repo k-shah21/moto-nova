@@ -125,26 +125,23 @@
                 <div class="col-lg-5 col-md-12">
                     <!-- TITLE START-->
                     <div class="section-head left aside-section">
-                        <div class="twm-sm-title left">About Us</div>
+                        <div class="twm-sm-title left">About Moto Nova</div>
                         <h2 class="twm-large-title site-text-dark">
-                            We Have Many Provided Assistance To People And Companies In
-                            This Field
+                            A modern SaaS platform for automotive investing & trading
                         </h2>
                         <div class="section-head-detail">
-                            I must explain to you how all this mistaken idea of
-                            denouncing pleasure and praising pain was born and I will
-                            give you a complete account of the system, and expound the
-                            actual teachings of the great explorer of the truth, the
-                            master-builder of human happiness. No one rejects, dislikes,
-                            or avoids pleasure itself, because it is pleasure,
+                            Moto Nova connects investors, dealers and automotive teams in a single,
+                            cloud-based portal. From sourcing stock to managing SOR, sales and accounts,
+                            every workflow is digitised so you can move faster, stay compliant and grow
+                            returns on every vehicle.
                         </div>
                     </div>
                     <!-- TITLE END-->
                     <div class="twm-inline-list2">
                         <ul>
-                            <li>All Type Vehicle Available</li>
-                            <li>You Get 24/7 Roadside Assistance</li>
-                            <li>We Are The UK’s Largest Provider</li>
+                            <li>Invest in curated car portfolios with real-time performance</li>
+                            <li>Run SOR, sales and accounts from a single admin dashboard</li>
+                            <li>Offer buyers and investors a modern self-service experience</li>
                         </ul>
                     </div>
                     <div class="twm-btn-left">
@@ -435,7 +432,7 @@
                         <div class="twm-need-help-bx">
                             <div class="twm-need-help-content">
                                 <span>Need any help ?</span>
-                                <h3 class="twm-title">+71 202 102 2124</h3>
+                                <h3 class="twm-title">+92 316 212 6865</h3>
                             </div>
                             <div class="twm-need-help-icon">
                                 <img src="images/24-clock.png" alt="icon" />
