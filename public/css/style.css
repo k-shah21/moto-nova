@@ -204,7 +204,7 @@ html {
 .site-bg-dark h4,
 .site-bg-dark h5,
 .site-bg-dark h6 {
-    color: var(--theme-primary); 
+    color: var(--theme-primary);
 }
 
 .site-bg-light {
@@ -1745,7 +1745,7 @@ ol li {
     font-size: 14px;
     font-weight: 500;
     z-index: 1;
-    transition: 0.5s all ease;
+    transition: all 0.5s ease;
     overflow: hidden;
 }
 .site-button-link:after {
@@ -1756,7 +1756,7 @@ ol li {
     top: 50%;
     transform: translateY(-50%);
     font-size: 0px;
-    transition: 0.5s all ease;
+    transition: all 0.5s ease;
     opacity: 0;
     font-weight: 900;
 }
@@ -1799,21 +1799,7 @@ ol li {
     position: relative;
     overflow: hidden;
 }
-.site-button em {
-    font-style: normal;
-    transition: 0.5s all ease;
-}
-.site-button em::after {
-    width: 0%;
-    height: 2px;
-    background-color: var(--theme-primary);
-    position: absolute;
-    right: 0%;
-    bottom: 0%;
-    content: "";
-    opacity: 0;
-    transition: 0.5s all ease;
-}
+
 .site-button.dark-bg {
     background-color: var(--theme-black);
 }
@@ -1827,13 +1813,6 @@ ol li {
     color: var(--theme-primary);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
-.site-button:hover em:after {
-    width: 100%;
-    opacity: 1;
-    right: auto;
-    left: 0%;
-}
-
 .site-button-secondry {
     border: none;
     font-size: 14px;
@@ -1851,10 +1830,6 @@ ol li {
     padding: 15px 30px;
     font-size: 16px;
     font-weight: 500;
-}
-.site-button-secondry em {
-    font-style: normal;
-    transition: 0.5s all ease;
 }
 .site-button-secondry.dark-bg {
     background-color: var(--theme-black);
@@ -3592,7 +3567,8 @@ ol li {
 }
 .footer-dark p {
     font-weight: 300;
-}.footer-dark .ftr-list li {
+}
+.footer-dark .ftr-list li {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -6708,7 +6684,7 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
 
 .twm-contact-page-detail {
     margin-bottom: 30px;
-    padding: 80px 0px 80px 60px;
+    padding: 50px 9px 80px 38px;
     background-color: #f6f6f5;
     border-radius: 100px 0px 0px 100px;
     position: relative;
@@ -6773,7 +6749,7 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
     font-weight: 900;
     line-height: 160px;
     display: inline-table;
-    color: #000; 
+    color: #000;
     margin: 0px;
 }
 
@@ -7304,6 +7280,48 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
         box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
     }
 }
+/*______Contact Form Styling________*/
+.cons-contact-form .form-control {
+    background-color: #f9f9f9;
+    border: 1px solid var(--theme-primary);
+    height: 55px;
+    padding: 10px 20px;
+    color: #333;
+    font-size: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.cons-contact-form .form-control:focus {
+    background-color: #fff;
+    border: 2px solid var(--theme-primary);
+    outline: var(--gold-dark); 
+    box-shadow: 0 0 0 1px var(--theme-primary); 
+}
+
+.cons-contact-form textarea.form-control {
+    height: 150px;
+    padding-top: 15px;
+}
+
+.cons-contact-form .site-button {
+    padding: 15px 50px;
+    min-width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Force remove underlines from buttons targetting all possible states */
+.site-button, 
+.site-button:link, 
+.site-button:visited, 
+.site-button:hover, 
+.site-button:active, 
+.site-button:focus,
+.site-button em, 
+.site-button em:hover {
+    text-decoration: none !important;
+}
+
 /*______Testimonial2 Style______*/
 .twm-testimonial2 {
     background-color: #f4f5f7;
@@ -8947,7 +8965,6 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
     line-height: 1.5;
     transition: color 0.3s ease;
 }
-
 .twm-cntr-with-icon:hover .icon-content-info {
     color: var(--theme-secondary);
 }
@@ -9060,7 +9077,6 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
     color: #b9b9b9;
     font-size: 14px;
 }
-
 .form-group {
     margin-bottom: 30px;
 }
@@ -9154,7 +9170,6 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
         margin-top: 10px;
     }
 }
-
 .twm-input-with-icon input {
     position: relative;
     border-right: 0px;
@@ -9171,7 +9186,6 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
     color: #b9b9b9;
     font-size: 14px;
 }
-
 .form-group-2column-wrap .form-group-2column {
     display: flex;
 }
@@ -9192,7 +9206,6 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
 .form-group-2column-wrap .form-group-2column .input-group:last-child {
     margin-right: 0px;
 }
-
 @media (max-width: 575px) {
     .bootstrap-datetimepicker-widget.dropdown-menu {
         width: 250px;
@@ -11748,7 +11761,6 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
     background: var(--theme-white);
     border-radius: 24px;
     overflow: hidden;
-    box-shadow: 0px 12px 48px rgba(0, 0, 0, 0.08), 0px 4px 16px rgba(0, 0, 0, 0.04);
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     height: 100%;
     display: flex;
@@ -11757,12 +11769,14 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
 }
 
 .twm-pricing-section-wrap .pricing-block:hover {
-    box-shadow: 0px 24px 72px rgba(0, 0, 0, 0.12), 0px 8px 24px rgba(0, 0, 0, 0.06);
+    box-shadow:
+        0px 24px 72px rgba(0, 0, 0, 0.12),
+        0px 8px 24px rgba(0, 0, 0, 0.06);
     transform: translateY(-8px);
 }
 
 .twm-pricing-section-wrap .pricing-block.active {
-    box-shadow: 0px 20px 60px rgba(185, 28, 28, 0.35), 0px 8px 24px rgba(185, 28, 28, 0.2);
+
     border: 2px solid var(--theme-secondary);
     transform: scale(1.05);
     position: relative;
@@ -11805,8 +11819,13 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
 }
 
 @keyframes gradientShift {
-    0%, 100% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
+    0%,
+    100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
 }
 
 .twm-pricing-section-wrap .pricing-head::before {
@@ -11816,14 +11835,23 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
     right: -20%;
     width: 250px;
     height: 250px;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+    background: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 0.1) 0%,
+        transparent 70%
+    );
     border-radius: 50%;
     animation: float 6s ease-in-out infinite;
 }
 
 @keyframes float {
-    0%, 100% { transform: translate(0, 0); }
-    50% { transform: translate(-20px, 20px); }
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(-20px, 20px);
+    }
 }
 
 .twm-pricing-section-wrap .pricing-head::after {
@@ -11833,7 +11861,11 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
     left: -15%;
     width: 180px;
     height: 180px;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.08) 0%, transparent 70%);
+    background: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 0.08) 0%,
+        transparent 70%
+    );
     border-radius: 50%;
 }
 
@@ -11948,11 +11980,11 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
 
 .twm-pricing-section-wrap .pricing-body .features-list li.disable {
     opacity: 0.35;
-    color: #aaa;
+    color: rgba(0, 0, 0, .9);
 }
 
 .twm-pricing-section-wrap .pricing-body .features-list li.disable i {
-    color: #ccc;
+    color: rgba(0, 0, 0, .9);
 }
 
 /* Get Started Button */
@@ -12530,7 +12562,6 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
 .site-button:hover {
     color: var(--theme-white);
     box-shadow: 0px 8px 25px rgba(212, 175, 55, 0.5);
-    transform: translateY(-2px);
 }
 
 .site-button:hover::before {
@@ -12572,7 +12603,6 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
 
 .site-button-secondry:hover {
     box-shadow: 0px 8px 25px rgba(185, 28, 28, 0.5);
-    transform: translateY(-2px);
 }
 
 .site-button-secondry:hover::before {
@@ -12647,4 +12677,243 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
     height: 450px;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* ======================================
+   NETWORK FIRMS SECTION
+   ====================================== */
+
+.twm-network-firms-section {
+    background-color: #f0f2f5;
+    position: relative;
+}
+
+.network-firms-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.network-firms-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.network-firms-row.centered {
+    max-width: 800px; /* Increased to fit 2 cards (340*2 + 30 = 710px) */
+    margin: 0 auto;
+}
+
+/* Individual Firm Card */
+.network-firm-card {
+    position: relative;
+    width: 340px; /* Increased from 280px */
+    height: 240px; /* Increased from 180px */
+    background: var(--theme-white);
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.network-firm-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Inner Container */
+.firm-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px; /* Increased padding */
+}
+
+/* Logo Display */
+.firm-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s ease;
+}
+
+.firm-logo img {
+    max-width: 220px; /* Increased from 180px */
+    max-height: 120px; /* Increased from 100px */
+    object-fit: contain;
+    transition: all 0.4s ease;
+}
+
+.network-firm-card:hover .firm-logo {
+    opacity: 0;
+}
+
+/* Hover Content Overlay */
+.firm-hover-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent;
+    padding: 30px; /* Increased padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centered content */
+    text-align: center; /* Centered text */
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 20;
+}
+
+.network-firm-card:hover .firm-hover-content {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.firm-logo-white {
+    width: 100%;
+    display: flex; /* Changed to flex for centering */
+    justify-content: center; /* Center the logo */
+    margin-bottom: 20px;
+}
+
+.firm-logo-white img {
+    max-width: 160px;
+    max-height: 60px;
+    object-fit: contain;
+    display: block;
+}
+
+.firm-hover-content h4 {
+    color: var(--theme-white);
+    font-size: 18px; /* Increased font size */
+    font-weight: 700;
+    margin: 0 0 12px 0;
+    line-height: 1.3;
+}
+
+.firm-hover-content p {
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 13px; /* Slightly increased */
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Decorative Corner Shapes */
+.firm-card-decor {
+    position: absolute;
+    width: 50px; /* Increased decor size */
+    height: 50px;
+    z-index: 5;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.firm-card-decor.top-right {
+    top: -10px;
+    right: -10px;
+    border-radius: 0 25px 0 50px;
+}
+
+.firm-card-decor.bottom-left {
+    bottom: -10px;
+    left: -10px;
+    border-radius: 50px 0 25px 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Decor Colors */
+.firm-card-decor.blue {
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+}
+
+.firm-card-decor.yellow {
+    background: linear-gradient(135deg, #f5a623 0%, #fbbf24 100%);
+}
+
+.firm-card-decor.orange {
+    background: linear-gradient(135deg, #ea580c 0%, #f97316 100%);
+}
+
+.firm-card-decor.teal {
+    background: linear-gradient(135deg, #0d9488 0%, #14b8a6 100%);
+}
+
+.firm-card-decor.red {
+    background: linear-gradient(135deg, #b91c1c 0%, #dc2626 100%);
+}
+
+/* Hover effects on decor */
+.network-firm-card:hover .firm-card-decor.top-right {
+    transform: scale(30); /* Increased scale further for larger card */
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.network-firm-card:hover .firm-card-decor.bottom-left {
+    opacity: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1199px) {
+    .network-firm-card {
+        width: 300px;
+        height: 220px;
+    }
+}
+
+@media (max-width: 991px) {
+    .network-firm-card {
+        width: 280px;
+        height: 200px;
+    }
+    
+    .network-firms-row.centered {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .network-firm-card {
+        width: 100%;
+        max-width: 320px;
+        height: 150px;
+    }
+    
+    .network-firms-row {
+        gap: 20px;
+    }
+    
+    .firm-logo img {
+        max-width: 150px;
+        max-height: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .network-firm-card {
+        height: 140px;
+    }
+    
+    .firm-hover-content {
+        padding: 15px;
+    }
+    
+    .firm-hover-content h4 {
+        font-size: 14px;
+    }
+    
+    .firm-hover-content p {
+        font-size: 11px;
+    }
 }

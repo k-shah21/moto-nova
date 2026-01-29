@@ -119,12 +119,12 @@
                                         <h2 class="year-title">2026</h2>
                                     </div>
                                 </div>
-                                </div>
-                                <div class="twm-media2">
-                                    <img src="images/car-pic1.png" alt="Image" />
-                                </div>
-                                </div>
-                                </div>
+                            </div>
+                            <div class="twm-media2">
+                                <img src="images/car-pic1.png" alt="Image" />
+                            </div>
+                            </div>
+                            </div>
 
                     <div class="col-lg-5 col-md-12">
                         <!-- TITLE START-->
@@ -149,14 +149,14 @@
                             </ul>
                         </div>
                     </div>
-                    </div>
-                    </div>
-                    </div>
-                    <!--ABOUS US SECTION END-->
+                </div>
+                </div>
+                </div>
+                <!--ABOUS US SECTION END-->
 
         <!--WHY CHOOSE US SECTION START-->
         <div class="section-full site-bg-white twm-w-chooseus-section-wrap wow fadeInDown" data-wow-offset="100"
-            data-wow-delay="0.2">
+            data-wow-delay="0.2" id='features'>
             <div class="container">
                 <div class="row twm-w-chooseus-section">
                     <div class="col-lg-6 col-md-12">
@@ -169,8 +169,8 @@
                                 tools so you can manage the full lifecycle of every vehicle
                                 – from acquisition to exit.
                             </div>
-                            </div>
-                            <!-- TITLE END-->
+                        </div>
+                        <!-- TITLE END-->
                         <div class="twm-list-icon-style1">
                             <ul>
                                 <li>
@@ -202,9 +202,9 @@
                                             <p>
                                                 Support how your business really works – from SOR
                                                 agreements through to investor updates and payouts.
-                                                </p>
-                                                </div>
-                                                </div>
+                                            </p>
+                                            </div>
+                                            </div>
                                 </li>
                                 <li>
                                     <div class="twm-list-icon-style-bx">
@@ -221,24 +221,24 @@
                                             </p>
                                         </div>
                                     </div>
-                                    </li>
-                                    <li>
-                                        <div class="twm-list-icon-style-bx">
-                                            <div class="twm-icon-bx">
-                                                <span>
-                                                    <img src="images/w-choose-icon/icon-4.png" alt="image" />
-                                                </span>
-                                            </div>
-                                            <div class="twm-icon-bx-detail">
-                                                <h3 class="twm-title">Onboarding & support</h3>
-                                                <p>
+                                </li>
+                                <li>
+                                    <div class="twm-list-icon-style-bx">
+                                        <div class="twm-icon-bx">
+                                            <span>
+                                                <img src="images/w-choose-icon/icon-4.png" alt="image" />
+                                            </span>
+                                        </div>
+                                        <div class="twm-icon-bx-detail">
+                                            <h3 class="twm-title">Onboarding & support</h3>
+                                            <p>
                                                 Launch quickly with our team beside you – from data
                                                 import through to training and best practices.
-                                                </p>
-                                                </div>
-                                                </div>
+                                            </p>
+                                            </div>
+                                            </div>
                                 </li>
-                                </ul>
+                            </ul>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -255,212 +255,531 @@
                                     <img src="images/24-clock.png" alt="icon" />
                                 </div>
                             </div>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-                            <!--WHY CHOOSE US SECTION END-->
-                            
-                            <!--PRODUCT TOUR SECTION START -->
-                            <div class="section-full p-t150 p-b150 site-bg-dark twm-product-tour-section wow fadeInDown" data-wow-offset="100"
-                                data-wow-delay="0.2">
-                                <div class="container">
-                                    <!-- TITLE START-->
-                                    <div class="section-head center text-white m-b80">
-                                        <div class="twm-sm-title">Product Tour</div>
-                                        <h2 class="twm-large-title">See the Moto Nova portal in action</h2>
-                                        <p class="tour-subtitle">Everything you need to manage vehicles, investors and deals – all in one
-                                            platform
-                                        </p>
-                                    </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        <!--WHY CHOOSE US SECTION END-->
+                        
+                        <!--PRODUCT TOUR SECTION START -->
+        <div class="section-full p-t150 p-b150 twm-product-tour-section wow fadeInDown" data-wow-offset="100"
+            data-wow-delay="0.2" id="portfolio">
+            <div class="container">
+                <!-- TITLE START-->
+                <div class="section-head center text-white m-b80">
+                    <div class="twm-sm-title">Product Tour</div>
+                    <h2 style="color: #fff; font-weight: bolder;">See the Moto Nova portal in action</h2>
+                    <p style="color: #fff;">Everything you need to manage vehicles, investors and deals – all in one
+                        platform
+                    </p>
+                    </div>
                 <!-- TITLE END-->
+
+                <!-- Swiper Carousel Wrapper -->
+                <div class="product-tour-swiper-wrapper">
+                    <div class="swiper product-tour-swiper">
+                        <div class="swiper-wrapper">
                 
-                <div class="row">
-                    <!-- Tab Navigation -->
-                    <div class="col-lg-4 col-md-12">
-                        <div class="tour-tabs-nav">
-                            <div class="tour-tab-item active" data-tab="tab-1">
-                                <div class="tour-tab-icon">
-                                    <i class="ri-dashboard-3-line"></i>
-                                </div>
-                                <div class="tour-tab-content">
-                                    <h4>Portfolio & Insights</h4>
-                                    <p>Track returns at portfolio and vehicle level</p>
-                                </div>
-                                <div class="tour-tab-arrow">
-                                    <i class="ri-arrow-right-s-line"></i>
-                                </div>
-                                </div>
-                            <div class="tour-tab-item" data-tab="tab-2">
-                                <div class="tour-tab-icon">
-                                    <i class="ri-bar-chart-box-line"></i>
-                                </div>
-                                <div class="tour-tab-content">
-                                    <h4>Reporting & Analytics</h4>
-                                    <p>Drill into performance across investors and vehicles</p>
-                                </div>
-                                <div class="tour-tab-arrow">
-                                    <i class="ri-arrow-right-s-line"></i>
-                                </div>
-                                </div>
-                                
-                                <div class="tour-tab-item" data-tab="tab-3">
-                                    <div class="tour-tab-icon">
-                                        <i class="ri-store-2-line"></i>
+                            <!-- Slide 1: Portfolio & Insights -->
+                            <div class="swiper-slide">
+                                <div class="tour-slide-content" data-category="portfolio">
+                                    <!-- Left Preview Image -->
+                                    <div class="tour-preview-container">
+                                        <div class="tour-preview-image active" data-thumb="1">
+                                            <img src="{{ asset('images/portfolio.png') }}" alt="Portfolio Overview">
+                                            <div class="tour-preview-overlay"></div>
+                                        </div>
+                                        <div class="tour-preview-image" data-thumb="2">
+                                            <img src="{{ asset('images/portfolio.png') }}" alt="ROI Analytics">
+                                            <div class="tour-preview-overlay"></div>
+                                        </div>
+                                        <div class="tour-preview-image" data-thumb="3">
+                                            <img src="{{ asset('images/portfolio.png') }}" alt="Capital Deployment">
+                                            <div class="tour-preview-overlay"></div>
+                                        </div>
+                                        <div class="tour-preview-image" data-thumb="4">
+                                            <img src="{{ asset('images/portfolio.png') }}" alt="Performance Metrics">
+                                            <div class="tour-preview-overlay"></div>
+                                        </div>
                                     </div>
-                                    <div class="tour-tab-content">
-                                        <h4>Dealer Dashboard</h4>
-                                        <p>Live view of stock, SOR and sales performance</p>
-                                    </div>
-                                    <div class="tour-tab-arrow">
-                                        <i class="ri-arrow-right-s-line"></i>
-                                    </div>
-                                </div>
-                                
-                                <div class="tour-tab-item" data-tab="tab-4">
-                                    <div class="tour-tab-icon">
-                                        <i class="ri-car-line"></i>
-                                    </div>
-                                    <div class="tour-tab-content">
-                                        <h4>Stock & SOR</h4>
-                                        <p>Centralise vehicles, documents and agreements</p>
-                                    </div>
-                                    <div class="tour-tab-arrow">
-                                        <i class="ri-arrow-right-s-line"></i>
-                                    </div>
-                                </div>
-                                
-                                <div class="tour-tab-item" data-tab="tab-5">
-                                    <div class="tour-tab-icon">
-                                        <i class="ri-shield-check-line"></i>
-                                    </div>
-                                    <div class="tour-tab-content">
-                                        <h4>Security & Access</h4>
-                                        <p>Enterprise-grade control and audit logs</p>
-                                    </div>
-                                    <div class="tour-tab-arrow">
-                                        <i class="ri-arrow-right-s-line"></i>
-                                    </div>
-                                </div>
-                                </div>
-                                </div>
-                                
-                                <!-- Tab Content -->
-                                <div class="col-lg-8 col-md-12">
-                                    <div class="tour-content-wrapper">
-                                        <!-- Tab 1 -->
-                                        <div class="tour-content-panel active" id="tab-1">
-                                            <div class="tour-content-card">
-                                                <div class="tour-screenshot">
-                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Portfolio Dashboard">
-                                                    <div class="tour-screenshot-overlay"></div>
+                
+                                    <!-- Right Info Panel -->
+                                    <div class="tour-info-panel">
+                                        <div class="tour-main-info">
+                                            <div class="tour-category-badge">
+                                                <i class="ri-dashboard-3-line"></i>
+                                                <span>Portfolio & Insights</span>
+                                            </div>
+                                            <h3 class="tour-dynamic-title">
+                                                <span class="active" data-thumb="1">Real-time Portfolio Overview</span>
+                                                <span data-thumb="2">Vehicle-level ROI Analysis</span>
+                                                <span data-thumb="3">Capital Deployment Tracking</span>
+                                                <span data-thumb="4">Performance Metrics Dashboard</span>
+                                            </h3>
+                                            
+                                            <div class="tour-dynamic-description">
+                                                <p class="active" data-thumb="1">Track returns at portfolio and vehicle
+                                                    level, monitor active deals and understand
+                                                    exactly where your capital is deployed – all in a single, real-time
+                                                    dashboard.</p>
+                                                <p data-thumb="2">Analyse returns on each vehicle investment with
+                                                    detailed
+                                                    ROI breakdowns, holding periods, and
+                                                    profit projections updated in real-time.</p>
+                                                <p data-thumb="3">See exactly where your capital is allocated across
+                                                    vehicle
+                                                    types, dealers, and investment stages
+                                                    with visual breakdowns.</p>
+                                                <p data-thumb="4">Monitor key performance indicators including portfolio
+                                                    health, risk metrics, and trend analysis at
+                                                    a glance.</p>
+                                            </div>
+                                            <div class="tour-features-grid">
+                                                <div class="tour-feature-tag"><i class="ri-check-line"></i> Real-time
+                                                    tracking</div>
+                                                <div class="tour-feature-tag"><i class="ri-check-line"></i> ROI analysis
                                                 </div>
-                                                <div class="tour-info">
-                                                    <h3>Portfolio & vehicle level insights</h3>
-                                                    <p>Track returns at portfolio and vehicle level, monitor active deals and
-                                                        understand
-                                                        exactly where your capital is deployed – all in a single, real-time
-                                                        dashboard.</p>
-                                                    <ul class="tour-features">
-                                                        <li><i class="ri-check-line"></i> Real-time performance tracking</li>
-                                                        <li><i class="ri-check-line"></i> Vehicle-level ROI analysis</li>
-                                                        <li><i class="ri-check-line"></i> Capital deployment overview</li>
-                                                    </ul>
+                                                <div class="tour-feature-tag"><i class="ri-check-line"></i> Capital
+                                                    overview
+                                                </div>
+                                            </div>
+                                            </div>
+                                            <div class="tour-thumb-section">
+                                                <div class="tour-thumb-section-title">Explore Features</div>
+                                                <div class="tour-thumb-tabs">
+                                                    <div class="tour-thumb-item active" data-thumb="1">
+                                                        <img src="{{ asset('images/portfolio.png') }}" alt="Overview">
+                                                        <div class="tour-thumb-label"><span>Overview</span></div>
+                                                        <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tour-thumb-item" data-thumb="2">
+                                                        <img src="{{ asset('images/portfolio.png') }}" alt="ROI">
+                                                        <div class="tour-thumb-label"><span>ROI</span></div>
+                                                        <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tour-thumb-item" data-thumb="3">
+                                                        <img src="{{ asset('images/portfolio.png') }}" alt="Capital">
+                                                        <div class="tour-thumb-label"><span>Capital</span></div>
+                                                        <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tour-thumb-item" data-thumb="4">
+                                                        <img src="{{ asset('images/portfolio.png') }}" alt="Metrics">
+                                                        <div class="tour-thumb-label"><span>Metrics</span></div>
+                                                        <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                            </div>
+                                            </div>
+                                            
+                                            <!-- Slide 2: Reporting & Analytics -->
+                                            <div class="swiper-slide">
+                                                <div class="tour-slide-content" data-category="reporting">
+                                                    <!-- Left Preview Image -->
+                                                    <div class="tour-preview-container">
+                                                        <div class="tour-preview-image active" data-thumb="1">
+                                                            <img src="{{ asset('images/portfolio.png') }}" alt="Custom Reports">
+                                                            <div class="tour-preview-overlay"></div>
+                                                        </div>
+                                                        <div class="tour-preview-image" data-thumb="2">
+                                                            <img src="{{ asset('images/portfolio.png') }}" alt="Data Export">
+                                                            <div class="tour-preview-overlay"></div>
+                                                        </div>
+                                                        <div class="tour-preview-image" data-thumb="3">
+                                                            <img src="{{ asset('images/portfolio.png') }}" alt="Advanced Filters">
+                                                            <div class="tour-preview-overlay"></div>
+                                                        </div>
+                                                        <div class="tour-preview-image" data-thumb="4">
+                                                            <img src="{{ asset('images/portfolio.png') }}" alt="Trend Analysis">
+                                                            <div class="tour-preview-overlay"></div>
+                                                        </div>
+                                                    </div>
+                                            
+                                                    <!-- Right Info Panel -->
+                                                    <div class="tour-info-panel">
+                                                        <div class="tour-main-info">
+                                                            <div class="tour-category-badge">
+                                                                <i class="ri-bar-chart-box-line"></i>
+                                                <span>Reporting & Analytics</span>
+                                            </div>
+                                            <h3 class="tour-dynamic-title">
+                                                <span class="active" data-thumb="1">Custom Report Builder</span>
+                                                <span data-thumb="2">Excel & PDF Exports</span>
+                                                <span data-thumb="3">Advanced Filtering Options</span>
+                                                <span data-thumb="4">Trend Analysis & Forecasting</span>
+                                            </h3>
+                                            
+                                            <div class="tour-dynamic-description">
+                                                <p class="active" data-thumb="1">Build custom reports tailored to your
+                                                    specific needs. Combine data from across the
+                                                    platform to create comprehensive insights for stakeholders.</p>
+                                                <p data-thumb="2">Export any report to Excel or PDF format with one
+                                                    click.
+                                                    Share professional documents with
+                                                    investors, partners, and leadership teams.</p>
+                                                <p data-thumb="3">Filter data by date range, vehicle type, dealer,
+                                                    investor,
+                                                    status and more. Drill down into
+                                                    specific segments of your portfolio.</p>
+                                                <p data-thumb="4">Leverage historical data to forecast trends, predict
+                                                    returns, and make informed investment
+                                                    decisions backed by analytics.</p>
+                                            </div>
+                                            <div class="tour-features-grid">
+                                                <div class="tour-feature-tag"><i class="ri-check-line"></i> Custom
+                                                    reports
+                                                </div>
+                                                <div class="tour-feature-tag"><i class="ri-check-line"></i> Data exports
+                                                </div>
+                                                <div class="tour-feature-tag"><i class="ri-check-line"></i> Trend
+                                                    forecasting</div>
+                                            </div>
+                                            </div>
+
+                                        <div class="tour-thumb-section">
+                                            <div class="tour-thumb-section-title">Explore Features</div>
+                                            <div class="tour-thumb-tabs">
+                                                <div class="tour-thumb-item active" data-thumb="1">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Reports">
+                                                    <div class="tour-thumb-label"><span>Reports</span></div>
+                                                    <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="tour-thumb-item" data-thumb="2">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Export">
+                                                    <div class="tour-thumb-label"><span>Export</span></div>
+                                                    <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="tour-thumb-item" data-thumb="3">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Filters">
+                                                    <div class="tour-thumb-label"><span>Filters</span></div>
+                                                    <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="tour-thumb-item" data-thumb="4">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Trends">
+                                                    <div class="tour-thumb-label"><span>Trends</span></div>
+                                                    <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                
-                                        <!-- Tab 2 -->
-                                        <div class="tour-content-panel" id="tab-2">
-                                            <div class="tour-content-card">
-                                                <div class="tour-screenshot">
-                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Reports & Analytics">
-                                                    <div class="tour-screenshot-overlay"></div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        
+                                        <!-- Slide 3: Dealer Dashboard -->
+                                        <div class="swiper-slide">
+                                            <div class="tour-slide-content" data-category="dealer">
+                                                <!-- Left Preview Image -->
+                                                <div class="tour-preview-container">
+                                                    <div class="tour-preview-image active" data-thumb="1">
+                                                        <img src="{{ asset('images/portfolio.png') }}" alt="Sales Pipeline">
+                                                        <div class="tour-preview-overlay"></div>
+                                                    </div>
+                                                    <div class="tour-preview-image" data-thumb="2">
+                                                        <img src="{{ asset('images/portfolio.png') }}" alt="Stock Alerts">
+                                                        <div class="tour-preview-overlay"></div>
+                                                    </div>
+                                                    <div class="tour-preview-image" data-thumb="3">
+                                                        <img src="{{ asset('images/portfolio.png') }}" alt="Team Metrics">
+                                                        <div class="tour-preview-overlay"></div>
+                                                    </div>
+                                                    <div class="tour-preview-image" data-thumb="4">
+                                                        <img src="{{ asset('images/portfolio.png') }}" alt="Opportunities">
+                                                        <div class="tour-preview-overlay"></div>
+                                                    </div>
                                                 </div>
-                                                <div class="tour-info">
-                                                    <h3>In-Depth Reporting & Analysis</h3>
-                                                    <p>Drill into performance across investors, vehicles and deals. Filter by
-                                                        status,
-                                                        counterparty or time period and export data for your finance and leadership
-                                                        teams.
-                                                    </p>
-                                                    <ul class="tour-features">
-                                                        <li><i class="ri-check-line"></i> Custom report builder</li>
-                                                        <li><i class="ri-check-line"></i> Excel & PDF exports</li>
-                                                        <li><i class="ri-check-line"></i> Advanced filtering options</li>
-                                                    </ul>
+                                        
+                                                <!-- Right Info Panel -->
+                                                <div class="tour-info-panel">
+                                                    <div class="tour-main-info">
+                                                        <div class="tour-category-badge">
+                                                            <i class="ri-store-2-line"></i>
+                                                <span>Dealer Dashboard</span>
+                                            </div>
+                                            <h3 class="tour-dynamic-title">
+                                                <span class="active" data-thumb="1">Sales Pipeline Visualization</span>
+                                                <span data-thumb="2">Stock Aging Alerts</span>
+                                                <span data-thumb="3">Team Performance Metrics</span>
+                                                <span data-thumb="4">Opportunity Tracking</span>
+                                            </h3>
+                                            
+                                            <div class="tour-dynamic-description">
+                                                <p class="active" data-thumb="1">Visualize your entire sales pipeline
+                                                    from
+                                                    lead to close. Track every deal's
+                                                    progress and identify bottlenecks before they impact revenue.</p>
+                                                <p data-thumb="2">Get automatic alerts when stock ages beyond
+                                                    thresholds.
+                                                    Prioritize vehicles that need attention
+                                                    and keep inventory turning.</p>
+                                                <p data-thumb="3">Track individual and team performance with detailed
+                                                    metrics. Set goals, monitor progress, and
+                                                    celebrate wins.</p>
+                                                <p data-thumb="4">Never miss an opportunity. Track all leads, enquiries,
+                                                    and
+                                                    potential deals in one unified view
+                                                    with follow-up reminders.</p>
+                                            </div>
+                                            <div class="tour-features-grid">
+                                                <div class="tour-feature-tag"><i class="ri-check-line"></i> Pipeline
+                                                    view
+                                                </div>
+                                                <div class="tour-feature-tag"><i class="ri-check-line"></i> Smart alerts
+                                                </div>
+                                                <div class="tour-feature-tag"><i class="ri-check-line"></i> Team
+                                                    tracking
+                                                </div>
+                                            </div>
+                                            </div>
+
+                                        <div class="tour-thumb-section">
+                                            <div class="tour-thumb-section-title">Explore Features</div>
+                                            <div class="tour-thumb-tabs">
+                                                <div class="tour-thumb-item active" data-thumb="1">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Pipeline">
+                                                    <div class="tour-thumb-label"><span>Pipeline</span></div>
+                                                    <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="tour-thumb-item" data-thumb="2">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Alerts">
+                                                    <div class="tour-thumb-label"><span>Alerts</span></div>
+                                                    <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="tour-thumb-item" data-thumb="3">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Team">
+                                                    <div class="tour-thumb-label"><span>Team</span></div>
+                                                    <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="tour-thumb-item" data-thumb="4">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Leads">
+                                                    <div class="tour-thumb-label"><span>Leads</span></div>
+                                                    <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                                </div>
+                                                </div>
+                                                </div>
+                                                </div>
+
+                            <!-- Slide 4: Stock & SOR -->
+                            <div class="swiper-slide">
+                                <div class="tour-slide-content" data-category="stock">
+                                    <!-- Left Preview Image -->
+                                    <div class="tour-preview-container">
+                                        <div class="tour-preview-image active" data-thumb="1">
+                                            <img src="{{ asset('images/portfolio.png') }}" alt="Document Management">
+                                            <div class="tour-preview-overlay"></div>
+                                        </div>
+                                        <div class="tour-preview-image" data-thumb="2">
+                                            <img src="{{ asset('images/portfolio.png') }}" alt="SOR Agreements">
+                                            <div class="tour-preview-overlay"></div>
+                                        </div>
+                                        <div class="tour-preview-image" data-thumb="3">
+                                            <img src="{{ asset('images/portfolio.png') }}" alt="Pricing Control">
+                                            <div class="tour-preview-overlay"></div>
+                                        </div>
+                                        <div class="tour-preview-image" data-thumb="4">
+                                            <img src="{{ asset('images/portfolio.png') }}" alt="Vehicle Records">
+                                            <div class="tour-preview-overlay"></div>
+                                        </div>
+                                        </div>
+                                    <!-- Right Info Panel -->
+                                    <div class="tour-info-panel">
+                                        <div class="tour-main-info">
+                                            <div class="tour-category-badge">
+                                                <i class="ri-car-line"></i>
+                                                <span>Stock & SOR</span>
+                                            </div>
+                                            <h3 class="tour-dynamic-title">
+                                                <span class="active" data-thumb="1">Document Management System</span>
+                                                <span data-thumb="2">SOR Agreement Tracking</span>
+                                                <span data-thumb="3">Pricing & Availability Control</span>
+                                                <span data-thumb="4">Complete Vehicle Records</span>
+                                            </h3>
+
+                                            <div class="tour-dynamic-description">
+                                                <p class="active" data-thumb="1">Store all vehicle documents in one
+                                                    secure
+                                                    location. From V5s to service history,
+                                                    everything is organized and accessible when you need it.</p>
+                                                <p data-thumb="2">Track Sale or Return agreements with clarity. Monitor
+                                                    terms, dates, and conditions without losing
+                                                    track in spreadsheets.</p>
+                                                <p data-thumb="3">Control pricing and availability across all channels
+                                                    from
+                                                    one place. Update instantly and maintain
+                                                    consistency.</p>
+                                                <p data-thumb="4">Maintain complete records for every vehicle including
+                                                    specifications, history, images, and all
+                                                    associated transactions.</p>
+                                            </div>
+                                            <div class="tour-features-grid">
+                                                <div class="tour-feature-tag"><i class="ri-check-line"></i> Document
+                                                    storage
+                                                </div>
+                                                <div class="tour-feature-tag"><i class="ri-check-line"></i> SOR tracking
+                                                </div>
+                                                <div class="tour-feature-tag"><i class="ri-check-line"></i> Price
+                                                    control
                                                 </div>
                                             </div>
                                         </div>
-                                
-                                        <!-- Tab 3 -->
-                                        <div class="tour-content-panel" id="tab-3">
-                                            <div class="tour-content-card">
-                                                <div class="tour-screenshot">
-                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Dealer Dashboard">
-                                                    <div class="tour-screenshot-overlay"></div>
+
+                                        <div class="tour-thumb-section">
+                                            <div class="tour-thumb-section-title">Explore Features</div>
+                                            <div class="tour-thumb-tabs">
+                                                <div class="tour-thumb-item active" data-thumb="1">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Documents">
+                                                    <div class="tour-thumb-label"><span>Documents</span></div>
+                                                    <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
+                                                    </div>
                                                 </div>
-                                                <div class="tour-info">
-                                                    <h3>Unified performance tracking</h3>
-                                                    <p>Give your team a live view of stock, SOR and sales performance. Spot
-                                                        bottlenecks
-                                                        quickly and keep every opportunity moving.</p>
-                                                    <ul class="tour-features">
-                                                        <li><i class="ri-check-line"></i> Sales pipeline visualization</li>
-                                                        <li><i class="ri-check-line"></i> Stock aging alerts</li>
-                                                        <li><i class="ri-check-line"></i> Team performance metrics</li>
-                                                    </ul>
+                                                <div class="tour-thumb-item" data-thumb="2">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="SOR">
+                                                    <div class="tour-thumb-label"><span>SOR</span></div>
+                                                    <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                
-                                        <!-- Tab 4 -->
-                                        <div class="tour-content-panel" id="tab-4">
-                                            <div class="tour-content-card">
-                                                <div class="tour-screenshot">
-                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Stock & SOR">
-                                                    <div class="tour-screenshot-overlay"></div>
+                                                <div class="tour-thumb-item" data-thumb="3">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Pricing">
+                                                    <div class="tour-thumb-label"><span>Pricing</span></div>
+                                                    <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
+                                                    </div>
                                                 </div>
-                                                <div class="tour-info">
-                                                    <h3>Operational control for every vehicle</h3>
-                                                    <p>Centralise vehicles, documents and agreements. Manage SOR terms, pricing and
-                                                        availability without losing track in spreadsheets.</p>
-                                                    <ul class="tour-features">
-                                                        <li><i class="ri-check-line"></i> Document management system</li>
-                                                        <li><i class="ri-check-line"></i> SOR agreement tracking</li>
-                                                        <li><i class="ri-check-line"></i> Pricing & availability control</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                
-                                        <!-- Tab 5 -->
-                                        <div class="tour-content-panel" id="tab-5">
-                                            <div class="tour-content-card">
-                                                <div class="tour-screenshot">
-                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Security & Access">
-                                                    <div class="tour-screenshot-overlay"></div>
-                                                </div>
-                                                <div class="tour-info">
-                                                    <h3>Enterprise-grade control</h3>
-                                                    <p>Use role-based permissions, audit logs and exports to keep your investors,
-                                                        partners
-                                                        and auditors confident in how data is handled.</p>
-                                                    <ul class="tour-features">
-                                                        <li><i class="ri-check-line"></i> Role-based access control</li>
-                                                        <li><i class="ri-check-line"></i> Complete audit trail</li>
-                                                        <li><i class="ri-check-line"></i> SOC 2 compliance ready</li>
-                                                    </ul>
+                                                <div class="tour-thumb-item" data-thumb="4">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Records">
+                                                    <div class="tour-thumb-label"><span>Records</span></div>
+                                                    <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                <!--PRODUCT TOUR SECTION END-->
+                                    </div>
+                                    </div>
+
+                            <!-- Slide 5: Security & Access -->
+                            <div class="swiper-slide">
+                                <div class="tour-slide-content" data-category="security">
+                                    <!-- Left Preview Image -->
+                                    <div class="tour-preview-container">
+                                        <div class="tour-preview-image active" data-thumb="1">
+                                            <img src="{{ asset('images/portfolio.png') }}" alt="Role-based Access">
+                                            <div class="tour-preview-overlay"></div>
+                                        </div>
+                                        <div class="tour-preview-image" data-thumb="2">
+                                            <img src="{{ asset('images/portfolio.png') }}" alt="Audit Trail">
+                                            <div class="tour-preview-overlay"></div>
+                                        </div>
+                                        <div class="tour-preview-image" data-thumb="3">
+                                            <img src="{{ asset('images/portfolio.png') }}" alt="Compliance">
+                                            <div class="tour-preview-overlay"></div>
+                                        </div>
+                                        <div class="tour-preview-image" data-thumb="4">
+                                            <img src="{{ asset('images/portfolio.png') }}" alt="Data Security">
+                                            <div class="tour-preview-overlay"></div>
+                                        </div>
+                                        </div>
+                                    <!-- Right Info Panel -->
+                                    <div class="tour-info-panel">
+                                        <div class="tour-main-info">
+                                            <div class="tour-category-badge">
+                                                <i class="ri-shield-check-line"></i>
+                                                <span>Security & Access</span>
+                                            </div>
+                                            <h3 class="tour-dynamic-title">
+                                                <span class="active" data-thumb="1">Role-based Access Control</span>
+                                                <span data-thumb="2">Complete Audit Trail</span>
+                                                <span data-thumb="3">SOC 2 Compliance Ready</span>
+                                                <span data-thumb="4">Enterprise Data Security</span>
+                                            </h3>
+
+                                            <div class="tour-dynamic-description">
+                                                <p class="active" data-thumb="1">Define exactly who can see and do what.
+                                                    Create custom roles with granular
+                                                    permissions to match your organization's structure.</p>
+                                                <p data-thumb="2">Every action is logged with timestamps and user
+                                                    details.
+                                                    Maintain complete visibility for
+                                                    compliance and accountability.</p>
+                                                <p data-thumb="3">Meet regulatory requirements with confidence. Our
+                                                    platform
+                                                    is built to support SOC 2 compliance
+                                                    standards.</p>
+                                                <p data-thumb="4">Your data is protected with enterprise-grade
+                                                    encryption,
+                                                    secure backups, and industry-leading
+                                                    security practices.</p>
+                                            </div>
+                                            <div class="tour-features-grid">
+                                                <div class="tour-feature-tag"><i class="ri-check-line"></i> Role-based
+                                                    access</div>
+                                                <div class="tour-feature-tag"><i class="ri-check-line"></i> Audit logs
+                                                </div>
+                                                <div class="tour-feature-tag"><i class="ri-check-line"></i> SOC 2 ready
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="tour-thumb-section">
+                                            <div class="tour-thumb-section-title">Explore Features</div>
+                                            <div class="tour-thumb-tabs">
+                                                <div class="tour-thumb-item active" data-thumb="1">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Access">
+                                                    <div class="tour-thumb-label"><span>Access</span></div>
+                                                    <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="tour-thumb-item" data-thumb="2">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Audit">
+                                                    <div class="tour-thumb-label"><span>Audit</span></div>
+                                                    <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="tour-thumb-item" data-thumb="3">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Compliance">
+                                                    <div class="tour-thumb-label"><span>Compliance</span></div>
+                                                    <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="tour-thumb-item" data-thumb="4">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Security">
+                                                    <div class="tour-thumb-label"><span>Security</span></div>
+                                                    <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    </div>
+
+
+                        </div>
+                        <!-- Swiper Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <!-- Swiper Navigation (outside .swiper for external positioning) -->
+                    <div class="swiper-button-next product-tour-next"></div>
+                    <div class="swiper-button-prev product-tour-prev"></div>
+                </div>
+
+            </div>
+            </div>
+            <!--PRODUCT TOUR SECTION END-->
 
         <!-- PRICING SECTION START -->
         <div class="section-full p-t150 p-b120 site-bg-white twm-pricing-section-wrap wow fadeInDown" data-wow-offset="100"
@@ -568,11 +887,11 @@
                                 </div>
                             </div>
                         </div>
-                        </div>
-                        </div>
-                        </div>
-                        </div>
-                        <!-- PRICING SECTION END -->
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <!-- PRICING SECTION END -->
         <!--WIDE RANGE / METRICS SECTION START-->
         <div class="section-full p-t150 p-b120 site-bg-white twm-w-range-section-wrap wow fadeInDown" data-wow-offset="100"
             data-wow-delay="0.2">
@@ -606,8 +925,8 @@
                                 </div>
                                 <span class="counter">2750</span> <em class="symble">+</em>
                                 <h3 class="icon-content-info">Active seller, investors & buyers</h3>
-                                </div>
-                                </div>
+                            </div>
+                            </div>
                         <!--Three block-->
                         <div class="col-lg-3 col-md-6 col-sm-6">
                             <div class="twm-cntr-with-icon">
@@ -616,8 +935,8 @@
                                 </div>
                                 <span class="counter">600</span> <em class="symble">+</em>
                                 <h3 class="icon-content-info">Live vehicles under management</h3>
-                                </div>
-                                </div>
+                            </div>
+                            </div>
                         <!--Four block-->
                         <div class="col-lg-3 col-md-6 col-sm-6">
                             <div class="twm-cntr-with-icon">
@@ -627,11 +946,11 @@
                                 <span class="counter">12</span> <em class="symble">+</em>
                                 <h3 class="icon-content-info">Years of automotive SaaS experience</h3>
                             </div>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
         <!--WIDE RANGE SECTION END-->
 
         <!--PLATFORM VALUE SECTION START-->
@@ -647,10 +966,10 @@
                             <h2 class="twm-large-title site-text-white">
                                 Power every step of your automotive lifecycle
                             </h2>
-                            </div>
-                            <!-- TITLE END-->
+                        </div>
+                        <!-- TITLE END-->
                     </div>
-                    </div>
+                </div>
                 <div class="section-content">
                     <div class="row twm-step-towards-section">
                         <div class="col-xl-4 col-lg-4 col-md-4 m-b30">
@@ -663,9 +982,9 @@
                                     <p>
                                         Publish verified vehicles, create investment opportunities and manage
                                         both primary sales and secondary trades from one marketplace view.
-                                        </p>
-                                        </div>
-                                        </div>
+                                    </p>
+                                    </div>
+                                    </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-4 m-b30">
                             <div class="twm-icon-style-left large-set in-dark-area">
@@ -677,15 +996,15 @@
                                     <p>
                                         Give teams access to the modules they need – SOR, stock, sales,
                                         accounts – with role-based controls and clear workflows.
-                                        </p>
+                                    </p>
                                 </div>
                             </div>
-                            </div>
+                        </div>
                         <div class="col-xl-4 col-lg-4 col-md-4 m-b30">
                             <div class="twm-icon-style-left large-set in-dark-area">
                                 <div class="twm-media">
                                     <img src="images/icons/parking-area.png" alt="image" />
-                                    </div>
+                                </div>
                                 <div class="twm-content">
                                     <h3 class="twm-title">Secure, auditable transactions</h3>
                                     <p>
@@ -693,18 +1012,18 @@
                                         and exportable reports for your accountants and partners.
                                     </p>
                                 </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
         <!--LET'S YOUR ADVENTURE SECTION END-->
 
 
         <!--WORKING STEPS SECTION START-->
         <div class="section-full p-t150 site-bg-white twm-w-steps-section-wrap wow fadeInDown" data-wow-offset="100"
-            data-wow-delay="0.2" style="background-image: url(images/step-bg.jpg)">
+            data-wow-delay="0.2" style="background-image: url(images/step-bg.jpg)" id="how-it-works">
             <div class="container">
                 <!-- TITLE START-->
                 <div class="section-head center">
@@ -776,36 +1095,36 @@
                                 </div>
                             </div>
                         </div>
-                        </div>
+                    </div>
 
                     <div class="twm-adv-show">
                         <img src="images/adv-car.png" alt="Image" />
                     </div>
-                    </div>
-                    </div>
-                    </div>
-                    <!--WORKING STEPS SECTION END-->
+                </div>
+                </div>
+                </div>
+                <!--WORKING STEPS SECTION END-->
 
         <!-- CONTENT START -->
         <div class="page-content">
             <!-- Contact Form SECTION START -->
             <div class="section-full p-t150 p-b120 site-bg-white twm-contact-section-wrap" id="contact-us">
-        
+
                 <div class="container">
-        
+
                     <div class="section-content">
                         <div class="twm-contact-section">
                             <div class="row">
-        
+
                                 <div class="col-xl-7 col-lg-6 col-md-12">
                                     <div class="twm-maskingtext m-b50">
                                         <h1>Get In Touch</h1>
                                         <img src="images/text-masking-pic.jpg" alt="Image">
                                     </div>
                                     <div class="twm-get-info-wrap">
-        
+
                                         <ul>
-        
+
                                             <li>
                                                 <div class="twm-get-info">
                                                     <div class="twm-media">
@@ -819,7 +1138,7 @@
                                                     </div>
                                                 </div>
                                             </li>
-        
+
                                             <li>
                                                 <div class="twm-get-info">
                                                     <div class="twm-media">
@@ -827,27 +1146,12 @@
                                                     </div>
                                                     <div class="twm-content">
                                                         <p>Email</p>
-                                                        <h3 class="twm-title">info@motonova.io</h3>
+                                                        <h3 class="twm-title"><a href="mailto:info@motonova.com">info@motonova.com</a></h3>
                                                     </div>
                                                 </div>
                                             </li>
-        
-                                            <li>
-                                                <div class="twm-get-info">
-                                                    <div class="twm-media">
-                                                        <i class="ri-home-4-line"></i>
-                                                    </div>
-                                                    <div class="twm-content">
-                                                        <p>Address</p>
-                                                        <h3 class="twm-title">Civic Center, Azade Trade Center, Bahria
-                                                            Town
-                                                        </h3>
-                                                    </div>
-                                                </div>
-                                            </li>
-        
                                         </ul>
-        
+
                                         <div class="twm-social">
                                             <h3 class="twm-title">Follow Us</h3>
                                             <ul>
@@ -863,7 +1167,7 @@
                                         </div>
                                     </div>
                                 </div>
-        
+
                                 <div class="col-xl-5 col-lg-6 col-md-12">
                                     <div class="twm-contact-page-detail">
                                         <!-- TITLE START-->
@@ -874,88 +1178,203 @@
                                             </p>
                                         </div>
                                         <!-- TITLE END-->
-        
+
                                         <div class="twm-contact-page-form">
-        
+
                                             <div class="contact-form-outer">
-                                                <form class="cons-contact-form">
-        
+                                                <form class="cons-contact-form" id="contactForm">
+
                                                     <div class="row">
-        
+
                                                         <div class="col-lg-6 col-md-6">
                                                             <div class="form-group mb-4">
-                                                                <input name="Business Name" type="text" required=""
+                                                                <input name="business_name" id="businessName" type="text" required=""
                                                                     class="form-control" placeholder="Business Name">
                                                             </div>
                                                         </div>
-        
+
                                                         <div class="col-lg-6 col-md-6">
                                                             <div class="form-group mb-4">
-                                                                <input name="Business Name" type="text" required=""
+                                                                <input name="business_type" id="businessType" type="text" required=""
                                                                     class="form-control" placeholder="Business Type">
                                                             </div>
                                                         </div>
-        
+
                                                         <div class="col-lg-12 col-md-6">
                                                             <div class="form-group mb-4">
-                                                                <input name="fName" type="text" required="" class="form-control"
-                                                                    placeholder="Full Name">
+                                                                <input name="full_name" id="fullName" type="text" required="" class="form-control" placeholder="Full Name">
                                                             </div>
                                                         </div>
-        
+
                                                         <div class="col-lg-12 col-md-12">
                                                             <div class="form-group mb-4">
-                                                                <input name="Business Email" type="text" class="form-control"
-                                                                    required="" placeholder="Business Email">
+                                                                <input name="business_email" id="businessEmail" type="email" class="form-control" required=""
+                                                                    placeholder="Business Email">
                                                             </div>
                                                         </div>
-        
+
                                                         <div class="col-lg-12 col-md-12">
                                                             <div class="form-group mb-4">
-                                                                <input name="phone/whatsapp" type="text" class="form-control"
-                                                                    required="" placeholder="Phone">
+                                                                <input name="phone_whatsapp" id="phoneWhatsapp" type="text" class="form-control" required=""
+                                                                    placeholder="Phone / Whatsapp">
                                                             </div>
                                                         </div>
-        
-        
+
+
                                                         <div class="col-lg-12">
                                                             <div class="form-group mb-5">
-                                                                <textarea name="message" class="form-control" rows="3"
+                                                                <textarea name="message" id="message" class="form-control" rows="3"
                                                                     placeholder="Message"></textarea>
                                                             </div>
                                                         </div>
-        
+
                                                         <div class="col-md-12">
                                                             <button type="submit" class="site-button dark-bg"><em>Submit
                                                                     Now</em></button>
                                                         </div>
-        
+
                                                     </div>
-        
+
                                                 </form>
                                             </div>
                                         </div>
-        
-        
+
+
                                     </div>
                                 </div>
-        
+
                             </div>
                         </div>
                     </div>
-        
+
                 </div>
-        
+
             </div>
             <!-- Contact Form SECTION END -->
+<!-- NETWORK FIRMS SECTION START -->
+<div class="section-full p-t120 p-b120 twm-network-firms-section wow fadeInDown" data-wow-offset="100"
+    data-wow-delay="0.2">
+    <div class="container">
+        <!-- TITLE START -->
+        <div class="section-head center m-b60">
+            <h2 class="twm-large-title site-text-dark">
+                <em class="site-text-primary" style="font-style: italic;">Explore Our</em> Network Firms
+            </h2>
+        </div>
+        <!-- TITLE END -->
+        <div class="network-firms-grid">
+            <!-- Row 1: 3 items -->
+            <div class="network-firms-row">
+                <!-- Firm 1: Accounting Bookkeepers -->
+                <div class="network-firm-card">
+                    <div class="firm-card-decor top-right blue"></div>
+                    <div class="firm-card-decor bottom-left orange"></div>
+                    <div class="firm-card-inner">
+                        <div class="firm-logo">
+                            <img src="{{ asset('images/partners/ab-black.png') }}" alt="Accounting Bookkeepers">
+                        </div>
+                        <div class="firm-hover-content">
+                            <div class="firm-logo-white mb-3">
+                                <img src="{{ asset('images/partners/ab-white.png') }}" alt="Accounting Bookkeepers">
+                            </div>
+                            <h4>Accounting Bookkeepers</h4>
+                            <p>Professional bookkeeping and accounting services to keep your finances organized and
+                                compliant.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Firm 2: KORE Consulting -->
+                <div class="network-firm-card">
+                    <div class="firm-card-decor top-right yellow"></div>
+                    <div class="firm-card-decor bottom-left blue"></div>
+                    <div class="firm-card-inner">
+                        <div class="firm-logo">
+                            <img src="{{ asset('images/partners/kc-black.png') }}" alt="KORE Consulting">
+                        </div>
+                        <div class="firm-hover-content">
+                            <div class="firm-logo-white mb-3">
+                                <img src="{{ asset('images/partners/kc-white.png') }}" alt="KORE Consulting">
+                            </div>
+                            <h4>KORE Consulting</h4>
+                            <p>Trusted Tax & Compliance Experts providing specialized solutions in the UK, offering
+                                strategic insights and expert guidance.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Firm 3: CINERGIZ (Using filter for black since only white exists) -->
+                <div class="network-firm-card">
+                    <div class="firm-card-decor top-right teal"></div>
+                    <div class="firm-card-decor bottom-left orange"></div>
+                    <div class="firm-card-inner">
+                        <div class="firm-logo">
+                            <img src="{{ asset('images/partners/cin-white.png') }}" style="filter: brightness(0);"
+                                alt="CINERGIZ">
+                        </div>
+                        <div class="firm-hover-content">
+                            <div class="firm-logo-white mb-3">
+                                <img src="{{ asset('images/partners/cin-white.png') }}" alt="CINERGIZ">
+                            </div>
+                            <h4>CINERGIZ</h4>
+                            <p>Innovative technology solutions driving digital transformation and business growth.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 2: 2 items centered -->
+            <div class="network-firms-row centered">
+                <!-- Firm 4: IDEOFUZION -->
+                <div class="network-firm-card">
+                    <div class="firm-card-decor top-right orange"></div>
+                    <div class="firm-card-decor bottom-left teal"></div>
+                    <div class="firm-card-inner">
+                        <div class="firm-logo">
+                            <img src="{{ asset('images/partners/fuzion-black.svg') }}" alt="IDEOFUZION">
+                        </div>
+                        <div class="firm-hover-content">
+                            <div class="firm-logo-white mb-3">
+                                <img src="{{ asset('images/partners/fuzion-white.svg') }}" alt="IDEOFUZION">
+                            </div>
+                            <h4>IDEOFUZION</h4>
+                            <p>Creative solutions and innovative ideas to help your business stand out in the market.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Firm 5: FREEDOMTECH Solutions -->
+                <div class="network-firm-card">
+                    <div class="firm-card-decor top-right red"></div>
+                    <div class="firm-card-decor bottom-left blue"></div>
+                    <div class="firm-card-inner">
+                        <div class="firm-logo">
+                            <img src="{{ asset('images/partners/ft-black.png') }}" alt="FREEDOMTECH Solutions">
+                        </div>
+                        <div class="firm-hover-content">
+                            <div class="firm-logo-white mb-3">
+                                <img src="{{ asset('images/partners/ft-white.png') }}" alt="FREEDOMTECH Solutions">
+                            </div>
+                            <h4>FREEDOMTECH Solutions</h4>
+                            <p>Cutting-edge technology solutions empowering businesses with freedom and flexibility.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- NETWORK FIRMS SECTION END -->
+
             <div class="gmap-outline">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.9994291747207!2d67.0730942!3d24.8980011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33edfa3ffffff%3A0xaea4e8ed32c50ba5!2sAzad%20Trade%20Center!5e0!3m2!1sen!2s!4v1769611159765!5m2!1sen!2s"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        
-        
+
+
         </div>
         <!-- CONTENT END -->
 
@@ -988,8 +1407,8 @@
                                     <div class="twm-author-detail">
                                         <h3 class="twm-title">Ahmed Khan</h3>
                                         <div class="twm-position">Dealership Owner, Karachi</div>
-                                        </div>
-                                        </div>
+                                    </div>
+                                    </div>
 
                                 <div class="twm-testimonial-detail">
                                     <p>
@@ -1008,8 +1427,8 @@
                                 <div class="twm-quote-icon">
                                     <img src="images/testimonial/quote.png" alt="#" />
                                 </div>
-                                </div>
-                                </div>
+                            </div>
+                            </div>
 
                         <!--Two block-->
                         <div class="item">
@@ -1021,8 +1440,8 @@
                                     <div class="twm-author-detail">
                                         <h3 class="twm-title">Sarah Ali</h3>
                                         <div class="twm-position">Finance Director</div>
-                                        </div>
-                                        </div>
+                                    </div>
+                                    </div>
 
                                 <div class="twm-testimonial-detail">
                                     <p>
@@ -1041,8 +1460,8 @@
                                 <div class="twm-quote-icon">
                                     <img src="images/testimonial/quote.png" alt="#" />
                                 </div>
-                                </div>
-                                </div>
+                            </div>
+                            </div>
 
                         <!--Three block-->
                         <div class="item">
@@ -1054,8 +1473,8 @@
                                     <div class="twm-author-detail">
                                         <h3 class="twm-title">Usman Malik</h3>
                                         <div class="twm-position">Private Investor</div>
-                                        </div>
-                                        </div>
+                                    </div>
+                                    </div>
 
                                 <div class="twm-testimonial-detail">
                                     <p>
@@ -1074,8 +1493,8 @@
                                 <div class="twm-quote-icon">
                                     <img src="images/testimonial/quote.png" alt="#" />
                                 </div>
-                                </div>
-                                </div>
+                            </div>
+                            </div>
 
                         <!--Four block-->
                         <div class="item">
@@ -1087,8 +1506,8 @@
                                     <div class="twm-author-detail">
                                         <h3 class="twm-title">Rashid Hussain</h3>
                                         <div class="twm-position">Fleet Manager</div>
-                                        </div>
-                                        </div>
+                                    </div>
+                                    </div>
 
                                 <div class="twm-testimonial-detail">
                                     <p>
@@ -1107,8 +1526,8 @@
                                 <div class="twm-quote-icon">
                                     <img src="images/testimonial/quote.png" alt="#" />
                                 </div>
-                                </div>
-                                </div>
+                            </div>
+                            </div>
 
                         <!--Five block-->
                         <div class="item">
@@ -1120,8 +1539,8 @@
                                     <div class="twm-author-detail">
                                         <h3 class="twm-title">Fatima Noor</h3>
                                         <div class="twm-position">Operations Lead</div>
-                                        </div>
-                                        </div>
+                                    </div>
+                                    </div>
 
                                 <div class="twm-testimonial-detail">
                                     <p>
@@ -1140,8 +1559,8 @@
                                 <div class="twm-quote-icon">
                                     <img src="images/testimonial/quote.png" alt="#" />
                                 </div>
-                                </div>
-                                </div>
+                            </div>
+                            </div>
 
                         <!--Six block-->
                         <div class="item">
@@ -1153,32 +1572,32 @@
                                     <div class="twm-author-detail">
                                         <h3 class="twm-title">Tariq Javed</h3>
                                         <div class="twm-position">Auto Showroom CEO</div>
-                                        </div>
-                                        </div>
+                                    </div>
+                                    </div>
 
                                 <div class="twm-testimonial-detail">
                                     <p>
                                         "From onboarding to day-to-day use, the support has been
                                         outstanding. Moto Nova truly understands what dealers need."
-                                        </p>
-                                        <div class="twm-rating-wrap">
+                                    </p>
+                                    <div class="twm-rating-wrap">
+                                        <span><i class="ri-star-fill"></i>
                                             <span><i class="ri-star-fill"></i>
                                                 <span><i class="ri-star-fill"></i>
                                                     <span><i class="ri-star-fill"></i>
                                                         <span><i class="ri-star-fill"></i>
-                                                            <span><i class="ri-star-fill"></i>
-                                        </div>
-                                        </div>
+                                    </div>
+                                    </div>
 
                                 <div class="twm-quote-icon">
                                     <img src="images/testimonial/quote.png" alt="#" />
                                 </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                <!--TESTIMONIAL SECTION END-->
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            <!--TESTIMONIAL SECTION END-->
     </main>
 </x-layout>

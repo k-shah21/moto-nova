@@ -11,7 +11,7 @@
     <meta name="robots" content="index, follow" />
     <meta name="description"
         content="Moto Nova is Pakistan's leading automotive SaaS platform for investing, trading, and dealer management. Invest in curated car portfolios with real-time performance tracking." />
-    
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://motonova.io/" />
@@ -19,7 +19,7 @@
     <meta property="og:description"
         content="Pakistan's leading automotive SaaS platform for investing, trading, and dealer management." />
     <meta property="og:image" content="https://motonova.io/images/og-image.jpg" />
-    
+
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content="https://motonova.io/" />
@@ -27,7 +27,7 @@
     <meta name="twitter:description"
         content="Pakistan's leading automotive SaaS platform for investing, trading, and dealer management." />
     <meta name="twitter:image" content="https://motonova.io/images/og-image.jpg" />
-    
+
     <!-- Canonical URL -->
     <link rel="canonical" href="https://motonova.io/" />
 
@@ -165,19 +165,26 @@
                                                 <li class="{{ request()->is('/') ? 'active' : '' }}">
                                                     <a href="/">Home</a>
                                                 </li>
-                                                <li class="{{ request()->is('pricing') ? 'active' : '' }}">
+                                                <li>
+                                                    <a href="/#features" class="nav-link" data-section="features">Features</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/#pricing" class="nav-link" data-section="pricing">Pricing</a>
+                                                </li>
+                                                <!--  <li class="{{ request()->is('pricing') ? 'active' : '' }}">
                                                     <a href="/pricing">Pricing</a>
                                                 </li>
                                                 <li class="{{ request()->is('portfolio') ? 'active' : '' }}">
                                                     <a href="/portfolio">Portfolio</a>
+                                                </li> -->
+                                                <li>
+                                                    <a href="/#portfolio" class="nav-link" data-section="portfolio">Portfolio</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/#about-us" class="nav-link" data-section="about-us">About
-                                                        Us</a>
+                                                    <a href="/#how-it-works" class="nav-link" data-section="how-it-works">How It Works</a>
                                                 </li>
-                                                
                                                 <li>
-                                                    <a href="/#contact-us" class="nav-link" data-section="contact-us">Contact Us</a>
+                                                    <a href="/#about-us" class="nav-link" data-section="about-us">About Us</a>
                                                 </li>
 
                                             </ul>
@@ -189,19 +196,10 @@
                     </div>
                     <!-- Header Right Section-->
                     <div class="extra-nav header-1-nav">
-                        <div class="extra-cell one">
-                            <ul class="wt-topbar-left-info">
-                                <li>
-                                    <a href="mailto:info@motonova.io">
-                                        <span><i class="ri-mail-line"></i></span>info@motonova.io
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="tel:+923162126865">
-                                        <span><i class="ri-phone-line"></i></span>+92 316 212 6865
-                                    </a>
-                                </li>
-                            </ul>
+                        <div class="extra-cell">
+                            <a href="#contact-us" class="site-button btn-large">
+                                <em>Contact Us</em>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -234,16 +232,12 @@
                             <!-- SaaS CTA Section -->
                             <div class="twm-bnr-cta-wrap">
                                 <div class="twm-bnr-buttons">
-                                    <a href="#contact-us" class="site-button btn-large cta-primary">
-                                        <em><i class="ri-calendar-line"></i> Book a Demo</em>
+                                    <a href="#contact-us" class="site-button-secondry btn-large cta-secondary">
+                                        <em><i class="ri-rocket-line"></i>Request a Demo</em>
                                     </a>
-                                    <a href="#pricing" class="site-button-secondry btn-large cta-secondary">
-                                        <em><i class="ri-rocket-line"></i> Start Free Trial</em>
-                                    </a>
-                                    </div>
-                            
                                 </div>
-                                </div>
+                            </div>
+                            </div>
                     </div>
                 </div>
                 <div class="twm-bnr-lg-text">
@@ -277,9 +271,6 @@
                                     </li>
                                     <li>
                                         <i class="ri-mail-line"></i>info@motonova.io
-                                    </li>
-                                    <li>
-                                        <i class="ri-map-pin-line"></i>Civic Center - Azade Trade center
                                     </li>
                                 </ul>
                                 <div class="twm-social">
@@ -345,16 +336,16 @@
                                     </div>
                                 </div>
 
-                                <div class="twm-subscribe-nl">
+                                    <div class="twm-subscribe-nl">
                                     <div class="twm-nl-title">
                                         Subscribe To Our Newsletter Today!
                                     </div>
                                     <div class="twm-nl-section">
-                                        <form>
+                                        <form id="newsletterForm">
                                             <div class="ftr-nw-form">
-                                                <input name="news-letter" class="form-control"
-                                                    placeholder="Email address..." type="text" />
-                                                <button class="ftr-nw-subcribe-btn">
+                                                <input name="news-letter" id="newsletterEmail" class="form-control" placeholder="Email address..." type="email"
+                                                    required />
+                                                <button class="ftr-nw-subcribe-btn" type="submit">
                                                     <i class="ri-arrow-right-up-line"></i>
                                                 </button>
                                             </div>
@@ -536,22 +527,113 @@
                         // Initial call to set active state on load
                         scrollSpy();
 
-                        // Product Tour Tab Switching
-                        $('.tour-tab-item').on('click', function () {
-                            const targetTab = $(this).data('tab');
+                            // Product Tour - Swiper Initialization
+                            if ($('.product-tour-swiper').length) {
+                                const productTourSwiper = new Swiper('.product-tour-swiper', {
+                                    slidesPerView: 1,
+                                    spaceBetween: 30,
+                                    loop: false,
+                                    speed: 600,
+                                    effect: 'slide',
+                                    grabCursor: true,
+                                    navigation: {
+                                        nextEl: '.product-tour-next',
+                                        prevEl: '.product-tour-prev',
+                                    },
+                                    pagination: {
+                                        el: '.product-tour-swiper .swiper-pagination',
+                                        clickable: true,
+                                    },
+                                    breakpoints: {
+                                        768: {
+                                            slidesPerView: 1,
+                                        },
+                                        1200: {
+                                            slidesPerView: 1,
+                                        }
+                                    },
+                                    on: {
+                                        slideChange: function () {
+                                            // Reset thumbnails to first item when slide changes
+                                            const activeSlide = this.slides[this.activeIndex];
+                                            if (activeSlide) {
+                                                const slideContent = $(activeSlide).find('.tour-slide-content');
+                                                resetSlideToFirstThumb(slideContent);
+                                            }
+                                        }
+                                    }
+                                });
 
-                            // Remove active class from all tabs and panels
-                            $('.tour-tab-item').removeClass('active');
-                            $('.tour-content-panel').removeClass('active');
+                                // Function to reset slide to first thumbnail
+                                function resetSlideToFirstThumb($slideContent) {
+                                    // Reset thumbnails
+                                    $slideContent.find('.tour-thumb-item').removeClass('active');
+                                    $slideContent.find('.tour-thumb-item[data-thumb="1"]').addClass('active');
 
-                            // Add active class to clicked tab and corresponding panel
-                            $(this).addClass('active');
-                            $('#' + targetTab).addClass('active');
+                                    // Reset preview images
+                                    $slideContent.find('.tour-preview-image').removeClass('active');
+                                    $slideContent.find('.tour-preview-image[data-thumb="1"]').addClass('active');
+
+                                    // Reset titles
+                                    $slideContent.find('.tour-dynamic-title span').removeClass('active');
+                                    $slideContent.find('.tour-dynamic-title span[data-thumb="1"]').addClass('active');
+
+                                    // Reset descriptions
+                                    $slideContent.find('.tour-dynamic-description p').removeClass('active');
+                                    $slideContent.find('.tour-dynamic-description p[data-thumb="1"]').addClass('active');
+                                }
+
+                                // Thumbnail Click Handler
+                                $(document).on('click', '.tour-thumb-item', function () {
+                                    const $this = $(this);
+                                    const thumbId = $this.data('thumb');
+                                    const $slideContent = $this.closest('.tour-slide-content');
+
+                                    // Update active thumbnail
+                                    $slideContent.find('.tour-thumb-item').removeClass('active');
+                                    $this.addClass('active');
+
+                                    // Update preview image
+                                    $slideContent.find('.tour-preview-image').removeClass('active');
+                                    $slideContent.find('.tour-preview-image[data-thumb="' + thumbId + '"]').addClass('active');
+
+                                    // Update title
+                                    $slideContent.find('.tour-dynamic-title span').removeClass('active');
+                                    $slideContent.find('.tour-dynamic-title span[data-thumb="' + thumbId + '"]').addClass('active');
+
+                                    // Update description
+                                    $slideContent.find('.tour-dynamic-description p').removeClass('active');
+                                    $slideContent.find('.tour-dynamic-description p[data-thumb="' + thumbId + '"]').addClass('active');
+                                });
+                            }
                         });
-        });
 
 
 
+
+    // Handle Contact Form Submission
+    $('#contactForm').on('submit', function (e) {
+        e.preventDefault();
+        // Simulate AJAX request
+        // In a real app, you would use $.ajax or fetch here
+
+        // Show success message (optional)
+        alert('Thank you! Your message has been sent successfully.');
+
+        // Clear inputs
+        $(this).trigger("reset");
+            });
+
+                // Handle Newsletter Form Submission
+                $('#newsletterForm').on('submit', function (e) {
+                    e.preventDefault();
+                
+                // Show success message
+                alert('Thank you for subscribing to our newsletter!');
+                
+                // Clear input
+                $(this).find('input').val('');
+            });
     </script>
 </body>
 
