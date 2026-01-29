@@ -157,11 +157,11 @@
                         </div>
                     </div>
                 </div>
-                </div>
-                </div>
-                <!--WHY CHOOSE US SECTION END-->
-                
-                <!--PRODUCT TOUR SECTION START -->
+            </div>
+            </div>
+            <!--WHY CHOOSE US SECTION END-->
+            
+            <!--PRODUCT TOUR SECTION START -->
         <div class="section-full p-t150 p-b150 twm-product-tour-section wow fadeInDown" data-wow-offset="100"
             data-wow-delay="0.2" id="portfolio">
             <div class="container">
@@ -274,37 +274,37 @@
                                             </div>
                                         </div>
                                     </div>
-                                    </div>
-                                    </div>
-                                    
-                                    <!-- Slide 2: Reporting & Analytics -->
-                                    <div class="swiper-slide">
-                                        <div class="tour-slide-content" data-category="reporting">
-                                            <!-- Left Preview Image -->
-                                            <div class="tour-preview-container">
-                                                <div class="tour-preview-image active" data-thumb="1">
-                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Custom Reports">
-                                                    <div class="tour-preview-overlay"></div>
-                                                </div>
-                                                <div class="tour-preview-image" data-thumb="2">
-                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Data Export">
-                                                    <div class="tour-preview-overlay"></div>
-                                                </div>
-                                                <div class="tour-preview-image" data-thumb="3">
-                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Advanced Filters">
-                                                    <div class="tour-preview-overlay"></div>
-                                                </div>
-                                                <div class="tour-preview-image" data-thumb="4">
-                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Trend Analysis">
-                                                    <div class="tour-preview-overlay"></div>
-                                                </div>
+                                </div>
+                                </div>
+                                
+                                <!-- Slide 2: Reporting & Analytics -->
+                                <div class="swiper-slide">
+                                    <div class="tour-slide-content" data-category="reporting">
+                                        <!-- Left Preview Image -->
+                                        <div class="tour-preview-container">
+                                            <div class="tour-preview-image active" data-thumb="1">
+                                                <img src="{{ asset('images/portfolio.png') }}" alt="Custom Reports">
+                                                <div class="tour-preview-overlay"></div>
                                             </div>
-                                    
-                                            <!-- Right Info Panel -->
-                                            <div class="tour-info-panel">
-                                                <div class="tour-main-info">
-                                                    <div class="tour-category-badge">
-                                                        <i class="ri-bar-chart-box-line"></i>
+                                            <div class="tour-preview-image" data-thumb="2">
+                                                <img src="{{ asset('images/portfolio.png') }}" alt="Data Export">
+                                                <div class="tour-preview-overlay"></div>
+                                            </div>
+                                            <div class="tour-preview-image" data-thumb="3">
+                                                <img src="{{ asset('images/portfolio.png') }}" alt="Advanced Filters">
+                                                <div class="tour-preview-overlay"></div>
+                                            </div>
+                                            <div class="tour-preview-image" data-thumb="4">
+                                                <img src="{{ asset('images/portfolio.png') }}" alt="Trend Analysis">
+                                                <div class="tour-preview-overlay"></div>
+                                            </div>
+                                        </div>
+                                
+                                        <!-- Right Info Panel -->
+                                        <div class="tour-info-panel">
+                                            <div class="tour-main-info">
+                                                <div class="tour-category-badge">
+                                                    <i class="ri-bar-chart-box-line"></i>
                                                 <span>Reporting & Analytics</span>
                                             </div>
                                             <h3 class="tour-dynamic-title">
@@ -372,36 +372,36 @@
                                         </div>
                                     </div>
                                 </div>
-                                </div>
-                                
-                                <!-- Slide 3: Dealer Dashboard -->
-                                <div class="swiper-slide">
-                                    <div class="tour-slide-content" data-category="dealer">
-                                        <!-- Left Preview Image -->
-                                        <div class="tour-preview-container">
-                                            <div class="tour-preview-image active" data-thumb="1">
-                                                <img src="{{ asset('images/portfolio.png') }}" alt="Sales Pipeline">
-                                                <div class="tour-preview-overlay"></div>
-                                            </div>
-                                            <div class="tour-preview-image" data-thumb="2">
-                                                <img src="{{ asset('images/portfolio.png') }}" alt="Stock Alerts">
-                                                <div class="tour-preview-overlay"></div>
-                                            </div>
-                                            <div class="tour-preview-image" data-thumb="3">
-                                                <img src="{{ asset('images/portfolio.png') }}" alt="Team Metrics">
-                                                <div class="tour-preview-overlay"></div>
-                                            </div>
-                                            <div class="tour-preview-image" data-thumb="4">
-                                                <img src="{{ asset('images/portfolio.png') }}" alt="Opportunities">
-                                                <div class="tour-preview-overlay"></div>
-                                            </div>
+                            </div>
+                            
+                            <!-- Slide 3: Dealer Dashboard -->
+                            <div class="swiper-slide">
+                                <div class="tour-slide-content" data-category="dealer">
+                                    <!-- Left Preview Image -->
+                                    <div class="tour-preview-container">
+                                        <div class="tour-preview-image active" data-thumb="1">
+                                            <img src="{{ asset('images/portfolio.png') }}" alt="Sales Pipeline">
+                                            <div class="tour-preview-overlay"></div>
                                         </div>
-                                
-                                        <!-- Right Info Panel -->
-                                        <div class="tour-info-panel">
-                                            <div class="tour-main-info">
-                                                <div class="tour-category-badge">
-                                                    <i class="ri-store-2-line"></i>
+                                        <div class="tour-preview-image" data-thumb="2">
+                                            <img src="{{ asset('images/portfolio.png') }}" alt="Stock Alerts">
+                                            <div class="tour-preview-overlay"></div>
+                                        </div>
+                                        <div class="tour-preview-image" data-thumb="3">
+                                            <img src="{{ asset('images/portfolio.png') }}" alt="Team Metrics">
+                                            <div class="tour-preview-overlay"></div>
+                                        </div>
+                                        <div class="tour-preview-image" data-thumb="4">
+                                            <img src="{{ asset('images/portfolio.png') }}" alt="Opportunities">
+                                            <div class="tour-preview-overlay"></div>
+                                        </div>
+                                    </div>
+                            
+                                    <!-- Right Info Panel -->
+                                    <div class="tour-info-panel">
+                                        <div class="tour-main-info">
+                                            <div class="tour-category-badge">
+                                                <i class="ri-store-2-line"></i>
                                                 <span>Dealer Dashboard</span>
                                             </div>
                                             <h3 class="tour-dynamic-title">
@@ -469,9 +469,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        </div>
-                                        </div>
-                                        </div>
+                                    </div>
+                                    </div>
+                                    </div>
 
                             <!-- Slide 4: Stock & SOR -->
                             <div class="swiper-slide">
@@ -789,8 +789,8 @@
                     </div>
                 </div>
             </div>
-            </div>
-            <!-- PRICING SECTION END -->
+        </div>
+        <!-- PRICING SECTION END -->
 
         <!--WIDE RANGE / METRICS SECTION START-->
         <div class="section-full p-t150 p-b120 twm-w-range-section-wrap wow fadeInDown" data-wow-offset="100"
@@ -849,8 +849,8 @@
                         </div>
                     </div>
                 </div>
-                </div>
-                </div>
+            </div>
+            </div>
         <!--WIDE RANGE SECTION END-->
 
         <!--PLATFORM VALUE SECTION START-->
@@ -917,9 +917,9 @@
                             </div>
                         </div>
                     </div>
-                    </div>
-                    </div>
-                    </div>
+                </div>
+                </div>
+                </div>
         <!--LET'S YOUR ADVENTURE SECTION END-->
 
         <!--PROCESS SECTION START-->
@@ -944,10 +944,11 @@
                                 <i class="ri-flag-2-line"></i>
                             </div>
                             <h3 class="process-card-title">Create your workspace</h3>
-                            <p class="process-card-desc">Sign up, brand your portal and invite your core team. Configure basic settings for
+                            <p class="process-card-desc">Sign up, brand your portal and invite your core team. Configure
+                                basic settings for
                                 investors, dealers and admins.</p>
                         </div>
-                        </div>
+                    </div>
 
                     <!-- Card 2 -->
                     <div class="col-lg-3 col-md-6 col-sm-12 m-b30">
@@ -957,10 +958,11 @@
                                 <i class="ri-bar-chart-box-line"></i>
                             </div>
                             <h3 class="process-card-title">Connect stock & data</h3>
-                            <p class="process-card-desc">Import vehicles, SOR agreements and contacts so that every opportunity lives in one place.
+                            <p class="process-card-desc">Import vehicles, SOR agreements and contacts so that every
+                                opportunity lives in one place.
                             </p>
-                            </div>
-                            </div>
+                        </div>
+                        </div>
 
                     <!-- Card 3 -->
                     <div class="col-lg-3 col-md-6 col-sm-12 m-b30">
@@ -970,10 +972,11 @@
                                 <i class="ri-rocket-2-line"></i>
                             </div>
                             <h3 class="process-card-title">Launch portals</h3>
-                            <p class="process-card-desc">Open up secure access for investors and dealers to browse stock and submit offers in real
+                            <p class="process-card-desc">Open up secure access for investors and dealers to browse stock
+                                and submit offers in real
                                 time.</p>
                         </div>
-                        </div>
+                    </div>
 
                     <!-- Card 4 -->
                     <div class="col-lg-3 col-md-6 col-sm-12 m-b30">
@@ -983,11 +986,12 @@
                                 <i class="ri-line-chart-line"></i>
                             </div>
                             <h3 class="process-card-title">Track performance</h3>
-                            <p class="process-card-desc">Use dashboards and reports to monitor returns, risk and pipeline – and adjust strategy
+                            <p class="process-card-desc">Use dashboards and reports to monitor returns, risk and
+                                pipeline – and adjust strategy
                                 quickly.</p>
-                            </div>
-                            </div>
-                    </div>
+                        </div>
+                        </div>
+                        </div>
 
             </div>
         </div>
@@ -995,8 +999,8 @@
 
         <!--TESTIMONIAL SECTION START-->
         <div class="section-full p-t150 p-b150 site-bg-dark twm-testimonial-section-wrap wow fadeInDown"
-            style="background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0f0f0f 100%) !important;" data-wow-offset="100"
-            data-wow-delay="0.2">
+            style="background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0f0f0f 100%) !important;"
+            data-wow-offset="100" data-wow-delay="0.2">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
@@ -1210,502 +1214,373 @@
                             </div>
                         </div>
                     </div>
-                    </div>
-                    </div>
-                    </div>
-                    <!--TESTIMONIAL SECTION END-->
-<div class="section-full p-t150 p-b120 site-bg-white twm-faq-section-wrap">
-    <div class="container">
-
-        <div class="section-content">
-
-            <div class="row twm-faq-section-1 m-b30">
-                <div class="col-lg-4 col-md-12 m-b30  wow fadeInDown" data-wow-delay="0.2" style="visibility: visible;">
-                    <div class="video-section-outer">
-                        <div class="video-section">
-                            <img src="images/faq-pic1.jpg" alt="Video Bg Image">
-                        </div>
-                    </div>
                 </div>
-                <div class="col-lg-8 col-md-12  wow fadeInDown" data-wow-delay="0.2" style="visibility: visible;">
-                    <div class="twm-faq-info-wrap">
-                        <!-- TITLE START-->
-                        <div class="section-head left">
-                            <h2 class="twm-large-title site-text-dark">General Questions</h2>
-                        </div>
-                        <!-- TITLE END-->
+                </div>
+                </div>
+                <!--TESTIMONIAL SECTION END-->
+                <div class="section-full p-t150 p-b120 site-bg-white twm-faq-section-wrap">
+                    <div class="container">
 
-                        <div class="twm-faq-info">
-                            <div class="accordion twm-acdn" id="sf-faq-accordion">
-                                <!--One-->
-                                <div class="accordion-item">
+                <div class="section-content">
 
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#FAQ1" aria-expanded="true">
-                                        What is MotoNova?
-                                    </button>
-
-                                    <div id="FAQ1" class="accordion-collapse collapse show"
-                                        data-bs-parent="#sf-faq-accordion" style="">
-                                        <div class="accordion-body">
-                                            MotoNova is a comprehensive automotive dealer management system designed
-                                            specifically for car dealerships and investors. It provides tools for
-                                            inventory management, investor portals, sales pipelines, SOR (Sale or
-                                            Return)
-                                            tracking, financial reporting, and complete business analytics—all in one
-                                            unified platform.
-                                        </div>
-                                    </div>
-
+                    <div class="row twm-faq-section-1 m-b30">
+                        <div class="col-lg-4 col-md-12 m-b30  wow fadeInDown" data-wow-delay="0.2" style="visibility: visible;">
+                            <div class="video-section-outer">
+                                <div class="video-section">
+                                    <img src="images/faq-pic1.jpg" alt="Video Bg Image">
                                 </div>
-
-                                <!--Two-->
-                                <div class="accordion-item">
-
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#FAQ2" aria-expanded="false">
-                                        Who can use MotoNova?
-                                    </button>
-
-                                    <div id="FAQ2" class="accordion-collapse collapse "
-                                        data-bs-parent="#sf-faq-accordion">
-                                        <div class="accordion-body">
-                                            MotoNova is perfect for car dealerships, automotive traders, car investors,
-                                            and fleet managers. Whether you're managing a small independent lot or a
-                                            multi-location dealership, our flexible plans scale to meet your needs from
-                                            Basic investor access to full Enterprise solutions.
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <!--Three-->
-                                <div class="accordion-item">
-
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#FAQ3" aria-expanded="false">
-                                        How long does it take to set up?
-                                    </button>
-
-                                    <div id="FAQ3" class="accordion-collapse collapse"
-                                        data-bs-parent="#sf-faq-accordion">
-                                        <div class="accordion-body">
-                                            Getting started with MotoNova is quick and easy. Most dealerships are fully
-                                            operational within 1-2 business days. Our onboarding team will help you
-                                            import your existing inventory data, configure your preferences, and train
-                                            your staff to use the platform efficiently.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--Four-->
-                                <div class="accordion-item">
-
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#FAQ4" aria-expanded="false">
-                                        Is my data secure with MotoNova?
-                                    </button>
-
-                                    <div id="FAQ4" class="accordion-collapse collapse"
-                                        data-bs-parent="#sf-faq-accordion">
-                                        <div class="accordion-body">
-                                            Absolutely. We use industry-standard encryption and security protocols to
-                                            protect your business data. All data is backed up regularly, and we maintain
-                                            strict access controls. Your financial and customer information is safe
-                                            with enterprise-grade security measures.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--Five-->
-                                <div class="accordion-item">
-
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#FAQ5" aria-expanded="false">
-                                        Can I access MotoNova on mobile devices?
-                                    </button>
-
-                                    <div id="FAQ5" class="accordion-collapse collapse"
-                                        data-bs-parent="#sf-faq-accordion" style="">
-                                        <div class="accordion-body">
-                                            Yes! MotoNova is fully responsive and works seamlessly on smartphones,
-                                            tablets, and desktop computers. Manage your inventory, check reports, and
-                                            track deals from anywhere—whether you're at the lot, in a meeting, or on
-                                            the go.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--Six-->
-                                <div class="accordion-item">
-
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#FAQ6" aria-expanded="false">
-                                        Do you offer customer support?
-                                    </button>
-
-                                    <div id="FAQ6" class="accordion-collapse collapse"
-                                        data-bs-parent="#sf-faq-accordion">
-                                        <div class="accordion-body">
-                                            Yes, we provide dedicated customer support to all our clients. Standard
-                                            and Enterprise plans include priority support with faster response times.
-                                            Our team is available via phone, email, and WhatsApp to help you with any
-                                            questions or issues.
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
                             </div>
                         </div>
-                    </div>
+                        <div class="col-lg-8 col-md-12  wow fadeInDown" data-wow-delay="0.2" style="visibility: visible;">
+                            <div class="twm-faq-info-wrap">
+                                <!-- TITLE START-->
+                                <div class="section-head left">
+                                    <h2 class="twm-large-title site-text-dark">General Questions</h2>
+                                </div>
+                                <!-- TITLE END-->
+
+                                <div class="twm-faq-info">
+                                    <div class="accordion twm-acdn" id="sf-faq-accordion">
+                                        <!--One-->
+                                        <div class="accordion-item">
+
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#FAQ1" aria-expanded="true">
+                                                What is MotoNova?
+                                            </button>
+
+                                            <div id="FAQ1" class="accordion-collapse collapse show" data-bs-parent="#sf-faq-accordion" style="">
+                                                <div class="accordion-body">
+                                                    MotoNova is a comprehensive automotive dealer management system
+                                                    designed
+                                                    specifically for car dealerships and investors. It provides tools
+                                                    for
+                                                    inventory management, investor portals, sales pipelines, SOR (Sale
+                                                    or
+                                                    Return)
+                                                    tracking, financial reporting, and complete business analytics—all
+                                                    in one
+                                                    unified platform.
+                                                    </div>
+                                                    </div>
+
+                                        </div>
+
+                                        <!--Two-->
+                                        <div class="accordion-item">
+
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQ2"
+                                                aria-expanded="false">
+                                                Who can use MotoNova?
+                                            </button>
+
+                                            <div id="FAQ2" class="accordion-collapse collapse " data-bs-parent="#sf-faq-accordion">
+                                                <div class="accordion-body">
+                                                    MotoNova is perfect for car dealerships, automotive traders, car
+                                                    investors,
+                                                    and fleet managers. Whether you're managing a small independent lot
+                                                    or a
+                                                    multi-location dealership, our flexible plans scale to meet your
+                                                    needs from
+                                                    Basic investor access to full Enterprise solutions.
+                                                    </div>
+                                                    </div>
+
+                                        </div>
+
+                                        <!--Three-->
+                                        <div class="accordion-item">
+
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQ3"
+                                                aria-expanded="false">
+                                                How long does it take to set up?
+                                            </button>
+
+                                            <div id="FAQ3" class="accordion-collapse collapse" data-bs-parent="#sf-faq-accordion">
+                                                <div class="accordion-body">
+                                                    Getting started with MotoNova is quick and easy. Most dealerships
+                                                    are fully
+                                                    operational within 1-2 business days. Our onboarding team will help
+                                                    you
+                                                    import your existing inventory data, configure your preferences, and
+                                                    train
+                                                    your staff to use the platform efficiently.
+                                                    </div>
+                                                    </div>
+                                                    </div>
+
+                                        <!--Four-->
+                                        <div class="accordion-item">
+
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQ4"
+                                                aria-expanded="false">
+                                                Is my data secure with MotoNova?
+                                            </button>
+
+                                            <div id="FAQ4" class="accordion-collapse collapse" data-bs-parent="#sf-faq-accordion">
+                                                <div class="accordion-body">
+                                                    Absolutely. We use industry-standard encryption and security
+                                                    protocols to
+                                                    protect your business data. All data is backed up regularly, and we
+                                                    maintain
+                                                    strict access controls. Your financial and customer information is
+                                                    safe
+                                                    with enterprise-grade security measures.
+                                                    </div>
+                                                    </div>
+                                                    </div>
+
+                                        <!--Five-->
+                                        <div class="accordion-item">
+
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQ5"
+                                                aria-expanded="false">
+                                                Can I access MotoNova on mobile devices?
+                                            </button>
+
+                                            <div id="FAQ5" class="accordion-collapse collapse" data-bs-parent="#sf-faq-accordion" style="">
+                                                <div class="accordion-body">
+                                                    Yes! MotoNova is fully responsive and works seamlessly on
+                                                    smartphones,
+                                                    tablets, and desktop computers. Manage your inventory, check
+                                                    reports, and
+                                                    track deals from anywhere—whether you're at the lot, in a meeting,
+                                                    or on
+                                                    the go.
+                                                    </div>
+                                                    </div>
+                                                    </div>
+
+                                        <!--Six-->
+                                        <div class="accordion-item">
+
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQ6"
+                                                aria-expanded="false">
+                                                Do you offer customer support?
+                                            </button>
+
+                                            <div id="FAQ6" class="accordion-collapse collapse" data-bs-parent="#sf-faq-accordion">
+                                                <div class="accordion-body">
+                                                    Yes, we provide dedicated customer support to all our clients.
+                                                    Standard
+                                                    and Enterprise plans include priority support with faster response
+                                                    times.
+                                                    Our team is available via phone, email, and WhatsApp to help you
+                                                    with any
+                                                    questions or issues.
+                                                    </div>
+                                                    </div>
+                                                    </div>
+
+
+
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </div>
+
+                
+
                 </div>
-            </div>
 
-            <div class="row twm-faq-section-2 m-b30">
-                <div class="col-lg-8 col-md-12  m-b30 wow fadeInDown" data-wow-delay="0.2"
-                    style="visibility: visible; animation-name: fadeInDown;">
-                    <div class="twm-faq-info-wrap">
-                        <!-- TITLE START-->
-                        <div class="section-head left">
-                            <h2 class="twm-large-title site-text-dark">Pricing & Plans</h2>
-                        </div>
-                        <!-- TITLE END-->
-
-                        <div class="twm-faq-info">
-                            <div class="accordion twm-acdn" id="sf-faq-accordion-2">
-                                <!--One-->
-                                <div class="accordion-item">
-
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#FAQ1-1" aria-expanded="true">
-                                        What pricing plans do you offer?
-                                    </button>
-
-                                    <div id="FAQ1-1" class="accordion-collapse collapse show"
-                                        data-bs-parent="#sf-faq-accordion-2">
-                                        <div class="accordion-body">
-                                            We offer three flexible plans: <strong>Basic</strong> (ideal for investors
-                                            with
-                                            portal access and basic dashboards), <strong>Standard</strong> (includes SOR
-                                            management, sales pipeline, and advanced reports), and
-                                            <strong>Enterprise</strong>
-                                            (full-featured with accounts module, multi-user access, and priority
-                                            support).
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <!--Two-->
-                                <div class="accordion-item">
-
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#FAQ2-2" aria-expanded="false">
-                                        What payment methods do you accept?
-                                    </button>
-
-                                    <div id="FAQ2-2" class="accordion-collapse collapse "
-                                        data-bs-parent="#sf-faq-accordion-2">
-                                        <div class="accordion-body">
-                                            We accept bank transfers, credit/debit cards, and online payment
-                                            gateways. For Enterprise clients, we also offer invoicing with flexible
-                                            payment terms. Contact our sales team for custom billing arrangements.
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <!--Three-->
-                                <div class="accordion-item">
-
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#FAQ3-3" aria-expanded="false">
-                                        Is there a free trial available?
-                                    </button>
-
-                                    <div id="FAQ3-3" class="accordion-collapse collapse"
-                                        data-bs-parent="#sf-faq-accordion-2">
-                                        <div class="accordion-body">
-                                            Yes! We offer a 14-day free trial so you can explore all features
-                                            before committing. No credit card required to start. Simply fill out
-                                            the contact form and our team will set up your trial account.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--Four-->
-                                <div class="accordion-item">
-
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#FAQ4-4" aria-expanded="false">
-                                        Can I upgrade or downgrade my plan?
-                                    </button>
-
-                                    <div id="FAQ4-4" class="accordion-collapse collapse"
-                                        data-bs-parent="#sf-faq-accordion-2">
-                                        <div class="accordion-body">
-                                            Absolutely! You can upgrade your plan at any time to access more features.
-                                            Downgrades take effect at the end of your current billing cycle. Your
-                                            data is always preserved regardless of plan changes.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--Five-->
-                                <div class="accordion-item">
-
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#FAQ5-5" aria-expanded="false">
-                                        Are there any setup fees?
-                                    </button>
-
-                                    <div id="FAQ5-5" class="accordion-collapse collapse"
-                                        data-bs-parent="#sf-faq-accordion-2">
-                                        <div class="accordion-body">
-                                            No hidden fees! Basic and Standard plans have no setup costs. Enterprise
-                                            plans include complimentary onboarding and data migration services. All
-                                            pricing is transparent with no surprises.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--Six-->
-                                <div class="accordion-item">
-
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#FAQ6-6" aria-expanded="false">
-                                        What's your refund policy?
-                                    </button>
-
-                                    <div id="FAQ6-6" class="accordion-collapse collapse"
-                                        data-bs-parent="#sf-faq-accordion-2">
-                                        <div class="accordion-body">
-                                            We offer a 30-day money-back guarantee for new subscriptions. If you're
-                                            not satisfied with MotoNova within the first 30 days, contact us for a
-                                            full refund—no questions asked.
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-lg-4 col-md-12  wow fadeInDown" data-wow-delay="0.2"
-                    style="visibility: visible; animation-name: fadeInDown;">
-                    <div class="video-section-outer">
-                        <div class="video-section">
-                            <img src="images/faq-pic2.jpg" alt="Video Bg Image">
-
-                        </div>
-                    </div>
-                </div>
             </div>
 
         </div>
 
-    </div>
-
-</div>
-
-<!-- NETWORK FIRMS SECTION START -->
-<div class="section-full p-t120 p-b120 twm-network-firms-section wow fadeInDown" data-wow-offset="100"
-    data-wow-delay="0.2">
-    <div class="container">
-        <!-- TITLE START -->
-        <div class="section-head center m-b60">
-            <div class="twm-sm-title left">Our Partners</div>
-            <h2 class="twm-large-title site-text-dark">
-                <em class="site-text-primary" style="font-weight:lighter !important;">Powered by</em> Trusted
-                Collaborations
-            </h2>
-        </div>
-        <div class="network-firms-row">
-            <!-- Firm 1: FH Co (Accounting) -->
-            <div class="network-firm-card card-theme-blue">
-                <div class="firm-badge">Accounting Partner</div>
-                <div class="firm-card-inner">
-                    <div class="firm-logo">
-                        <img src="{{ asset('images/partners/ab-black.png') }}" alt="Account bookkeepers">
-                    </div>
+        <!-- NETWORK FIRMS SECTION START -->
+        <div class="section-full p-t120 p-b120 twm-network-firms-section wow fadeInDown" data-wow-offset="100"
+            data-wow-delay="0.2">
+            <div class="container">
+                <!-- TITLE START -->
+                <div class="section-head center m-b60">
+                    <div class="twm-sm-title left">Our Partners</div>
+                    <h2 class="twm-large-title site-text-dark">
+                        <em class="site-text-primary" style="font-weight:lighter !important;">Powered by</em> Trusted
+                        Collaborations
+                    </h2>
                 </div>
-            </div>
-
-            <!-- Firm 2: Fossphorus (Developer) -->
-            <div class="network-firm-card card-theme-red">
-                <div class="firm-badge">Developed By</div>
-                <div class="firm-card-inner">
-                    <div class="firm-logo">
-                        <img src="{{ asset('images/partners/fp-black.png') }}" alt="Fossphorus">
-                    </div>
-                </div>
-            </div>
-
-            <!-- Firm 3: Kore Consulting (Tax) -->
-            <div class="network-firm-card card-theme-yellow">
-                <div class="firm-badge">Tax Partner</div>
-                <div class="firm-card-inner">
-                    <div class="firm-logo">
-                        <img src="{{ asset('images/partners/kc-black.png') }}" alt="Kore Consulting">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>
-<!-- NETWORK FIRMS SECTION END -->
-
-<!-- Contact Form SECTION START -->
-<div class="section-full p-t150 p-b120 site-bg-white twm-contact-section-wrap" id="contact-us">
-
-    <div class="container">
-
-        <div class="section-content">
-            <div class="twm-contact-section">
-                <div class="row">
-
-                    <div class="col-xl-7 col-lg-6 col-md-12">
-                        <div class="twm-maskingtext m-b50">
-                            <h1>Get In Touch</h1>
-                            <img src="images/text-masking-pic.jpg" alt="Image">
-                        </div>
-                        <div class="twm-get-info-wrap">
-
-                            <ul>
-
-                                <li>
-                                    <div class="twm-get-info">
-                                        <div class="twm-media">
-                                            <i class="ri-phone-line"></i>
-                                        </div>
-                                        <div class="twm-content">
-                                            <p>Phone</p>
-                                            <h3 class="twm-title"><a href="tel:+923162126865">+92 316 212
-                                                    6865</a>
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="twm-get-info">
-                                        <div class="twm-media">
-                                            <i class="ri-mail-line"></i>
-                                        </div>
-                                        <div class="twm-content">
-                                            <p>Email</p>
-                                            <h3 class="twm-title"><a
-                                                    href="mailto:info@motonova.com">info@motonova.com</a>
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-
-                            <div class="twm-social">
-                                <h3 class="twm-title">Follow Us</h3>
-                                <ul>
-                                    <li><a href="https://www.x.com/"><i class="ri-twitter-x-line"></i></a>
-                                    </li>
-                                    <li><a href="https://www.facebook.com/"><i class="ri-facebook-fill"></i></a>
-                                    </li>
-                                    <li><a href="https://www.instagram.com/"><i class="ri-instagram-line"></i></a>
-                                    </li>
-                                    <li><a href="https://www.pinterest.com/"><i class="ri-pinterest-fill"></i></a>
-                                    </li>
-                                </ul>
+                <div class="network-firms-row">
+                    <!-- Firm 1: FH Co (Accounting) -->
+                    <div class="network-firm-card card-theme-blue">
+                        <div class="firm-badge">Accounting Partner</div>
+                        <div class="firm-card-inner">
+                            <div class="firm-logo">
+                                <img src="{{ asset('images/partners/ab-black.png') }}" alt="Account bookkeepers">
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-xl-5 col-lg-6 col-md-12">
-                        <div class="twm-contact-page-detail">
-                            <!-- TITLE START-->
-                            <div class="section-head left ">
-                                <h2 class="twm-large-title">Contact Form</h2>
-                                <p class="p-text">Enter your details. And you can feel free to contact
-                                    us for any kind of information.
-                                </p>
+                    <!-- Firm 2: Fossphorus (Developer) -->
+                    <div class="network-firm-card card-theme-red">
+                        <div class="firm-badge">Developed By</div>
+                        <div class="firm-card-inner">
+                            <div class="firm-logo">
+                                <img src="{{ asset('images/partners/fp-black.png') }}" alt="Fossphorus">
                             </div>
-                            <!-- TITLE END-->
+                        </div>
+                    </div>
 
-                            <div class="twm-contact-page-form">
+                    <!-- Firm 3: Kore Consulting (Tax) -->
+                    <div class="network-firm-card card-theme-yellow">
+                        <div class="firm-badge">Tax Partner</div>
+                        <div class="firm-card-inner">
+                            <div class="firm-logo">
+                                <img src="{{ asset('images/partners/kc-black.png') }}" alt="Kore Consulting">
+                            </div>
+                        </div>
+                    </div>
+                    </div>
 
-                                <div class="contact-form-outer">
-                                    <form class="cons-contact-form" id="contactForm">
+            </div>
+            </div>
+            <!-- NETWORK FIRMS SECTION END -->
 
-                                        <div class="row">
+        <!-- Contact Form SECTION START -->
+        <div class="section-full p-t150 p-b120 site-bg-white twm-contact-section-wrap" id="contact-us">
 
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="form-group mb-4">
-                                                    <input name="business_name" id="businessName" type="text"
-                                                        required="" class="form-control" placeholder="Business Name">
-                                                </div>
-                                            </div>
+            <div class="container">
 
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="form-group mb-4">
-                                                    <input name="business_type" id="businessType" type="text"
-                                                        required="" class="form-control" placeholder="Business Type">
-                                                </div>
-                                            </div>
+                <div class="section-content">
+                    <div class="twm-contact-section">
+                        <div class="row">
 
-                                            <div class="col-lg-12 col-md-6">
-                                                <div class="form-group mb-4">
-                                                    <input name="full_name" id="fullName" type="text" required=""
-                                                        class="form-control" placeholder="Full Name">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-12 col-md-12">
-                                                <div class="form-group mb-4">
-                                                    <input name="business_email" id="businessEmail" type="email"
-                                                        class="form-control" required="" placeholder="Business Email">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-12 col-md-12">
-                                                <div class="form-group mb-4">
-                                                    <input name="phone_whatsapp" id="phoneWhatsapp" type="text"
-                                                        class="form-control" required="" placeholder="Phone / Whatsapp">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-12">
-                                                <div class="form-group mb-4">
-                                                    <textarea name="message" id="message" class="form-control" rows="3"
-                                                        placeholder="Message"></textarea>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-md-12">
-                                                <button type="submit" class="site-button dark-bg"><em>Submit
-                                                        Now</em></button>
-                                            </div>
-
-                                        </div>
-
-                                    </form>
+                            <div class="col-xl-7 col-lg-6 col-md-12">
+                                <div class="twm-maskingtext m-b50">
+                                    <h1>Get In Touch</h1>
+                                    <img src="images/text-masking-pic.jpg" alt="Image">
                                 </div>
-                            </div>
+                                <div class="twm-get-info-wrap">
+
+                                    <ul>
+
+                                        <li>
+                                            <div class="twm-get-info">
+                                                <div class="twm-media">
+                                                    <i class="ri-phone-line"></i>
+                                                </div>
+                                                <div class="twm-content">
+                                                    <p>Phone</p>
+                                                    <h3 class="twm-title"><a href="tel:+923162126865">+92 316 212
+                                                            6865</a>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="twm-get-info">
+                                                <div class="twm-media">
+                                                    <i class="ri-mail-line"></i>
+                                                </div>
+                                                <div class="twm-content">
+                                                    <p>Email</p>
+                                                    <h3 class="twm-title"><a href="mailto:info@motonova.com">info@motonova.com</a>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        </ul>
+
+                                    <div class="twm-social">
+                                        <h3 class="twm-title">Follow Us</h3>
+                                        <ul>
+                                            <li><a href="https://www.x.com/"><i class="ri-twitter-x-line"></i></a>
+                                            </li>
+                                            <li><a href="https://www.facebook.com/"><i class="ri-facebook-fill"></i></a>
+                                            </li>
+                                            <li><a href="https://www.instagram.com/"><i class="ri-instagram-line"></i></a>
+                                            </li>
+                                            <li><a href="https://www.pinterest.com/"><i class="ri-pinterest-fill"></i></a>
+                                            </li>
+                                            </ul>
+                                            </div>
+                                            </div>
+                                            </div>
+
+                            <div class="col-xl-5 col-lg-6 col-md-12">
+                                <div class="twm-contact-page-detail">
+                                    <!-- TITLE START-->
+                                    <div class="section-head left ">
+                                        <h2 class="twm-large-title">Contact Form</h2>
+                                        <p class="p-text">Enter your details. And you can feel free to contact
+                                            us for any kind of information.
+                                        </p>
+                                    </div>
+                                    <!-- TITLE END-->
+
+                                    <div class="twm-contact-page-form">
+
+                                        <div class="contact-form-outer">
+                                            <form class="cons-contact-form" id="contactForm">
+
+                                                <div class="row">
+
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="form-group mb-4">
+                                                            <input name="business_name" id="businessName" type="text"
+                                                                required="" class="form-control"
+                                                                placeholder="Business Name">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="form-group mb-4">
+                                                            <input name="business_type" id="businessType" type="text"
+                                                                required="" class="form-control"
+                                                                placeholder="Business Type">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-12 col-md-6">
+                                                        <div class="form-group mb-4">
+                                                            <input name="full_name" id="fullName" type="text" required="" class="form-control" placeholder="Full Name">
+                                                            </div>
+                                                            </div>
+
+                                                    <div class="col-lg-12 col-md-12">
+                                                        <div class="form-group mb-4">
+                                                            <input name="business_email" id="businessEmail" type="email"
+                                                                class="form-control" required=""
+                                                                placeholder="Business Email">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-12 col-md-12">
+                                                        <div class="form-group mb-4">
+                                                            <input name="phone_whatsapp" id="phoneWhatsapp" type="text"
+                                                                class="form-control" required=""
+                                                                placeholder="Phone / Whatsapp">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-12">
+                                                        <div class="form-group mb-4">
+                                                            <textarea name="message" id="message" class="form-control" rows="3" placeholder="Message"></textarea>
+                                                            </div>
+                                                            </div>
+
+                                                    <div class="col-md-12">
+                                                        <button type="submit" class="site-button dark-bg"><em>Submit
+                                                                Now</em></button>
+                                                    </div>
+
+                                                </div>
+
+                                            </form>
+                                            </div>
+                                            </div>
+
+                                </div>
+                                </div>
 
                         </div>
-                    </div>
+                        </div>
+                        </div>
 
-                </div>
             </div>
+
         </div>
-
-    </div>
-
-</div>
-<!-- Contact Form SECTION END -->
+        <!-- Contact Form SECTION END -->
 
     </main>
 </x-layout>

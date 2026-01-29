@@ -62,7 +62,7 @@
     <!-- SWIPER Slider -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.min.css" />
     <!-- DATETIMEPICKER STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/style.css?v=2.2" />
+    <link rel="stylesheet" type="text/css" href="css/style.css?v=2.3" />
     <!-- MAIN STYLE SHEET -->
     <link rel="stylesheet" type="text/css" href="css/product-tour.css" />
     <!-- PRODUCT TOUR SECTION -->

@@ -13107,26 +13107,47 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
     object-position: center;
 }
 
-/* Desktop: Match height with content using Flexbox */
+/* Desktop: Match height with content using Absolute Positioning */
 @media (min-width: 992px) {
+    /* Image column becomes the positioning context */
     .twm-faq-section-1 .col-lg-4,
     .twm-faq-section-2 .col-lg-4 {
-        display: flex;
-        flex-direction: column;
+        position: relative;
+        /* min-height ensures column participates in row height calculation */
     }
     
+    /* Image wrapper fills the column absolutely - doesn't push height */
     .twm-faq-section-1 .video-section-outer,
     .twm-faq-section-2 .video-section-outer {
-        flex: 1 1 auto; /* Grow to fill the column height */
-        width: 100%;
-        height: auto;
+        position: absolute;
+        top: 0;
+        left: 15px;   /* Bootstrap gutter */
+        right: 15px;  /* Bootstrap gutter */
+        bottom: 0;
+        height: 100%;
+        width: calc(100% - 30px);
+    }
+    
+    .twm-faq-section-1 .video-section,
+    .twm-faq-section-2 .video-section {
+        height: 100%;
+    }
+    
+    .twm-faq-section-1 .video-section img,
+    .twm-faq-section-2 .video-section img {
+        height: 100%;
+        object-fit: cover;
     }
 }
 
 /* Mobile: Limit height for tall images */
 @media (max-width: 991px) {
+    .video-section-outer {
+        max-height: 400px;
+    }
+    
     .video-section img {
-        max-height: 500px;
+        max-height: 400px;
         object-position: top center;
     }
 }
