@@ -7322,6 +7322,260 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
     text-decoration: none !important;
 }
 
+/* ======================================
+   Process Section - Light Theme (Wavy)
+   ====================================== */
+
+.process-section-wrap {
+    background-color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Title Styling */
+.process-subtitle {
+    color: var(--theme-primary);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.process-main-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin: 0;
+}
+
+.process-main-title .title-dot {
+    color: var(--theme-primary);
+}
+
+/* Process Timeline Container */
+.process-timeline {
+    position: relative;
+    min-height: 450px;
+    margin-top: 50px;
+}
+
+/* SVG Wave Line */
+.process-wave-line {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.process-wave-line path {
+    stroke: var(--theme-primary);
+    opacity: 0.3;
+}
+
+/* Steps Container */
+.process-steps-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+    padding: 20px 10px 0 10px; /* Added top padding to prevent clipping of Step 1 Shadow */
+}
+
+/* Individual Step */
+.process-step {
+    position: relative;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Top Position Steps */
+.step-position-top {
+    padding-bottom: 140px;
+}
+
+.step-position-top .step-content {
+    order: 1;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.step-position-top .step-icon-wrapper {
+    order: 2;
+}
+
+/* Bottom Position Steps */
+.step-position-bottom {
+    padding-top: 140px;
+    justify-content: flex-end;
+}
+
+.step-position-bottom .step-icon-wrapper {
+    order: 1;
+}
+
+.step-position-bottom .step-content {
+    order: 2;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* Step Background Number */
+.step-bg-number {
+    position: absolute;
+    font-size: 140px;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.1);
+    line-height: 1;
+    z-index: 0;
+    pointer-events: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.step-position-top .step-bg-number {
+    top: -70px; /* Moved up to appear above card */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.step-position-bottom .step-bg-number {
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Step Icon */
+.step-icon-wrapper {
+    position: relative;
+    z-index: 3;
+}
+
+.step-icon {
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25); /* Significantly stronger shadow */
+    border: 1px solid rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.step-icon i, .step-icon span {
+    font-size: 30px;
+    color: var(--theme-primary);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1); /* Subtle inner shadow for icon depth */
+}
+
+.step-icon i, .step-icon span {
+    font-size: 30px;
+    color: var(--theme-primary);
+}
+
+.process-step:hover .step-icon {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(212, 175, 55, 0.2);
+    background: #fff;
+}
+
+/* Step Content Styles (Cards) */
+.step-content {
+    position: relative;
+    z-index: 2;
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 12px;
+    /* Increased visibility: Darker Border + deeper Shadow */
+    border: 1px solid #d1d5db; /* Darker border (gray-300) to make it clear */
+    border-top: 4px solid transparent; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15); /* Significantly stronger shadow (15% opacity) */
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    height: 100%;
+    text-align: center;
+}
+
+/* Hover Effects */
+.process-step:hover .step-content {
+    transform: translateY(-10px); /* Lift up animation */
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    border-color: var(--theme-primary); /* Highlight border */
+    border-top-color: var(--theme-primary); /* Accent top bar */
+}
+
+.step-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.step-description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .process-timeline {
+        margin-top: 30px;
+        min-height: auto;
+    }
+    
+    .process-wave-line {
+        display: none;
+    }
+    
+    .process-steps-container {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+    
+    .process-step {
+        width: 45%;
+        margin-bottom: 30px;
+    }
+    
+    .step-position-top, .step-position-bottom {
+        padding: 0;
+        justify-content: flex-start;
+    }
+    
+    .step-position-top .step-content, 
+    .step-position-bottom .step-content {
+        order: 2;
+        margin: 20px 0 0 0;
+    }
+    
+    .step-position-top .step-icon-wrapper, 
+    .step-position-bottom .step-icon-wrapper {
+        order: 1;
+    }
+    
+    .step-bg-number {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .process-step {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
 /*______Testimonial2 Style______*/
 .twm-testimonial2 {
     background-color: #f4f5f7;
@@ -7405,7 +7659,7 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
 }
 
 .twm-w-steps .twm-w-step-count {
-    background-color: #101010;
+    background-color: var(--red-light);
     border-radius: 20px 20px 0px 0px;
     display: flex;
     width: 100px;

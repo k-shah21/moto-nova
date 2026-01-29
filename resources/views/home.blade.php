@@ -123,8 +123,8 @@
                             <div class="twm-media2">
                                 <img src="images/car-pic1.png" alt="Image" />
                             </div>
-                            </div>
-                            </div>
+                        </div>
+                        </div>
 
                     <div class="col-lg-5 col-md-12">
                         <!-- TITLE START-->
@@ -150,9 +150,9 @@
                         </div>
                     </div>
                 </div>
-                </div>
-                </div>
-                <!--ABOUS US SECTION END-->
+            </div>
+            </div>
+            <!--ABOUS US SECTION END-->
 
         <!--WHY CHOOSE US SECTION START-->
         <div class="section-full site-bg-white twm-w-chooseus-section-wrap wow fadeInDown" data-wow-offset="100"
@@ -203,8 +203,8 @@
                                                 Support how your business really works – from SOR
                                                 agreements through to investor updates and payouts.
                                             </p>
-                                            </div>
-                                            </div>
+                                        </div>
+                                        </div>
                                 </li>
                                 <li>
                                     <div class="twm-list-icon-style-bx">
@@ -235,8 +235,8 @@
                                                 Launch quickly with our team beside you – from data
                                                 import through to training and best practices.
                                             </p>
-                                            </div>
-                                            </div>
+                                        </div>
+                                        </div>
                                 </li>
                             </ul>
                         </div>
@@ -256,13 +256,13 @@
                                 </div>
                             </div>
                         </div>
-                        </div>
-                        </div>
-                        </div>
-                        </div>
-                        <!--WHY CHOOSE US SECTION END-->
-                        
-                        <!--PRODUCT TOUR SECTION START -->
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <!--WHY CHOOSE US SECTION END-->
+                    
+                    <!--PRODUCT TOUR SECTION START -->
         <div class="section-full p-t150 p-b150 twm-product-tour-section wow fadeInDown" data-wow-offset="100"
             data-wow-delay="0.2" id="portfolio">
             <div class="container">
@@ -273,14 +273,14 @@
                     <p style="color: #fff;">Everything you need to manage vehicles, investors and deals – all in one
                         platform
                     </p>
-                    </div>
+                </div>
                 <!-- TITLE END-->
 
                 <!-- Swiper Carousel Wrapper -->
                 <div class="product-tour-swiper-wrapper">
                     <div class="swiper product-tour-swiper">
                         <div class="swiper-wrapper">
-                
+
                             <!-- Slide 1: Portfolio & Insights -->
                             <div class="swiper-slide">
                                 <div class="tour-slide-content" data-category="portfolio">
@@ -303,7 +303,7 @@
                                             <div class="tour-preview-overlay"></div>
                                         </div>
                                     </div>
-                
+
                                     <!-- Right Info Panel -->
                                     <div class="tour-info-panel">
                                         <div class="tour-main-info">
@@ -317,7 +317,7 @@
                                                 <span data-thumb="3">Capital Deployment Tracking</span>
                                                 <span data-thumb="4">Performance Metrics Dashboard</span>
                                             </h3>
-                                            
+
                                             <div class="tour-dynamic-description">
                                                 <p class="active" data-thumb="1">Track returns at portfolio and vehicle
                                                     level, monitor active deals and understand
@@ -344,68 +344,68 @@
                                                     overview
                                                 </div>
                                             </div>
-                                            </div>
-                                            <div class="tour-thumb-section">
-                                                <div class="tour-thumb-section-title">Explore Features</div>
-                                                <div class="tour-thumb-tabs">
-                                                    <div class="tour-thumb-item active" data-thumb="1">
-                                                        <img src="{{ asset('images/portfolio.png') }}" alt="Overview">
-                                                        <div class="tour-thumb-label"><span>Overview</span></div>
-                                                        <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
-                                                        </div>
+                                        </div>
+                                        <div class="tour-thumb-section">
+                                            <div class="tour-thumb-section-title">Explore Features</div>
+                                            <div class="tour-thumb-tabs">
+                                                <div class="tour-thumb-item active" data-thumb="1">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Overview">
+                                                    <div class="tour-thumb-label"><span>Overview</span></div>
+                                                    <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
                                                     </div>
-                                                    <div class="tour-thumb-item" data-thumb="2">
-                                                        <img src="{{ asset('images/portfolio.png') }}" alt="ROI">
-                                                        <div class="tour-thumb-label"><span>ROI</span></div>
-                                                        <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
-                                                        </div>
+                                                </div>
+                                                <div class="tour-thumb-item" data-thumb="2">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="ROI">
+                                                    <div class="tour-thumb-label"><span>ROI</span></div>
+                                                    <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
                                                     </div>
-                                                    <div class="tour-thumb-item" data-thumb="3">
-                                                        <img src="{{ asset('images/portfolio.png') }}" alt="Capital">
-                                                        <div class="tour-thumb-label"><span>Capital</span></div>
-                                                        <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
-                                                        </div>
+                                                </div>
+                                                <div class="tour-thumb-item" data-thumb="3">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Capital">
+                                                    <div class="tour-thumb-label"><span>Capital</span></div>
+                                                    <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
                                                     </div>
-                                                    <div class="tour-thumb-item" data-thumb="4">
-                                                        <img src="{{ asset('images/portfolio.png') }}" alt="Metrics">
-                                                        <div class="tour-thumb-label"><span>Metrics</span></div>
-                                                        <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
-                                                        </div>
+                                                </div>
+                                                <div class="tour-thumb-item" data-thumb="4">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Metrics">
+                                                    <div class="tour-thumb-label"><span>Metrics</span></div>
+                                                    <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
                                                     </div>
                                                 </div>
                                             </div>
-                                            </div>
-                                            </div>
-                                            </div>
-                                            
-                                            <!-- Slide 2: Reporting & Analytics -->
-                                            <div class="swiper-slide">
-                                                <div class="tour-slide-content" data-category="reporting">
-                                                    <!-- Left Preview Image -->
-                                                    <div class="tour-preview-container">
-                                                        <div class="tour-preview-image active" data-thumb="1">
-                                                            <img src="{{ asset('images/portfolio.png') }}" alt="Custom Reports">
-                                                            <div class="tour-preview-overlay"></div>
-                                                        </div>
-                                                        <div class="tour-preview-image" data-thumb="2">
-                                                            <img src="{{ asset('images/portfolio.png') }}" alt="Data Export">
-                                                            <div class="tour-preview-overlay"></div>
-                                                        </div>
-                                                        <div class="tour-preview-image" data-thumb="3">
-                                                            <img src="{{ asset('images/portfolio.png') }}" alt="Advanced Filters">
-                                                            <div class="tour-preview-overlay"></div>
-                                                        </div>
-                                                        <div class="tour-preview-image" data-thumb="4">
-                                                            <img src="{{ asset('images/portfolio.png') }}" alt="Trend Analysis">
-                                                            <div class="tour-preview-overlay"></div>
-                                                        </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        
+                                        <!-- Slide 2: Reporting & Analytics -->
+                                        <div class="swiper-slide">
+                                            <div class="tour-slide-content" data-category="reporting">
+                                                <!-- Left Preview Image -->
+                                                <div class="tour-preview-container">
+                                                    <div class="tour-preview-image active" data-thumb="1">
+                                                        <img src="{{ asset('images/portfolio.png') }}" alt="Custom Reports">
+                                                        <div class="tour-preview-overlay"></div>
                                                     </div>
-                                            
-                                                    <!-- Right Info Panel -->
-                                                    <div class="tour-info-panel">
-                                                        <div class="tour-main-info">
-                                                            <div class="tour-category-badge">
-                                                                <i class="ri-bar-chart-box-line"></i>
+                                                    <div class="tour-preview-image" data-thumb="2">
+                                                        <img src="{{ asset('images/portfolio.png') }}" alt="Data Export">
+                                                        <div class="tour-preview-overlay"></div>
+                                                    </div>
+                                                    <div class="tour-preview-image" data-thumb="3">
+                                                        <img src="{{ asset('images/portfolio.png') }}" alt="Advanced Filters">
+                                                        <div class="tour-preview-overlay"></div>
+                                                    </div>
+                                                    <div class="tour-preview-image" data-thumb="4">
+                                                        <img src="{{ asset('images/portfolio.png') }}" alt="Trend Analysis">
+                                                        <div class="tour-preview-overlay"></div>
+                                                    </div>
+                                                </div>
+                                        
+                                                <!-- Right Info Panel -->
+                                                <div class="tour-info-panel">
+                                                    <div class="tour-main-info">
+                                                        <div class="tour-category-badge">
+                                                            <i class="ri-bar-chart-box-line"></i>
                                                 <span>Reporting & Analytics</span>
                                             </div>
                                             <h3 class="tour-dynamic-title">
@@ -414,7 +414,7 @@
                                                 <span data-thumb="3">Advanced Filtering Options</span>
                                                 <span data-thumb="4">Trend Analysis & Forecasting</span>
                                             </h3>
-                                            
+
                                             <div class="tour-dynamic-description">
                                                 <p class="active" data-thumb="1">Build custom reports tailored to your
                                                     specific needs. Combine data from across the
@@ -440,7 +440,7 @@
                                                 <div class="tour-feature-tag"><i class="ri-check-line"></i> Trend
                                                     forecasting</div>
                                             </div>
-                                            </div>
+                                        </div>
 
                                         <div class="tour-thumb-section">
                                             <div class="tour-thumb-section-title">Explore Features</div>
@@ -471,38 +471,38 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        </div>
-                                        </div>
-                                        </div>
-                                        
-                                        <!-- Slide 3: Dealer Dashboard -->
-                                        <div class="swiper-slide">
-                                            <div class="tour-slide-content" data-category="dealer">
-                                                <!-- Left Preview Image -->
-                                                <div class="tour-preview-container">
-                                                    <div class="tour-preview-image active" data-thumb="1">
-                                                        <img src="{{ asset('images/portfolio.png') }}" alt="Sales Pipeline">
-                                                        <div class="tour-preview-overlay"></div>
-                                                    </div>
-                                                    <div class="tour-preview-image" data-thumb="2">
-                                                        <img src="{{ asset('images/portfolio.png') }}" alt="Stock Alerts">
-                                                        <div class="tour-preview-overlay"></div>
-                                                    </div>
-                                                    <div class="tour-preview-image" data-thumb="3">
-                                                        <img src="{{ asset('images/portfolio.png') }}" alt="Team Metrics">
-                                                        <div class="tour-preview-overlay"></div>
-                                                    </div>
-                                                    <div class="tour-preview-image" data-thumb="4">
-                                                        <img src="{{ asset('images/portfolio.png') }}" alt="Opportunities">
-                                                        <div class="tour-preview-overlay"></div>
-                                                    </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    
+                                    <!-- Slide 3: Dealer Dashboard -->
+                                    <div class="swiper-slide">
+                                        <div class="tour-slide-content" data-category="dealer">
+                                            <!-- Left Preview Image -->
+                                            <div class="tour-preview-container">
+                                                <div class="tour-preview-image active" data-thumb="1">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Sales Pipeline">
+                                                    <div class="tour-preview-overlay"></div>
                                                 </div>
-                                        
-                                                <!-- Right Info Panel -->
-                                                <div class="tour-info-panel">
-                                                    <div class="tour-main-info">
-                                                        <div class="tour-category-badge">
-                                                            <i class="ri-store-2-line"></i>
+                                                <div class="tour-preview-image" data-thumb="2">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Stock Alerts">
+                                                    <div class="tour-preview-overlay"></div>
+                                                </div>
+                                                <div class="tour-preview-image" data-thumb="3">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Team Metrics">
+                                                    <div class="tour-preview-overlay"></div>
+                                                </div>
+                                                <div class="tour-preview-image" data-thumb="4">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Opportunities">
+                                                    <div class="tour-preview-overlay"></div>
+                                                </div>
+                                            </div>
+                                    
+                                            <!-- Right Info Panel -->
+                                            <div class="tour-info-panel">
+                                                <div class="tour-main-info">
+                                                    <div class="tour-category-badge">
+                                                        <i class="ri-store-2-line"></i>
                                                 <span>Dealer Dashboard</span>
                                             </div>
                                             <h3 class="tour-dynamic-title">
@@ -511,7 +511,7 @@
                                                 <span data-thumb="3">Team Performance Metrics</span>
                                                 <span data-thumb="4">Opportunity Tracking</span>
                                             </h3>
-                                            
+
                                             <div class="tour-dynamic-description">
                                                 <p class="active" data-thumb="1">Visualize your entire sales pipeline
                                                     from
@@ -539,7 +539,7 @@
                                                     tracking
                                                 </div>
                                             </div>
-                                            </div>
+                                        </div>
 
                                         <div class="tour-thumb-section">
                                             <div class="tour-thumb-section-title">Explore Features</div>
@@ -568,11 +568,11 @@
                                                     <div class="tour-thumb-indicator"><i class="ri-check-line"></i>
                                                     </div>
                                                 </div>
-                                                </div>
-                                                </div>
-                                                </div>
-                                                </div>
-                                                </div>
+                                            </div>
+                                            </div>
+                                            </div>
+                                            </div>
+                                            </div>
 
                             <!-- Slide 4: Stock & SOR -->
                             <div class="swiper-slide">
@@ -595,7 +595,7 @@
                                             <img src="{{ asset('images/portfolio.png') }}" alt="Vehicle Records">
                                             <div class="tour-preview-overlay"></div>
                                         </div>
-                                        </div>
+                                    </div>
                                     <!-- Right Info Panel -->
                                     <div class="tour-info-panel">
                                         <div class="tour-main-info">
@@ -668,8 +668,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    </div>
-                                    </div>
+                                </div>
+                                </div>
 
                             <!-- Slide 5: Security & Access -->
                             <div class="swiper-slide">
@@ -692,7 +692,7 @@
                                             <img src="{{ asset('images/portfolio.png') }}" alt="Data Security">
                                             <div class="tour-preview-overlay"></div>
                                         </div>
-                                        </div>
+                                    </div>
                                     <!-- Right Info Panel -->
                                     <div class="tour-info-panel">
                                         <div class="tour-main-info">
@@ -764,8 +764,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    </div>
-                                    </div>
+                                </div>
+                                </div>
 
 
                         </div>
@@ -778,8 +778,8 @@
                 </div>
 
             </div>
-            </div>
-            <!--PRODUCT TOUR SECTION END-->
+        </div>
+        <!--PRODUCT TOUR SECTION END-->
 
         <!-- PRICING SECTION START -->
         <div class="section-full p-t150 p-b120 site-bg-white twm-pricing-section-wrap wow fadeInDown" data-wow-offset="100"
@@ -888,10 +888,10 @@
                             </div>
                         </div>
                     </div>
-                    </div>
-                    </div>
-                    </div>
-                    <!-- PRICING SECTION END -->
+                </div>
+                </div>
+                </div>
+                <!-- PRICING SECTION END -->
         <!--WIDE RANGE / METRICS SECTION START-->
         <div class="section-full p-t150 p-b120 site-bg-white twm-w-range-section-wrap wow fadeInDown" data-wow-offset="100"
             data-wow-delay="0.2">
@@ -926,7 +926,7 @@
                                 <span class="counter">2750</span> <em class="symble">+</em>
                                 <h3 class="icon-content-info">Active seller, investors & buyers</h3>
                             </div>
-                            </div>
+                        </div>
                         <!--Three block-->
                         <div class="col-lg-3 col-md-6 col-sm-6">
                             <div class="twm-cntr-with-icon">
@@ -936,7 +936,7 @@
                                 <span class="counter">600</span> <em class="symble">+</em>
                                 <h3 class="icon-content-info">Live vehicles under management</h3>
                             </div>
-                            </div>
+                        </div>
                         <!--Four block-->
                         <div class="col-lg-3 col-md-6 col-sm-6">
                             <div class="twm-cntr-with-icon">
@@ -947,10 +947,10 @@
                                 <h3 class="icon-content-info">Years of automotive SaaS experience</h3>
                             </div>
                         </div>
-                        </div>
-                        </div>
-                        </div>
-                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
         <!--WIDE RANGE SECTION END-->
 
         <!--PLATFORM VALUE SECTION START-->
@@ -983,8 +983,8 @@
                                         Publish verified vehicles, create investment opportunities and manage
                                         both primary sales and secondary trades from one marketplace view.
                                     </p>
-                                    </div>
-                                    </div>
+                                </div>
+                                </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-4 m-b30">
                             <div class="twm-icon-style-left large-set in-dark-area">
@@ -1013,97 +1013,100 @@
                                     </p>
                                 </div>
                             </div>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
         <!--LET'S YOUR ADVENTURE SECTION END-->
 
 
-        <!--WORKING STEPS SECTION START-->
-        <div class="section-full p-t150 site-bg-white twm-w-steps-section-wrap wow fadeInDown" data-wow-offset="100"
-            data-wow-delay="0.2" style="background-image: url(images/step-bg.jpg)" id="how-it-works">
+        <!--PROCESS SECTION START-->
+        <div class="section-full p-t150 p-b150 process-section-wrap" id="how-it-works">
             <div class="container">
                 <!-- TITLE START-->
-                <div class="section-head center">
-                    <div class="twm-sm-title left">How Moto Nova works</div>
-                    <h2 class="twm-large-title site-text-dark">
-                        Launch your automotive portal in four steps
+                <div class="section-head center m-b80">
+                    <div class="process-subtitle">— How Moto Nova works —</div>
+                    <h2 class="process-main-title">
+                        Launch your automotive portal in four steps<span class="title-dot">.</span>
                     </h2>
                 </div>
                 <!-- TITLE END-->
 
-                <div class="section-content">
-                    <div class="row twm-w-steps-section">
-                        <div class="col-lg-3 col-md-6 m-b30">
-                            <div class="twm-w-steps">
-                                <div class="twm-w-step-count">
-                                    <span>01</span>
-                                </div>
-                                <div class="twm-w-step-detail">
-                                    <h3 class="twm-title">Create your workspace</h3>
-                                    <p>
-                                        Sign up, brand your portal and invite your core team.
-                                        Configure basic settings for investors, dealers and admins.
-                                    </p>
+                <!-- PROCESS TIMELINE -->
+                <div class="process-timeline">
+                    <!-- SVG Wave Line -->
+                    <svg class="process-wave-line" viewBox="0 0 1200 200" preserveAspectRatio="none">
+                        <path d="M0,100 C150,20 300,180 450,100 C600,20 750,180 900,100 C1050,20 1200,100 1200,100" fill="none"
+                            stroke="#d4af37" stroke-width="3" />
+                    </svg>
+                
+                    <div class="process-steps-container">
+                        <!-- Step 1 - Top Position -->
+                        <div class="process-step step-position-top">
+                            <div class="step-bg-number">01</div>
+                            <div class="step-content">
+                                <h3 class="step-title">Create your workspace</h3>
+                                <p class="step-description">Sign up, brand your portal and invite your core team. Configure basic
+                                    settings for investors, dealers and admins.</p>
+                            </div>
+                            <div class="step-icon-wrapper">
+                                <div class="step-icon">
+                                    <i class="ri-flag-2-line"></i>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 m-b30">
-                            <div class="twm-w-steps">
-                                <div class="twm-w-step-count">
-                                    <span>02</span>
+                        <!-- Step 2 - Bottom Position -->
+                        <div class="process-step step-position-bottom">
+                            <div class="step-bg-number">02</div>
+                            <div class="step-icon-wrapper">
+                                <div class="step-icon">
+                                    <i class="ri-bar-chart-box-line"></i>
                                 </div>
-                                <div class="twm-w-step-detail">
-                                    <h3 class="twm-title">Connect stock & data</h3>
-                                    <p>
-                                        Import vehicles, SOR agreements and contacts so that every
-                                        opportunity lives in one place.
-                                    </p>
+                            </div>
+                            <div class="step-content">
+                                <h3 class="step-title">Connect stock & data</h3>
+                                <p class="step-description">Import vehicles, SOR agreements and contacts so that every opportunity lives in one
+                                    place.
+                                </p>
+                            </div>
+                            </div>
+
+                        <!-- Step 3 - Top Position -->
+                        <div class="process-step step-position-top">
+                            <div class="step-bg-number">03</div>
+                            <div class="step-content">
+                                <h3 class="step-title">Launch portals</h3>
+                                <p class="step-description">Open up secure access for investors and dealers to browse, submit offers in real
+                                    time.</p>
+                            </div>
+                            <div class="step-icon-wrapper">
+                                <div class="step-icon">
+                                    <i class="ri-rocket-2-line"></i>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 m-b30">
-                            <div class="twm-w-steps">
-                                <div class="twm-w-step-count">
-                                    <span>03</span>
-                                </div>
-                                <div class="twm-w-step-detail">
-                                    <h3 class="twm-title">Launch portals</h3>
-                                    <p>
-                                        Open up secure access for investors and dealers to browse,
-                                        submit offers in real time.
-                                    </p>
+                        <!-- Step 4 - Bottom Position -->
+                        <div class="process-step step-position-bottom">
+                            <div class="step-bg-number">04</div>
+                            <div class="step-icon-wrapper">
+                                <div class="step-icon">
+                                    <i class="ri-line-chart-line"></i>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 m-b30">
-                            <div class="twm-w-steps">
-                                <div class="twm-w-step-count">
-                                    <span>04</span>
-                                </div>
-                                <div class="twm-w-step-detail">
-                                    <h3 class="twm-title">Track performance</h3>
-                                    <p>
-                                        Use dashboards and reports to monitor returns, risk and
-                                        pipeline – and adjust strategy quickly.
-                                    </p>
-                                </div>
+                            <div class="step-content">
+                                <h3 class="step-title">Track performance</h3>
+                                <p class="step-description">Use dashboards and reports to monitor returns, risk and pipeline – and adjust strategy
+                                    quickly.</p>
                             </div>
-                        </div>
+                            </div>
                     </div>
-
-                    <div class="twm-adv-show">
-                        <img src="images/adv-car.png" alt="Image" />
-                    </div>
                 </div>
-                </div>
-                </div>
-                <!--WORKING STEPS SECTION END-->
+            </div>
+            </div>
+        <!--PROCESS SECTION END-->
 
         <!-- CONTENT START -->
         <div class="page-content">
@@ -1146,7 +1149,8 @@
                                                     </div>
                                                     <div class="twm-content">
                                                         <p>Email</p>
-                                                        <h3 class="twm-title"><a href="mailto:info@motonova.com">info@motonova.com</a></h3>
+                                                        <h3 class="twm-title"><a href="mailto:info@motonova.com">info@motonova.com</a>
+                                                        </h3>
                                                     </div>
                                                 </div>
                                             </li>
@@ -1188,15 +1192,13 @@
 
                                                         <div class="col-lg-6 col-md-6">
                                                             <div class="form-group mb-4">
-                                                                <input name="business_name" id="businessName" type="text" required=""
-                                                                    class="form-control" placeholder="Business Name">
+                                                                <input name="business_name" id="businessName" type="text" required="" class="form-control" placeholder="Business Name">
                                                             </div>
                                                         </div>
 
                                                         <div class="col-lg-6 col-md-6">
                                                             <div class="form-group mb-4">
-                                                                <input name="business_type" id="businessType" type="text" required=""
-                                                                    class="form-control" placeholder="Business Type">
+                                                                <input name="business_type" id="businessType" type="text" required="" class="form-control" placeholder="Business Type">
                                                             </div>
                                                         </div>
 
@@ -1251,121 +1253,125 @@
 
             </div>
             <!-- Contact Form SECTION END -->
-<!-- NETWORK FIRMS SECTION START -->
-<div class="section-full p-t120 p-b120 twm-network-firms-section wow fadeInDown" data-wow-offset="100"
-    data-wow-delay="0.2">
-    <div class="container">
-        <!-- TITLE START -->
-        <div class="section-head center m-b60">
-            <h2 class="twm-large-title site-text-dark">
-                <em class="site-text-primary" style="font-style: italic;">Explore Our</em> Network Firms
-            </h2>
-        </div>
-        <!-- TITLE END -->
-        <div class="network-firms-grid">
-            <!-- Row 1: 3 items -->
-            <div class="network-firms-row">
-                <!-- Firm 1: Accounting Bookkeepers -->
-                <div class="network-firm-card">
-                    <div class="firm-card-decor top-right blue"></div>
-                    <div class="firm-card-decor bottom-left orange"></div>
-                    <div class="firm-card-inner">
-                        <div class="firm-logo">
-                            <img src="{{ asset('images/partners/ab-black.png') }}" alt="Accounting Bookkeepers">
-                        </div>
-                        <div class="firm-hover-content">
-                            <div class="firm-logo-white mb-3">
-                                <img src="{{ asset('images/partners/ab-white.png') }}" alt="Accounting Bookkeepers">
-                            </div>
-                            <h4>Accounting Bookkeepers</h4>
-                            <p>Professional bookkeeping and accounting services to keep your finances organized and
-                                compliant.</p>
-                        </div>
+            <!-- NETWORK FIRMS SECTION START -->
+            <div class="section-full p-t120 p-b120 twm-network-firms-section wow fadeInDown" data-wow-offset="100"
+                data-wow-delay="0.2">
+                <div class="container">
+                    <!-- TITLE START -->
+                    <div class="section-head center m-b60">
+                        <h2 class="twm-large-title site-text-dark">
+                            <em class="site-text-primary" style="font-style: italic;">Explore Our</em> Network Firms
+                        </h2>
                     </div>
-                </div>
+                    <!-- TITLE END -->
+                    <div class="network-firms-grid">
+                        <!-- Row 1: 3 items -->
+                        <div class="network-firms-row">
+                            <!-- Firm 1: Accounting Bookkeepers -->
+                            <div class="network-firm-card">
+                                <div class="firm-card-decor top-right blue"></div>
+                                <div class="firm-card-decor bottom-left orange"></div>
+                                <div class="firm-card-inner">
+                                    <div class="firm-logo">
+                                        <img src="{{ asset('images/partners/ab-black.png') }}" alt="Accounting Bookkeepers">
+                                    </div>
+                                    <div class="firm-hover-content">
+                                        <div class="firm-logo-white mb-3">
+                                            <img src="{{ asset('images/partners/ab-white.png') }}" alt="Accounting Bookkeepers">
+                                        </div>
+                                        <h4>Accounting Bookkeepers</h4>
+                                        <p>Professional bookkeeping and accounting services to keep your finances
+                                            organized and
+                                            compliant.</p>
+                                        </div>
+                                        </div>
+                                        </div>
 
-                <!-- Firm 2: KORE Consulting -->
-                <div class="network-firm-card">
-                    <div class="firm-card-decor top-right yellow"></div>
-                    <div class="firm-card-decor bottom-left blue"></div>
-                    <div class="firm-card-inner">
-                        <div class="firm-logo">
-                            <img src="{{ asset('images/partners/kc-black.png') }}" alt="KORE Consulting">
-                        </div>
-                        <div class="firm-hover-content">
-                            <div class="firm-logo-white mb-3">
-                                <img src="{{ asset('images/partners/kc-white.png') }}" alt="KORE Consulting">
-                            </div>
-                            <h4>KORE Consulting</h4>
-                            <p>Trusted Tax & Compliance Experts providing specialized solutions in the UK, offering
-                                strategic insights and expert guidance.</p>
-                        </div>
-                    </div>
-                </div>
+                            <!-- Firm 2: KORE Consulting -->
+                            <div class="network-firm-card">
+                                <div class="firm-card-decor top-right yellow"></div>
+                                <div class="firm-card-decor bottom-left blue"></div>
+                                <div class="firm-card-inner">
+                                    <div class="firm-logo">
+                                        <img src="{{ asset('images/partners/kc-black.png') }}" alt="KORE Consulting">
+                                    </div>
+                                    <div class="firm-hover-content">
+                                        <div class="firm-logo-white mb-3">
+                                            <img src="{{ asset('images/partners/kc-white.png') }}" alt="KORE Consulting">
+                                        </div>
+                                        <h4>KORE Consulting</h4>
+                                        <p>Trusted Tax & Compliance Experts providing specialized solutions in the UK,
+                                            offering
+                                            strategic insights and expert guidance.</p>
+                                        </div>
+                                        </div>
+                                        </div>
 
-                <!-- Firm 3: CINERGIZ (Using filter for black since only white exists) -->
-                <div class="network-firm-card">
-                    <div class="firm-card-decor top-right teal"></div>
-                    <div class="firm-card-decor bottom-left orange"></div>
-                    <div class="firm-card-inner">
-                        <div class="firm-logo">
-                            <img src="{{ asset('images/partners/cin-white.png') }}" style="filter: brightness(0);"
-                                alt="CINERGIZ">
-                        </div>
-                        <div class="firm-hover-content">
-                            <div class="firm-logo-white mb-3">
-                                <img src="{{ asset('images/partners/cin-white.png') }}" alt="CINERGIZ">
-                            </div>
-                            <h4>CINERGIZ</h4>
-                            <p>Innovative technology solutions driving digital transformation and business growth.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                            <!-- Firm 3: CINERGIZ (Using filter for black since only white exists) -->
+                            <div class="network-firm-card">
+                                <div class="firm-card-decor top-right teal"></div>
+                                <div class="firm-card-decor bottom-left orange"></div>
+                                <div class="firm-card-inner">
+                                    <div class="firm-logo">
+                                        <img src="{{ asset('images/partners/cin-white.png') }}" style="filter: brightness(0);" alt="CINERGIZ">
+                                        </div>
+                                        <div class="firm-hover-content">
+                                            <div class="firm-logo-white mb-3">
+                                                <img src="{{ asset('images/partners/cin-white.png') }}" alt="CINERGIZ">
+                                            </div>
+                                            <h4>CINERGIZ</h4>
+                                        <p>Innovative technology solutions driving digital transformation and business
+                                            growth.</p>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </div>
 
-            <!-- Row 2: 2 items centered -->
-            <div class="network-firms-row centered">
-                <!-- Firm 4: IDEOFUZION -->
-                <div class="network-firm-card">
-                    <div class="firm-card-decor top-right orange"></div>
-                    <div class="firm-card-decor bottom-left teal"></div>
-                    <div class="firm-card-inner">
-                        <div class="firm-logo">
-                            <img src="{{ asset('images/partners/fuzion-black.svg') }}" alt="IDEOFUZION">
-                        </div>
-                        <div class="firm-hover-content">
-                            <div class="firm-logo-white mb-3">
-                                <img src="{{ asset('images/partners/fuzion-white.svg') }}" alt="IDEOFUZION">
-                            </div>
-                            <h4>IDEOFUZION</h4>
-                            <p>Creative solutions and innovative ideas to help your business stand out in the market.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                        <!-- Row 2: 2 items centered -->
+                        <div class="network-firms-row centered">
+                            <!-- Firm 4: IDEOFUZION -->
+                            <div class="network-firm-card">
+                                <div class="firm-card-decor top-right orange"></div>
+                                <div class="firm-card-decor bottom-left teal"></div>
+                                <div class="firm-card-inner">
+                                    <div class="firm-logo">
+                                        <img src="{{ asset('images/partners/fuzion-black.svg') }}" alt="IDEOFUZION">
+                                    </div>
+                                    <div class="firm-hover-content">
+                                        <div class="firm-logo-white mb-3">
+                                            <img src="{{ asset('images/partners/fuzion-white.svg') }}" alt="IDEOFUZION">
+                                        </div>
+                                        <h4>IDEOFUZION</h4>
+                                        <p>Creative solutions and innovative ideas to help your business stand out in
+                                            the market.
+                                        </p>
+                                        </div>
+                                        </div>
+                                        </div>
 
-                <!-- Firm 5: FREEDOMTECH Solutions -->
-                <div class="network-firm-card">
-                    <div class="firm-card-decor top-right red"></div>
-                    <div class="firm-card-decor bottom-left blue"></div>
-                    <div class="firm-card-inner">
-                        <div class="firm-logo">
-                            <img src="{{ asset('images/partners/ft-black.png') }}" alt="FREEDOMTECH Solutions">
-                        </div>
-                        <div class="firm-hover-content">
-                            <div class="firm-logo-white mb-3">
-                                <img src="{{ asset('images/partners/ft-white.png') }}" alt="FREEDOMTECH Solutions">
-                            </div>
-                            <h4>FREEDOMTECH Solutions</h4>
-                            <p>Cutting-edge technology solutions empowering businesses with freedom and flexibility.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- NETWORK FIRMS SECTION END -->
+                            <!-- Firm 5: FREEDOMTECH Solutions -->
+                            <div class="network-firm-card">
+                                <div class="firm-card-decor top-right red"></div>
+                                <div class="firm-card-decor bottom-left blue"></div>
+                                <div class="firm-card-inner">
+                                    <div class="firm-logo">
+                                        <img src="{{ asset('images/partners/ft-black.png') }}" alt="FREEDOMTECH Solutions">
+                                    </div>
+                                    <div class="firm-hover-content">
+                                        <div class="firm-logo-white mb-3">
+                                            <img src="{{ asset('images/partners/ft-white.png') }}" alt="FREEDOMTECH Solutions">
+                                        </div>
+                                        <h4>FREEDOMTECH Solutions</h4>
+                                        <p>Cutting-edge technology solutions empowering businesses with freedom and
+                                            flexibility.</p>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <!-- NETWORK FIRMS SECTION END -->
 
             <div class="gmap-outline">
                 <iframe
@@ -1408,7 +1414,7 @@
                                         <h3 class="twm-title">Ahmed Khan</h3>
                                         <div class="twm-position">Dealership Owner, Karachi</div>
                                     </div>
-                                    </div>
+                                </div>
 
                                 <div class="twm-testimonial-detail">
                                     <p>
@@ -1428,7 +1434,7 @@
                                     <img src="images/testimonial/quote.png" alt="#" />
                                 </div>
                             </div>
-                            </div>
+                        </div>
 
                         <!--Two block-->
                         <div class="item">
@@ -1441,7 +1447,7 @@
                                         <h3 class="twm-title">Sarah Ali</h3>
                                         <div class="twm-position">Finance Director</div>
                                     </div>
-                                    </div>
+                                </div>
 
                                 <div class="twm-testimonial-detail">
                                     <p>
@@ -1461,7 +1467,7 @@
                                     <img src="images/testimonial/quote.png" alt="#" />
                                 </div>
                             </div>
-                            </div>
+                        </div>
 
                         <!--Three block-->
                         <div class="item">
@@ -1474,7 +1480,7 @@
                                         <h3 class="twm-title">Usman Malik</h3>
                                         <div class="twm-position">Private Investor</div>
                                     </div>
-                                    </div>
+                                </div>
 
                                 <div class="twm-testimonial-detail">
                                     <p>
@@ -1494,7 +1500,7 @@
                                     <img src="images/testimonial/quote.png" alt="#" />
                                 </div>
                             </div>
-                            </div>
+                        </div>
 
                         <!--Four block-->
                         <div class="item">
@@ -1507,7 +1513,7 @@
                                         <h3 class="twm-title">Rashid Hussain</h3>
                                         <div class="twm-position">Fleet Manager</div>
                                     </div>
-                                    </div>
+                                </div>
 
                                 <div class="twm-testimonial-detail">
                                     <p>
@@ -1527,7 +1533,7 @@
                                     <img src="images/testimonial/quote.png" alt="#" />
                                 </div>
                             </div>
-                            </div>
+                        </div>
 
                         <!--Five block-->
                         <div class="item">
@@ -1540,7 +1546,7 @@
                                         <h3 class="twm-title">Fatima Noor</h3>
                                         <div class="twm-position">Operations Lead</div>
                                     </div>
-                                    </div>
+                                </div>
 
                                 <div class="twm-testimonial-detail">
                                     <p>
@@ -1560,7 +1566,7 @@
                                     <img src="images/testimonial/quote.png" alt="#" />
                                 </div>
                             </div>
-                            </div>
+                        </div>
 
                         <!--Six block-->
                         <div class="item">
@@ -1573,7 +1579,7 @@
                                         <h3 class="twm-title">Tariq Javed</h3>
                                         <div class="twm-position">Auto Showroom CEO</div>
                                     </div>
-                                    </div>
+                                </div>
 
                                 <div class="twm-testimonial-detail">
                                     <p>
@@ -1587,17 +1593,17 @@
                                                     <span><i class="ri-star-fill"></i>
                                                         <span><i class="ri-star-fill"></i>
                                     </div>
-                                    </div>
+                                </div>
 
                                 <div class="twm-quote-icon">
                                     <img src="images/testimonial/quote.png" alt="#" />
                                 </div>
                             </div>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-                            <!--TESTIMONIAL SECTION END-->
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        <!--TESTIMONIAL SECTION END-->
     </main>
 </x-layout>
