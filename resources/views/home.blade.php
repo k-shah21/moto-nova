@@ -1,107 +1,6 @@
 <x-layout>
     <main id="main-content">
-        <!--BANNER START-->
-        <!-- <div class="twm-home-1-banner-wrap">
-                <div class="twm-home-1-banner" style=" background-image: url(images/main-slider/slider1/slider1.jpg);">
-                    <div class="twm-banner-LR-wrap">
-                        <div class="twm-banner-left" style="margin-top: 100px;">
-                            <div class="twm-banner-left-info">
-                                <div class="twm-banner-left-content">
-                                    <div class="twm-sm-title left">Premium Marketplace</div>
-                                    <h2 class="twm-banner-title">
-                                        <em class="txt-type" data-wait="3000"
-                                            data-words='["Buy & Sell", "Invest in"]'></em>
-                                        Cars
-                                    </h2>
 
-                                   
-                                    <div class="twm-banner-cta-section"
-                                        style="background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%); 
-                                               backdrop-filter: blur(20px); 
-                                               -webkit-backdrop-filter: blur(20px); 
-                                               padding: 50px 40px; 
-                                               border-radius: 25px; 
-                                               border: 1px solid rgba(255, 255, 255, 0.2); 
-                                               box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1); 
-                                               max-width: 600px; 
-                                               margin-top: 40px; 
-                                               position: relative; 
-                                               overflow: hidden;">
-                                        
-                                   
-                                     <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #b91c1c 0%, #dc2626 100%);"></div>
-                                        
-                                        <h2 style="font-size: 36px; 
-                                                   font-weight: 800; 
-                                                   color: white; 
-                                                   margin-bottom: 10px; 
-                                                   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); 
-                                                   position: relative;">
-                                            Ready to Invest?
-                                            <span style="position: absolute; 
-                                                        bottom: -8px; 
-                                                        left: 0; 
-                                                        width: 60px; 
-                                                        height: 3px; 
-                                                        background: linear-gradient(90deg, #b91c1c 0%, #dc2626 100%); 
-                                                        border-radius: 2px;"></span>
-                                        </h2>
-                                        
-                                        <p style="font-size: 16px; 
-                                                  color: rgba(255, 255, 255, 0.9); 
-                                                  margin-top: 25px; 
-                                                  margin-bottom: 30px; 
-                                                  line-height: 1.8; 
-                                                  font-weight: 400;">
-                                            Explore high-value investment opportunities in the automotive market.
-                                            Secure, profitable, and verified listings await you.
-                                        </p>
-                                        
-                                        <a href="cars-grid-1.html" 
-                                           style="display: inline-block; 
-                                                  background: white; 
-                                                  color: #b91c1c; 
-                                                  padding: 15px 40px; 
-                                                  border-radius: 50px; 
-                                                  font-size: 16px; 
-                                                  font-weight: 700; 
-                                                  text-decoration: none; 
-                                                  border: 2px solid white; 
-                                                  transition: all 0.3s ease; 
-                                                  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);"
-                                           onmouseover="this.style.background='transparent'; this.style.color='white'; this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 20px rgba(255, 255, 255, 0.3)';"
-                                           onmouseout="this.style.background='white'; this.style.color='#b91c1c'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0, 0, 0, 0.2)';">
-                                            <em style="font-style: normal;">Explore Opportunities</em>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="twm-banner-right">
-                            <div class="twm-banner-right-section">
-                                <div class="twm-banner-r-content">
-                                    <div class="twm-banner-r-bx">
-                                        <h1 class="twm-bnr-title">Mercedes</h1>
-                                        <div class="twm-banner-product-price">
-                                            <div class="twm-product-name">AMG Dynamic</div>
-                                            <div class="twm-price-section">
-                                                <div class="v-price" id="number_notification">
-                                                    $800
-                                                </div>
-                                                <div class="v-duration">/ Day Rate</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="twm-banner-media">
-                                    <img src="{{ asset('images/main-slider/slider1/car.png') }}" alt="Car Pic" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-        <!--BANNER END-->
 
         <!--ABOUT US SECTION START-->
         <div class="section-full site-bg-white p-t150 p-b120 twm-abus-section-wrap wow fadeInDown" data-wow-offset="100"
@@ -124,7 +23,7 @@
                                 <img src="images/car-pic1.png" alt="Image" />
                             </div>
                         </div>
-                        </div>
+                    </div>
 
                     <div class="col-lg-5 col-md-12">
                         <!-- TITLE START-->
@@ -151,8 +50,8 @@
                     </div>
                 </div>
             </div>
-            </div>
-            <!--ABOUS US SECTION END-->
+        </div>
+        <!--ABOUS US SECTION END-->
 
         <!--WHY CHOOSE US SECTION START-->
         <div class="section-full site-bg-white twm-w-chooseus-section-wrap wow fadeInDown" data-wow-offset="100"
@@ -204,7 +103,7 @@
                                                 agreements through to investor updates and payouts.
                                             </p>
                                         </div>
-                                        </div>
+                                    </div>
                                 </li>
                                 <li>
                                     <div class="twm-list-icon-style-bx">
@@ -236,7 +135,7 @@
                                                 import through to training and best practices.
                                             </p>
                                         </div>
-                                        </div>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -257,12 +156,12 @@
                             </div>
                         </div>
                     </div>
-                    </div>
-                    </div>
-                    </div>
-                    <!--WHY CHOOSE US SECTION END-->
-                    
-                    <!--PRODUCT TOUR SECTION START -->
+                </div>
+                </div>
+                </div>
+                <!--WHY CHOOSE US SECTION END-->
+                
+                <!--PRODUCT TOUR SECTION START -->
         <div class="section-full p-t150 p-b150 twm-product-tour-section wow fadeInDown" data-wow-offset="100"
             data-wow-delay="0.2" id="portfolio">
             <div class="container">
@@ -374,38 +273,38 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        </div>
-                                        </div>
-                                        </div>
-                                        
-                                        <!-- Slide 2: Reporting & Analytics -->
-                                        <div class="swiper-slide">
-                                            <div class="tour-slide-content" data-category="reporting">
-                                                <!-- Left Preview Image -->
-                                                <div class="tour-preview-container">
-                                                    <div class="tour-preview-image active" data-thumb="1">
-                                                        <img src="{{ asset('images/portfolio.png') }}" alt="Custom Reports">
-                                                        <div class="tour-preview-overlay"></div>
-                                                    </div>
-                                                    <div class="tour-preview-image" data-thumb="2">
-                                                        <img src="{{ asset('images/portfolio.png') }}" alt="Data Export">
-                                                        <div class="tour-preview-overlay"></div>
-                                                    </div>
-                                                    <div class="tour-preview-image" data-thumb="3">
-                                                        <img src="{{ asset('images/portfolio.png') }}" alt="Advanced Filters">
-                                                        <div class="tour-preview-overlay"></div>
-                                                    </div>
-                                                    <div class="tour-preview-image" data-thumb="4">
-                                                        <img src="{{ asset('images/portfolio.png') }}" alt="Trend Analysis">
-                                                        <div class="tour-preview-overlay"></div>
-                                                    </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    
+                                    <!-- Slide 2: Reporting & Analytics -->
+                                    <div class="swiper-slide">
+                                        <div class="tour-slide-content" data-category="reporting">
+                                            <!-- Left Preview Image -->
+                                            <div class="tour-preview-container">
+                                                <div class="tour-preview-image active" data-thumb="1">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Custom Reports">
+                                                    <div class="tour-preview-overlay"></div>
                                                 </div>
-                                        
-                                                <!-- Right Info Panel -->
-                                                <div class="tour-info-panel">
-                                                    <div class="tour-main-info">
-                                                        <div class="tour-category-badge">
-                                                            <i class="ri-bar-chart-box-line"></i>
+                                                <div class="tour-preview-image" data-thumb="2">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Data Export">
+                                                    <div class="tour-preview-overlay"></div>
+                                                </div>
+                                                <div class="tour-preview-image" data-thumb="3">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Advanced Filters">
+                                                    <div class="tour-preview-overlay"></div>
+                                                </div>
+                                                <div class="tour-preview-image" data-thumb="4">
+                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Trend Analysis">
+                                                    <div class="tour-preview-overlay"></div>
+                                                </div>
+                                            </div>
+                                    
+                                            <!-- Right Info Panel -->
+                                            <div class="tour-info-panel">
+                                                <div class="tour-main-info">
+                                                    <div class="tour-category-badge">
+                                                        <i class="ri-bar-chart-box-line"></i>
                                                 <span>Reporting & Analytics</span>
                                             </div>
                                             <h3 class="tour-dynamic-title">
@@ -472,37 +371,37 @@
                                             </div>
                                         </div>
                                     </div>
-                                    </div>
-                                    </div>
-                                    
-                                    <!-- Slide 3: Dealer Dashboard -->
-                                    <div class="swiper-slide">
-                                        <div class="tour-slide-content" data-category="dealer">
-                                            <!-- Left Preview Image -->
-                                            <div class="tour-preview-container">
-                                                <div class="tour-preview-image active" data-thumb="1">
-                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Sales Pipeline">
-                                                    <div class="tour-preview-overlay"></div>
-                                                </div>
-                                                <div class="tour-preview-image" data-thumb="2">
-                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Stock Alerts">
-                                                    <div class="tour-preview-overlay"></div>
-                                                </div>
-                                                <div class="tour-preview-image" data-thumb="3">
-                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Team Metrics">
-                                                    <div class="tour-preview-overlay"></div>
-                                                </div>
-                                                <div class="tour-preview-image" data-thumb="4">
-                                                    <img src="{{ asset('images/portfolio.png') }}" alt="Opportunities">
-                                                    <div class="tour-preview-overlay"></div>
-                                                </div>
+                                </div>
+                                </div>
+                                
+                                <!-- Slide 3: Dealer Dashboard -->
+                                <div class="swiper-slide">
+                                    <div class="tour-slide-content" data-category="dealer">
+                                        <!-- Left Preview Image -->
+                                        <div class="tour-preview-container">
+                                            <div class="tour-preview-image active" data-thumb="1">
+                                                <img src="{{ asset('images/portfolio.png') }}" alt="Sales Pipeline">
+                                                <div class="tour-preview-overlay"></div>
                                             </div>
-                                    
-                                            <!-- Right Info Panel -->
-                                            <div class="tour-info-panel">
-                                                <div class="tour-main-info">
-                                                    <div class="tour-category-badge">
-                                                        <i class="ri-store-2-line"></i>
+                                            <div class="tour-preview-image" data-thumb="2">
+                                                <img src="{{ asset('images/portfolio.png') }}" alt="Stock Alerts">
+                                                <div class="tour-preview-overlay"></div>
+                                            </div>
+                                            <div class="tour-preview-image" data-thumb="3">
+                                                <img src="{{ asset('images/portfolio.png') }}" alt="Team Metrics">
+                                                <div class="tour-preview-overlay"></div>
+                                            </div>
+                                            <div class="tour-preview-image" data-thumb="4">
+                                                <img src="{{ asset('images/portfolio.png') }}" alt="Opportunities">
+                                                <div class="tour-preview-overlay"></div>
+                                            </div>
+                                        </div>
+                                
+                                        <!-- Right Info Panel -->
+                                        <div class="tour-info-panel">
+                                            <div class="tour-main-info">
+                                                <div class="tour-category-badge">
+                                                    <i class="ri-store-2-line"></i>
                                                 <span>Dealer Dashboard</span>
                                             </div>
                                             <h3 class="tour-dynamic-title">
@@ -569,10 +468,10 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            </div>
-                                            </div>
-                                            </div>
-                                            </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </div>
 
                             <!-- Slide 4: Stock & SOR -->
                             <div class="swiper-slide">
@@ -669,7 +568,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                </div>
+                            </div>
 
                             <!-- Slide 5: Security & Access -->
                             <div class="swiper-slide">
@@ -765,7 +664,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                </div>
+                            </div>
 
 
                         </div>
@@ -782,7 +681,7 @@
         <!--PRODUCT TOUR SECTION END-->
 
         <!-- PRICING SECTION START -->
-        <div class="section-full p-t150 p-b120 site-bg-white twm-pricing-section-wrap wow fadeInDown" data-wow-offset="100"
+        <div class="section-full p-t150 p-b120 twm-pricing-section-wrap wow fadeInDown" data-wow-offset="100"
             data-wow-delay="0.2" id="pricing">
             <div class="container">
                 <!-- TITLE START-->
@@ -889,11 +788,12 @@
                         </div>
                     </div>
                 </div>
-                </div>
-                </div>
-                <!-- PRICING SECTION END -->
+            </div>
+            </div>
+            <!-- PRICING SECTION END -->
+
         <!--WIDE RANGE / METRICS SECTION START-->
-        <div class="section-full p-t150 p-b120 site-bg-white twm-w-range-section-wrap wow fadeInDown" data-wow-offset="100"
+        <div class="section-full p-t150 p-b120 twm-w-range-section-wrap wow fadeInDown" data-wow-offset="100"
             data-wow-delay="0.2">
             <div class="container">
                 <!-- TITLE START-->
@@ -948,15 +848,17 @@
                             </div>
                         </div>
                     </div>
-                    </div>
-                    </div>
-                    </div>
+                </div>
+                </div>
+                </div>
         <!--WIDE RANGE SECTION END-->
 
         <!--PLATFORM VALUE SECTION START-->
         <div class="section-full p-t150 p-b120 site-bg-dark twm-step-towards-section-wrap wow fadeInDown" data-wow-offset="100"
             data-wow-delay="0.2">
-            <div class="twm-half-bg-pic" style="background-image: url(images/half-bg-pic.jpg)"></div>
+            <div class="twm-half-bg-pic"
+                style="background-image: url(images/half-bg-pic.jpg); background-position: bottom; opacity:.4;">
+            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
@@ -984,7 +886,7 @@
                                         both primary sales and secondary trades from one marketplace view.
                                     </p>
                                 </div>
-                                </div>
+                            </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-4 m-b30">
                             <div class="twm-icon-style-left large-set in-dark-area">
@@ -1014,378 +916,86 @@
                                 </div>
                             </div>
                         </div>
-                        </div>
-                        </div>
-                        </div>
-                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
         <!--LET'S YOUR ADVENTURE SECTION END-->
 
-
         <!--PROCESS SECTION START-->
-        <div class="section-full p-t150 p-b150 process-section-wrap" id="how-it-works">
+        <div class="section-full p-t150 p-b150 process-section-simple" id="how-it-works">
             <div class="container">
                 <!-- TITLE START-->
                 <div class="section-head center m-b80">
-                    <div class="process-subtitle">— How Moto Nova works —</div>
-                    <h2 class="process-main-title">
-                        Launch your automotive portal in four steps<span class="title-dot">.</span>
+                    <div class="twm-sm-title">How Moto Nova works</div>
+                    <h2 class="twm-large-title site-text-dark">
+                        Launch your automotive portal in four steps<span class="site-text-primary">.</span>
                     </h2>
                 </div>
                 <!-- TITLE END-->
 
-                <!-- PROCESS TIMELINE -->
-                <div class="process-timeline">
-                    <!-- SVG Wave Line -->
-                    <svg class="process-wave-line" viewBox="0 0 1200 200" preserveAspectRatio="none">
-                        <path d="M0,100 C150,20 300,180 450,100 C600,20 750,180 900,100 C1050,20 1200,100 1200,100" fill="none"
-                            stroke="#d4af37" stroke-width="3" />
-                    </svg>
-                
-                    <div class="process-steps-container">
-                        <!-- Step 1 - Top Position -->
-                        <div class="process-step step-position-top">
-                            <div class="step-bg-number">01</div>
-                            <div class="step-content">
-                                <h3 class="step-title">Create your workspace</h3>
-                                <p class="step-description">Sign up, brand your portal and invite your core team. Configure basic
-                                    settings for investors, dealers and admins.</p>
+                <!-- SIMPLE 4-CARD GRID -->
+                <div class="row process-cards-row">
+                    <!-- Card 1 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 m-b30">
+                        <div class="process-card-simple">
+                            <div class="process-card-number">01</div>
+                            <div class="process-card-icon">
+                                <i class="ri-flag-2-line"></i>
                             </div>
-                            <div class="step-icon-wrapper">
-                                <div class="step-icon">
-                                    <i class="ri-flag-2-line"></i>
-                                </div>
-                            </div>
+                            <h3 class="process-card-title">Create your workspace</h3>
+                            <p class="process-card-desc">Sign up, brand your portal and invite your core team. Configure basic settings for
+                                investors, dealers and admins.</p>
+                        </div>
                         </div>
 
-                        <!-- Step 2 - Bottom Position -->
-                        <div class="process-step step-position-bottom">
-                            <div class="step-bg-number">02</div>
-                            <div class="step-icon-wrapper">
-                                <div class="step-icon">
-                                    <i class="ri-bar-chart-box-line"></i>
-                                </div>
+                    <!-- Card 2 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 m-b30">
+                        <div class="process-card-simple">
+                            <div class="process-card-number">02</div>
+                            <div class="process-card-icon">
+                                <i class="ri-bar-chart-box-line"></i>
                             </div>
-                            <div class="step-content">
-                                <h3 class="step-title">Connect stock & data</h3>
-                                <p class="step-description">Import vehicles, SOR agreements and contacts so that every opportunity lives in one
-                                    place.
-                                </p>
+                            <h3 class="process-card-title">Connect stock & data</h3>
+                            <p class="process-card-desc">Import vehicles, SOR agreements and contacts so that every opportunity lives in one place.
+                            </p>
                             </div>
                             </div>
 
-                        <!-- Step 3 - Top Position -->
-                        <div class="process-step step-position-top">
-                            <div class="step-bg-number">03</div>
-                            <div class="step-content">
-                                <h3 class="step-title">Launch portals</h3>
-                                <p class="step-description">Open up secure access for investors and dealers to browse, submit offers in real
-                                    time.</p>
+                    <!-- Card 3 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 m-b30">
+                        <div class="process-card-simple">
+                            <div class="process-card-number">03</div>
+                            <div class="process-card-icon">
+                                <i class="ri-rocket-2-line"></i>
                             </div>
-                            <div class="step-icon-wrapper">
-                                <div class="step-icon">
-                                    <i class="ri-rocket-2-line"></i>
-                                </div>
-                            </div>
+                            <h3 class="process-card-title">Launch portals</h3>
+                            <p class="process-card-desc">Open up secure access for investors and dealers to browse stock and submit offers in real
+                                time.</p>
+                        </div>
                         </div>
 
-                        <!-- Step 4 - Bottom Position -->
-                        <div class="process-step step-position-bottom">
-                            <div class="step-bg-number">04</div>
-                            <div class="step-icon-wrapper">
-                                <div class="step-icon">
-                                    <i class="ri-line-chart-line"></i>
-                                </div>
+                    <!-- Card 4 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 m-b30">
+                        <div class="process-card-simple">
+                            <div class="process-card-number">04</div>
+                            <div class="process-card-icon">
+                                <i class="ri-line-chart-line"></i>
                             </div>
-                            <div class="step-content">
-                                <h3 class="step-title">Track performance</h3>
-                                <p class="step-description">Use dashboards and reports to monitor returns, risk and pipeline – and adjust strategy
-                                    quickly.</p>
+                            <h3 class="process-card-title">Track performance</h3>
+                            <p class="process-card-desc">Use dashboards and reports to monitor returns, risk and pipeline – and adjust strategy
+                                quickly.</p>
                             </div>
                             </div>
                     </div>
-                </div>
+
             </div>
-            </div>
+        </div>
         <!--PROCESS SECTION END-->
 
-        <!-- CONTENT START -->
-        <div class="page-content">
-            <!-- Contact Form SECTION START -->
-            <div class="section-full p-t150 p-b120 site-bg-white twm-contact-section-wrap" id="contact-us">
-
-                <div class="container">
-
-                    <div class="section-content">
-                        <div class="twm-contact-section">
-                            <div class="row">
-
-                                <div class="col-xl-7 col-lg-6 col-md-12">
-                                    <div class="twm-maskingtext m-b50">
-                                        <h1>Get In Touch</h1>
-                                        <img src="images/text-masking-pic.jpg" alt="Image">
-                                    </div>
-                                    <div class="twm-get-info-wrap">
-
-                                        <ul>
-
-                                            <li>
-                                                <div class="twm-get-info">
-                                                    <div class="twm-media">
-                                                        <i class="ri-phone-line"></i>
-                                                    </div>
-                                                    <div class="twm-content">
-                                                        <p>Phone</p>
-                                                        <h3 class="twm-title"><a href="tel:+923162126865">+92 316 212
-                                                                6865</a>
-                                                        </h3>
-                                                    </div>
-                                                </div>
-                                            </li>
-
-                                            <li>
-                                                <div class="twm-get-info">
-                                                    <div class="twm-media">
-                                                        <i class="ri-mail-line"></i>
-                                                    </div>
-                                                    <div class="twm-content">
-                                                        <p>Email</p>
-                                                        <h3 class="twm-title"><a href="mailto:info@motonova.com">info@motonova.com</a>
-                                                        </h3>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-
-                                        <div class="twm-social">
-                                            <h3 class="twm-title">Follow Us</h3>
-                                            <ul>
-                                                <li><a href="https://www.x.com/"><i class="ri-twitter-x-line"></i></a>
-                                                </li>
-                                                <li><a href="https://www.facebook.com/"><i class="ri-facebook-fill"></i></a>
-                                                </li>
-                                                <li><a href="https://www.instagram.com/"><i class="ri-instagram-line"></i></a>
-                                                </li>
-                                                <li><a href="https://www.pinterest.com/"><i class="ri-pinterest-fill"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-xl-5 col-lg-6 col-md-12">
-                                    <div class="twm-contact-page-detail">
-                                        <!-- TITLE START-->
-                                        <div class="section-head left ">
-                                            <h2 class="twm-large-title">Contact Form</h2>
-                                            <p class="p-text">Enter your details. And you can feel free to contact
-                                                us for any kind of information.
-                                            </p>
-                                        </div>
-                                        <!-- TITLE END-->
-
-                                        <div class="twm-contact-page-form">
-
-                                            <div class="contact-form-outer">
-                                                <form class="cons-contact-form" id="contactForm">
-
-                                                    <div class="row">
-
-                                                        <div class="col-lg-6 col-md-6">
-                                                            <div class="form-group mb-4">
-                                                                <input name="business_name" id="businessName" type="text" required="" class="form-control" placeholder="Business Name">
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-lg-6 col-md-6">
-                                                            <div class="form-group mb-4">
-                                                                <input name="business_type" id="businessType" type="text" required="" class="form-control" placeholder="Business Type">
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-lg-12 col-md-6">
-                                                            <div class="form-group mb-4">
-                                                                <input name="full_name" id="fullName" type="text" required="" class="form-control" placeholder="Full Name">
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-lg-12 col-md-12">
-                                                            <div class="form-group mb-4">
-                                                                <input name="business_email" id="businessEmail" type="email" class="form-control" required=""
-                                                                    placeholder="Business Email">
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-lg-12 col-md-12">
-                                                            <div class="form-group mb-4">
-                                                                <input name="phone_whatsapp" id="phoneWhatsapp" type="text" class="form-control" required=""
-                                                                    placeholder="Phone / Whatsapp">
-                                                            </div>
-                                                        </div>
-
-
-                                                        <div class="col-lg-12">
-                                                            <div class="form-group mb-5">
-                                                                <textarea name="message" id="message" class="form-control" rows="3"
-                                                                    placeholder="Message"></textarea>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-md-12">
-                                                            <button type="submit" class="site-button dark-bg"><em>Submit
-                                                                    Now</em></button>
-                                                        </div>
-
-                                                    </div>
-
-                                                </form>
-                                            </div>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-            <!-- Contact Form SECTION END -->
-            <!-- NETWORK FIRMS SECTION START -->
-            <div class="section-full p-t120 p-b120 twm-network-firms-section wow fadeInDown" data-wow-offset="100"
-                data-wow-delay="0.2">
-                <div class="container">
-                    <!-- TITLE START -->
-                    <div class="section-head center m-b60">
-                        <h2 class="twm-large-title site-text-dark">
-                            <em class="site-text-primary" style="font-style: italic;">Explore Our</em> Network Firms
-                        </h2>
-                    </div>
-                    <!-- TITLE END -->
-                    <div class="network-firms-grid">
-                        <!-- Row 1: 3 items -->
-                        <div class="network-firms-row">
-                            <!-- Firm 1: Accounting Bookkeepers -->
-                            <div class="network-firm-card">
-                                <div class="firm-card-decor top-right blue"></div>
-                                <div class="firm-card-decor bottom-left orange"></div>
-                                <div class="firm-card-inner">
-                                    <div class="firm-logo">
-                                        <img src="{{ asset('images/partners/ab-black.png') }}" alt="Accounting Bookkeepers">
-                                    </div>
-                                    <div class="firm-hover-content">
-                                        <div class="firm-logo-white mb-3">
-                                            <img src="{{ asset('images/partners/ab-white.png') }}" alt="Accounting Bookkeepers">
-                                        </div>
-                                        <h4>Accounting Bookkeepers</h4>
-                                        <p>Professional bookkeeping and accounting services to keep your finances
-                                            organized and
-                                            compliant.</p>
-                                        </div>
-                                        </div>
-                                        </div>
-
-                            <!-- Firm 2: KORE Consulting -->
-                            <div class="network-firm-card">
-                                <div class="firm-card-decor top-right yellow"></div>
-                                <div class="firm-card-decor bottom-left blue"></div>
-                                <div class="firm-card-inner">
-                                    <div class="firm-logo">
-                                        <img src="{{ asset('images/partners/kc-black.png') }}" alt="KORE Consulting">
-                                    </div>
-                                    <div class="firm-hover-content">
-                                        <div class="firm-logo-white mb-3">
-                                            <img src="{{ asset('images/partners/kc-white.png') }}" alt="KORE Consulting">
-                                        </div>
-                                        <h4>KORE Consulting</h4>
-                                        <p>Trusted Tax & Compliance Experts providing specialized solutions in the UK,
-                                            offering
-                                            strategic insights and expert guidance.</p>
-                                        </div>
-                                        </div>
-                                        </div>
-
-                            <!-- Firm 3: CINERGIZ (Using filter for black since only white exists) -->
-                            <div class="network-firm-card">
-                                <div class="firm-card-decor top-right teal"></div>
-                                <div class="firm-card-decor bottom-left orange"></div>
-                                <div class="firm-card-inner">
-                                    <div class="firm-logo">
-                                        <img src="{{ asset('images/partners/cin-white.png') }}" style="filter: brightness(0);" alt="CINERGIZ">
-                                        </div>
-                                        <div class="firm-hover-content">
-                                            <div class="firm-logo-white mb-3">
-                                                <img src="{{ asset('images/partners/cin-white.png') }}" alt="CINERGIZ">
-                                            </div>
-                                            <h4>CINERGIZ</h4>
-                                        <p>Innovative technology solutions driving digital transformation and business
-                                            growth.</p>
-                                        </div>
-                                        </div>
-                                        </div>
-                                        </div>
-
-                        <!-- Row 2: 2 items centered -->
-                        <div class="network-firms-row centered">
-                            <!-- Firm 4: IDEOFUZION -->
-                            <div class="network-firm-card">
-                                <div class="firm-card-decor top-right orange"></div>
-                                <div class="firm-card-decor bottom-left teal"></div>
-                                <div class="firm-card-inner">
-                                    <div class="firm-logo">
-                                        <img src="{{ asset('images/partners/fuzion-black.svg') }}" alt="IDEOFUZION">
-                                    </div>
-                                    <div class="firm-hover-content">
-                                        <div class="firm-logo-white mb-3">
-                                            <img src="{{ asset('images/partners/fuzion-white.svg') }}" alt="IDEOFUZION">
-                                        </div>
-                                        <h4>IDEOFUZION</h4>
-                                        <p>Creative solutions and innovative ideas to help your business stand out in
-                                            the market.
-                                        </p>
-                                        </div>
-                                        </div>
-                                        </div>
-
-                            <!-- Firm 5: FREEDOMTECH Solutions -->
-                            <div class="network-firm-card">
-                                <div class="firm-card-decor top-right red"></div>
-                                <div class="firm-card-decor bottom-left blue"></div>
-                                <div class="firm-card-inner">
-                                    <div class="firm-logo">
-                                        <img src="{{ asset('images/partners/ft-black.png') }}" alt="FREEDOMTECH Solutions">
-                                    </div>
-                                    <div class="firm-hover-content">
-                                        <div class="firm-logo-white mb-3">
-                                            <img src="{{ asset('images/partners/ft-white.png') }}" alt="FREEDOMTECH Solutions">
-                                        </div>
-                                        <h4>FREEDOMTECH Solutions</h4>
-                                        <p>Cutting-edge technology solutions empowering businesses with freedom and
-                                            flexibility.</p>
-                                        </div>
-                                        </div>
-                                        </div>
-                                        </div>
-                                        </div>
-                                        </div>
-                                        </div>
-                                        <!-- NETWORK FIRMS SECTION END -->
-
-            <div class="gmap-outline">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.9994291747207!2d67.0730942!3d24.8980011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33edfa3ffffff%3A0xaea4e8ed32c50ba5!2sAzad%20Trade%20Center!5e0!3m2!1sen!2s!4v1769611159765!5m2!1sen!2s"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-
-
-        </div>
-        <!-- CONTENT END -->
-
         <!--TESTIMONIAL SECTION START-->
-        <div class="section-full p-t150 p-b150 site-bg-white twm-testimonial-section-wrap wow fadeInDown" data-wow-offset="100"
+        <div class="section-full p-t150 p-b150 site-bg-dark twm-testimonial-section-wrap wow fadeInDown"
+            style="background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0f0f0f 100%) !important;" data-wow-offset="100"
             data-wow-delay="0.2">
             <div class="container">
                 <div class="row">
@@ -1429,7 +1039,6 @@
                                                         <span><i class="ri-star-fill"></i>
                                     </div>
                                 </div>
-
                                 <div class="twm-quote-icon">
                                     <img src="images/testimonial/quote.png" alt="#" />
                                 </div>
@@ -1600,10 +1209,503 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <!--TESTIMONIAL SECTION END-->
+<div class="section-full p-t150 p-b120 site-bg-white twm-faq-section-wrap">
+    <div class="container">
+
+        <div class="section-content">
+
+            <div class="row twm-faq-section-1 m-b30">
+                <div class="col-lg-4 col-md-12 m-b30  wow fadeInDown" data-wow-delay="0.2" style="visibility: visible;">
+                    <div class="video-section-outer">
+                        <div class="video-section">
+                            <img src="images/faq-pic1.jpg" alt="Video Bg Image">
                         </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12  wow fadeInDown" data-wow-delay="0.2" style="visibility: visible;">
+                    <div class="twm-faq-info-wrap">
+                        <!-- TITLE START-->
+                        <div class="section-head left">
+                            <h2 class="twm-large-title site-text-dark">General Questions</h2>
                         </div>
+                        <!-- TITLE END-->
+
+                        <div class="twm-faq-info">
+                            <div class="accordion twm-acdn" id="sf-faq-accordion">
+                                <!--One-->
+                                <div class="accordion-item">
+
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#FAQ1" aria-expanded="true">
+                                        What is MotoNova?
+                                    </button>
+
+                                    <div id="FAQ1" class="accordion-collapse collapse show"
+                                        data-bs-parent="#sf-faq-accordion" style="">
+                                        <div class="accordion-body">
+                                            MotoNova is a comprehensive automotive dealer management system designed
+                                            specifically for car dealerships and investors. It provides tools for
+                                            inventory management, investor portals, sales pipelines, SOR (Sale or
+                                            Return)
+                                            tracking, financial reporting, and complete business analytics—all in one
+                                            unified platform.
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!--Two-->
+                                <div class="accordion-item">
+
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#FAQ2" aria-expanded="false">
+                                        Who can use MotoNova?
+                                    </button>
+
+                                    <div id="FAQ2" class="accordion-collapse collapse "
+                                        data-bs-parent="#sf-faq-accordion">
+                                        <div class="accordion-body">
+                                            MotoNova is perfect for car dealerships, automotive traders, car investors,
+                                            and fleet managers. Whether you're managing a small independent lot or a
+                                            multi-location dealership, our flexible plans scale to meet your needs from
+                                            Basic investor access to full Enterprise solutions.
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!--Three-->
+                                <div class="accordion-item">
+
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#FAQ3" aria-expanded="false">
+                                        How long does it take to set up?
+                                    </button>
+
+                                    <div id="FAQ3" class="accordion-collapse collapse"
+                                        data-bs-parent="#sf-faq-accordion">
+                                        <div class="accordion-body">
+                                            Getting started with MotoNova is quick and easy. Most dealerships are fully
+                                            operational within 1-2 business days. Our onboarding team will help you
+                                            import your existing inventory data, configure your preferences, and train
+                                            your staff to use the platform efficiently.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Four-->
+                                <div class="accordion-item">
+
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#FAQ4" aria-expanded="false">
+                                        Is my data secure with MotoNova?
+                                    </button>
+
+                                    <div id="FAQ4" class="accordion-collapse collapse"
+                                        data-bs-parent="#sf-faq-accordion">
+                                        <div class="accordion-body">
+                                            Absolutely. We use industry-standard encryption and security protocols to
+                                            protect your business data. All data is backed up regularly, and we maintain
+                                            strict access controls. Your financial and customer information is safe
+                                            with enterprise-grade security measures.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Five-->
+                                <div class="accordion-item">
+
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#FAQ5" aria-expanded="false">
+                                        Can I access MotoNova on mobile devices?
+                                    </button>
+
+                                    <div id="FAQ5" class="accordion-collapse collapse"
+                                        data-bs-parent="#sf-faq-accordion" style="">
+                                        <div class="accordion-body">
+                                            Yes! MotoNova is fully responsive and works seamlessly on smartphones,
+                                            tablets, and desktop computers. Manage your inventory, check reports, and
+                                            track deals from anywhere—whether you're at the lot, in a meeting, or on
+                                            the go.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Six-->
+                                <div class="accordion-item">
+
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#FAQ6" aria-expanded="false">
+                                        Do you offer customer support?
+                                    </button>
+
+                                    <div id="FAQ6" class="accordion-collapse collapse"
+                                        data-bs-parent="#sf-faq-accordion">
+                                        <div class="accordion-body">
+                                            Yes, we provide dedicated customer support to all our clients. Standard
+                                            and Enterprise plans include priority support with faster response times.
+                                            Our team is available via phone, email, and WhatsApp to help you with any
+                                            questions or issues.
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row twm-faq-section-2 m-b30">
+                <div class="col-lg-8 col-md-12  m-b30 wow fadeInDown" data-wow-delay="0.2"
+                    style="visibility: visible; animation-name: fadeInDown;">
+                    <div class="twm-faq-info-wrap">
+                        <!-- TITLE START-->
+                        <div class="section-head left">
+                            <h2 class="twm-large-title site-text-dark">Pricing & Plans</h2>
                         </div>
-                        <!--TESTIMONIAL SECTION END-->
+                        <!-- TITLE END-->
+
+                        <div class="twm-faq-info">
+                            <div class="accordion twm-acdn" id="sf-faq-accordion-2">
+                                <!--One-->
+                                <div class="accordion-item">
+
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#FAQ1-1" aria-expanded="true">
+                                        What pricing plans do you offer?
+                                    </button>
+
+                                    <div id="FAQ1-1" class="accordion-collapse collapse show"
+                                        data-bs-parent="#sf-faq-accordion-2">
+                                        <div class="accordion-body">
+                                            We offer three flexible plans: <strong>Basic</strong> (ideal for investors
+                                            with
+                                            portal access and basic dashboards), <strong>Standard</strong> (includes SOR
+                                            management, sales pipeline, and advanced reports), and
+                                            <strong>Enterprise</strong>
+                                            (full-featured with accounts module, multi-user access, and priority
+                                            support).
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!--Two-->
+                                <div class="accordion-item">
+
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#FAQ2-2" aria-expanded="false">
+                                        What payment methods do you accept?
+                                    </button>
+
+                                    <div id="FAQ2-2" class="accordion-collapse collapse "
+                                        data-bs-parent="#sf-faq-accordion-2">
+                                        <div class="accordion-body">
+                                            We accept bank transfers, credit/debit cards, and online payment
+                                            gateways. For Enterprise clients, we also offer invoicing with flexible
+                                            payment terms. Contact our sales team for custom billing arrangements.
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!--Three-->
+                                <div class="accordion-item">
+
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#FAQ3-3" aria-expanded="false">
+                                        Is there a free trial available?
+                                    </button>
+
+                                    <div id="FAQ3-3" class="accordion-collapse collapse"
+                                        data-bs-parent="#sf-faq-accordion-2">
+                                        <div class="accordion-body">
+                                            Yes! We offer a 14-day free trial so you can explore all features
+                                            before committing. No credit card required to start. Simply fill out
+                                            the contact form and our team will set up your trial account.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Four-->
+                                <div class="accordion-item">
+
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#FAQ4-4" aria-expanded="false">
+                                        Can I upgrade or downgrade my plan?
+                                    </button>
+
+                                    <div id="FAQ4-4" class="accordion-collapse collapse"
+                                        data-bs-parent="#sf-faq-accordion-2">
+                                        <div class="accordion-body">
+                                            Absolutely! You can upgrade your plan at any time to access more features.
+                                            Downgrades take effect at the end of your current billing cycle. Your
+                                            data is always preserved regardless of plan changes.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Five-->
+                                <div class="accordion-item">
+
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#FAQ5-5" aria-expanded="false">
+                                        Are there any setup fees?
+                                    </button>
+
+                                    <div id="FAQ5-5" class="accordion-collapse collapse"
+                                        data-bs-parent="#sf-faq-accordion-2">
+                                        <div class="accordion-body">
+                                            No hidden fees! Basic and Standard plans have no setup costs. Enterprise
+                                            plans include complimentary onboarding and data migration services. All
+                                            pricing is transparent with no surprises.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Six-->
+                                <div class="accordion-item">
+
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#FAQ6-6" aria-expanded="false">
+                                        What's your refund policy?
+                                    </button>
+
+                                    <div id="FAQ6-6" class="accordion-collapse collapse"
+                                        data-bs-parent="#sf-faq-accordion-2">
+                                        <div class="accordion-body">
+                                            We offer a 30-day money-back guarantee for new subscriptions. If you're
+                                            not satisfied with MotoNova within the first 30 days, contact us for a
+                                            full refund—no questions asked.
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-12  wow fadeInDown" data-wow-delay="0.2"
+                    style="visibility: visible; animation-name: fadeInDown;">
+                    <div class="video-section-outer">
+                        <div class="video-section">
+                            <img src="images/faq-pic2.jpg" alt="Video Bg Image">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- NETWORK FIRMS SECTION START -->
+<div class="section-full p-t120 p-b120 twm-network-firms-section wow fadeInDown" data-wow-offset="100"
+    data-wow-delay="0.2">
+    <div class="container">
+        <!-- TITLE START -->
+        <div class="section-head center m-b60">
+            <div class="twm-sm-title left">Our Partners</div>
+            <h2 class="twm-large-title site-text-dark">
+                <em class="site-text-primary" style="font-weight:lighter !important;">Powered by</em> Trusted
+                Collaborations
+            </h2>
+        </div>
+        <div class="network-firms-row">
+            <!-- Firm 1: FH Co (Accounting) -->
+            <div class="network-firm-card card-theme-blue">
+                <div class="firm-badge">Accounting Partner</div>
+                <div class="firm-card-inner">
+                    <div class="firm-logo">
+                        <img src="{{ asset('images/partners/ab-black.png') }}" alt="Account bookkeepers">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Firm 2: Fossphorus (Developer) -->
+            <div class="network-firm-card card-theme-red">
+                <div class="firm-badge">Developed By</div>
+                <div class="firm-card-inner">
+                    <div class="firm-logo">
+                        <img src="{{ asset('images/partners/fp-black.png') }}" alt="Fossphorus">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Firm 3: Kore Consulting (Tax) -->
+            <div class="network-firm-card card-theme-yellow">
+                <div class="firm-badge">Tax Partner</div>
+                <div class="firm-card-inner">
+                    <div class="firm-logo">
+                        <img src="{{ asset('images/partners/kc-black.png') }}" alt="Kore Consulting">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- NETWORK FIRMS SECTION END -->
+
+<!-- Contact Form SECTION START -->
+<div class="section-full p-t150 p-b120 site-bg-white twm-contact-section-wrap" id="contact-us">
+
+    <div class="container">
+
+        <div class="section-content">
+            <div class="twm-contact-section">
+                <div class="row">
+
+                    <div class="col-xl-7 col-lg-6 col-md-12">
+                        <div class="twm-maskingtext m-b50">
+                            <h1>Get In Touch</h1>
+                            <img src="images/text-masking-pic.jpg" alt="Image">
+                        </div>
+                        <div class="twm-get-info-wrap">
+
+                            <ul>
+
+                                <li>
+                                    <div class="twm-get-info">
+                                        <div class="twm-media">
+                                            <i class="ri-phone-line"></i>
+                                        </div>
+                                        <div class="twm-content">
+                                            <p>Phone</p>
+                                            <h3 class="twm-title"><a href="tel:+923162126865">+92 316 212
+                                                    6865</a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="twm-get-info">
+                                        <div class="twm-media">
+                                            <i class="ri-mail-line"></i>
+                                        </div>
+                                        <div class="twm-content">
+                                            <p>Email</p>
+                                            <h3 class="twm-title"><a
+                                                    href="mailto:info@motonova.com">info@motonova.com</a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="twm-social">
+                                <h3 class="twm-title">Follow Us</h3>
+                                <ul>
+                                    <li><a href="https://www.x.com/"><i class="ri-twitter-x-line"></i></a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/"><i class="ri-facebook-fill"></i></a>
+                                    </li>
+                                    <li><a href="https://www.instagram.com/"><i class="ri-instagram-line"></i></a>
+                                    </li>
+                                    <li><a href="https://www.pinterest.com/"><i class="ri-pinterest-fill"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-5 col-lg-6 col-md-12">
+                        <div class="twm-contact-page-detail">
+                            <!-- TITLE START-->
+                            <div class="section-head left ">
+                                <h2 class="twm-large-title">Contact Form</h2>
+                                <p class="p-text">Enter your details. And you can feel free to contact
+                                    us for any kind of information.
+                                </p>
+                            </div>
+                            <!-- TITLE END-->
+
+                            <div class="twm-contact-page-form">
+
+                                <div class="contact-form-outer">
+                                    <form class="cons-contact-form" id="contactForm">
+
+                                        <div class="row">
+
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="form-group mb-4">
+                                                    <input name="business_name" id="businessName" type="text"
+                                                        required="" class="form-control" placeholder="Business Name">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="form-group mb-4">
+                                                    <input name="business_type" id="businessType" type="text"
+                                                        required="" class="form-control" placeholder="Business Type">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-12 col-md-6">
+                                                <div class="form-group mb-4">
+                                                    <input name="full_name" id="fullName" type="text" required=""
+                                                        class="form-control" placeholder="Full Name">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-12 col-md-12">
+                                                <div class="form-group mb-4">
+                                                    <input name="business_email" id="businessEmail" type="email"
+                                                        class="form-control" required="" placeholder="Business Email">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-12 col-md-12">
+                                                <div class="form-group mb-4">
+                                                    <input name="phone_whatsapp" id="phoneWhatsapp" type="text"
+                                                        class="form-control" required="" placeholder="Phone / Whatsapp">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-12">
+                                                <div class="form-group mb-4">
+                                                    <textarea name="message" id="message" class="form-control" rows="3"
+                                                        placeholder="Message"></textarea>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-12">
+                                                <button type="submit" class="site-button dark-bg"><em>Submit
+                                                        Now</em></button>
+                                            </div>
+
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!-- Contact Form SECTION END -->
+
     </main>
 </x-layout>

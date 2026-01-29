@@ -62,7 +62,7 @@
     <!-- SWIPER Slider -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.min.css" />
     <!-- DATETIMEPICKER STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css?v=2.2" />
     <!-- MAIN STYLE SHEET -->
     <link rel="stylesheet" type="text/css" href="css/product-tour.css" />
     <!-- PRODUCT TOUR SECTION -->
@@ -184,7 +184,8 @@
                                                     <a href="/#how-it-works" class="nav-link" data-section="how-it-works">How It Works</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/#about-us" class="nav-link" data-section="about-us">About Us</a>
+                                                    <a href="/#about-us" class="nav-link" data-section="about-us">About
+                                                        Us</a>
                                                 </li>
 
                                             </ul>
@@ -237,7 +238,7 @@
                                     </a>
                                 </div>
                             </div>
-                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="twm-bnr-lg-text">
@@ -336,7 +337,7 @@
                                     </div>
                                 </div>
 
-                                    <div class="twm-subscribe-nl">
+                                <div class="twm-subscribe-nl">
                                     <div class="twm-nl-title">
                                         Subscribe To Our Newsletter Today!
                                     </div>
@@ -445,7 +446,7 @@
             const scrollToTopBtn = $('#scrollToTop');
 
             // Show/hide button based on scroll position
-                        $(window).scroll(function () {
+                $(window).scroll(function () {
                 if ($(this).scrollTop() > 300) {
                     scrollToTopBtn.addClass('show');
                 } else {
@@ -454,7 +455,7 @@
             });
 
             // Smooth scroll to top on click
-                        scrollToTopBtn.on('click', function (e) {
+                scrollToTopBtn.on('click', function (e) {
                 e.preventDefault();
                 $('html, body').animate({
                     scrollTop: 0
@@ -463,174 +464,174 @@
 
 
 
-                        // ScrollSpy and Smooth Scroll
-                        function scrollSpy() {
-                            var scrollPos = $(document).scrollTop();
-                            var navLinks = $('.nav-link');
-                            var topOffset = 100;
+                // ScrollSpy and Smooth Scroll
+                function scrollSpy() {
+                    var scrollPos = $(document).scrollTop();
+                    var navLinks = $('.nav-link');
+                    var topOffset = 100;
 
-                            navLinks.each(function () {
-                                var currLink = $(this);
+                navLinks.each(function () {
+                    var currLink = $(this);
 
-                                var href = currLink.attr('href');
-                                if (href.includes('#')) {
-                                    var targetId = href.split('#')[1];
-                                    var refElement = $('#' + targetId);
+                    var href = currLink.attr('href');
+                    if (href.includes('#')) {
+                        var targetId = href.split('#')[1];
+                        var refElement = $('#' + targetId);
 
-                                    if (refElement.length) {
-                                        if (refElement.offset().top - topOffset <= scrollPos && refElement.offset().top + refElement.height() > scrollPos) {
-                                            $('.nav li').removeClass('active');
-                                            currLink.parent('li').addClass('active');
-                                        }
-                                        else {
-                                            currLink.parent('li').removeClass('active');
-                                        }
-                                    }
-                                }
-                            });
+                        if (refElement.length) {
+                            if (refElement.offset().top - topOffset <= scrollPos && refElement.offset().top + refElement.height() > scrollPos) {
+                                $('.nav li').removeClass('active');
+                                currLink.parent('li').addClass('active');
+                            }
+                            else {
+                                currLink.parent('li').removeClass('active');
+                            }
                         }
+                    }
+                });
+            }
 
-                        // Bind scroll event
-                        $(window).scroll(function () {
-                            scrollSpy();
-                            console.log('scrollSpy');
-                        });
+                // Bind scroll event
+                $(window).scroll(function () {
+                    scrollSpy();
+                    console.log('scrollSpy');
+                });
 
-                        // Smooth Scroll on Click
-                        $('.nav-link').on('click', function (e) {
-                            var targetHref = $(this).attr('href');
-                            if (targetHref.includes('#')) {
-                                var targetId = targetHref.split('#')[1];
-                                var target = $('#' + targetId);
+                // Smooth Scroll on Click
+                $('.nav-link').on('click', function (e) {
+                    var targetHref = $(this).attr('href');
+                    if (targetHref.includes('#')) {
+                        var targetId = targetHref.split('#')[1];
+                        var target = $('#' + targetId);
 
-                                if (target.length) {
-                                    e.preventDefault();
+                    if (target.length) {
+                        e.preventDefault();
 
-                                    // Update Active Class immediately
-                                    $('.nav li').removeClass('active');
-                                    $(this).parent('li').addClass('active');
+                        // Update Active Class immediately
+                        $('.nav li').removeClass('active');
+                        $(this).parent('li').addClass('active');
 
-                                    $('html, body').animate({
-                                        scrollTop: target.offset().top - 80
-                                    }, 800, 'swing', function () {
-                                        // Optional: Update hash without jumping
-                                        if (history.pushState) {
-                                            history.pushState(null, null, '#' + targetId);
-                                        } else {
-                                            window.location.hash = targetId;
-                                        }
-                                    });
+                        $('html, body').animate({
+                            scrollTop: target.offset().top - 80
+                        }, 800, 'swing', function () {
+                            // Optional: Update hash without jumping
+                            if (history.pushState) {
+                                history.pushState(null, null, '#' + targetId);
+                            } else {
+                                window.location.hash = targetId;
+                            }
+                                });
+                    }
+                    }
+            });
+
+                // Initial call to set active state on load
+                scrollSpy();
+
+                // Product Tour - Swiper Initialization
+                if ($('.product-tour-swiper').length) {
+                    const productTourSwiper = new Swiper('.product-tour-swiper', {
+                        slidesPerView: 1,
+                        spaceBetween: 30,
+                        loop: false,
+                        speed: 600,
+                        effect: 'slide',
+                        grabCursor: true,
+                        navigation: {
+                            nextEl: '.product-tour-next',
+                            prevEl: '.product-tour-prev',
+                        },
+                        pagination: {
+                            el: '.product-tour-swiper .swiper-pagination',
+                            clickable: true,
+                        },
+                        breakpoints: {
+                            768: {
+                                slidesPerView: 1,
+                            },
+                            1200: {
+                                slidesPerView: 1,
+                            }
+                        },
+                        on: {
+                            slideChange: function () {
+                                // Reset thumbnails to first item when slide changes
+                                const activeSlide = this.slides[this.activeIndex];
+                                if (activeSlide) {
+                                    const slideContent = $(activeSlide).find('.tour-slide-content');
+                                    resetSlideToFirstThumb(slideContent);
                                 }
                             }
-                        });
+                        }
+                    });
 
-                        // Initial call to set active state on load
-                        scrollSpy();
+                // Function to reset slide to first thumbnail
+                function resetSlideToFirstThumb($slideContent) {
+                    // Reset thumbnails
+                    $slideContent.find('.tour-thumb-item').removeClass('active');
+                    $slideContent.find('.tour-thumb-item[data-thumb="1"]').addClass('active');
 
-                            // Product Tour - Swiper Initialization
-                            if ($('.product-tour-swiper').length) {
-                                const productTourSwiper = new Swiper('.product-tour-swiper', {
-                                    slidesPerView: 1,
-                                    spaceBetween: 30,
-                                    loop: false,
-                                    speed: 600,
-                                    effect: 'slide',
-                                    grabCursor: true,
-                                    navigation: {
-                                        nextEl: '.product-tour-next',
-                                        prevEl: '.product-tour-prev',
-                                    },
-                                    pagination: {
-                                        el: '.product-tour-swiper .swiper-pagination',
-                                        clickable: true,
-                                    },
-                                    breakpoints: {
-                                        768: {
-                                            slidesPerView: 1,
-                                        },
-                                        1200: {
-                                            slidesPerView: 1,
-                                        }
-                                    },
-                                    on: {
-                                        slideChange: function () {
-                                            // Reset thumbnails to first item when slide changes
-                                            const activeSlide = this.slides[this.activeIndex];
-                                            if (activeSlide) {
-                                                const slideContent = $(activeSlide).find('.tour-slide-content');
-                                                resetSlideToFirstThumb(slideContent);
-                                            }
-                                        }
-                                    }
-                                });
+                    // Reset preview images
+                    $slideContent.find('.tour-preview-image').removeClass('active');
+                    $slideContent.find('.tour-preview-image[data-thumb="1"]').addClass('active');
 
-                                // Function to reset slide to first thumbnail
-                                function resetSlideToFirstThumb($slideContent) {
-                                    // Reset thumbnails
-                                    $slideContent.find('.tour-thumb-item').removeClass('active');
-                                    $slideContent.find('.tour-thumb-item[data-thumb="1"]').addClass('active');
+                    // Reset titles
+                    $slideContent.find('.tour-dynamic-title span').removeClass('active');
+                    $slideContent.find('.tour-dynamic-title span[data-thumb="1"]').addClass('active');
 
-                                    // Reset preview images
-                                    $slideContent.find('.tour-preview-image').removeClass('active');
-                                    $slideContent.find('.tour-preview-image[data-thumb="1"]').addClass('active');
+                    // Reset descriptions
+                    $slideContent.find('.tour-dynamic-description p').removeClass('active');
+                    $slideContent.find('.tour-dynamic-description p[data-thumb="1"]').addClass('active');
+                }
 
-                                    // Reset titles
-                                    $slideContent.find('.tour-dynamic-title span').removeClass('active');
-                                    $slideContent.find('.tour-dynamic-title span[data-thumb="1"]').addClass('active');
+                // Thumbnail Click Handler
+                $(document).on('click', '.tour-thumb-item', function () {
+                    const $this = $(this);
+                    const thumbId = $this.data('thumb');
+                    const $slideContent = $this.closest('.tour-slide-content');
 
-                                    // Reset descriptions
-                                    $slideContent.find('.tour-dynamic-description p').removeClass('active');
-                                    $slideContent.find('.tour-dynamic-description p[data-thumb="1"]').addClass('active');
-                                }
+                    // Update active thumbnail
+                    $slideContent.find('.tour-thumb-item').removeClass('active');
+                    $this.addClass('active');
 
-                                // Thumbnail Click Handler
-                                $(document).on('click', '.tour-thumb-item', function () {
-                                    const $this = $(this);
-                                    const thumbId = $this.data('thumb');
-                                    const $slideContent = $this.closest('.tour-slide-content');
+                    // Update preview image
+                    $slideContent.find('.tour-preview-image').removeClass('active');
+                    $slideContent.find('.tour-preview-image[data-thumb="' + thumbId + '"]').addClass('active');
 
-                                    // Update active thumbnail
-                                    $slideContent.find('.tour-thumb-item').removeClass('active');
-                                    $this.addClass('active');
+                    // Update title
+                    $slideContent.find('.tour-dynamic-title span').removeClass('active');
+                    $slideContent.find('.tour-dynamic-title span[data-thumb="' + thumbId + '"]').addClass('active');
 
-                                    // Update preview image
-                                    $slideContent.find('.tour-preview-image').removeClass('active');
-                                    $slideContent.find('.tour-preview-image[data-thumb="' + thumbId + '"]').addClass('active');
-
-                                    // Update title
-                                    $slideContent.find('.tour-dynamic-title span').removeClass('active');
-                                    $slideContent.find('.tour-dynamic-title span[data-thumb="' + thumbId + '"]').addClass('active');
-
-                                    // Update description
-                                    $slideContent.find('.tour-dynamic-description p').removeClass('active');
-                                    $slideContent.find('.tour-dynamic-description p[data-thumb="' + thumbId + '"]').addClass('active');
-                                });
-                            }
-                        });
+                    // Update description
+                    $slideContent.find('.tour-dynamic-description p').removeClass('active');
+                    $slideContent.find('.tour-dynamic-description p[data-thumb="' + thumbId + '"]').addClass('active');
+                });
+                }
+            });
 
 
 
 
-    // Handle Contact Form Submission
-    $('#contactForm').on('submit', function (e) {
-        e.preventDefault();
-        // Simulate AJAX request
-        // In a real app, you would use $.ajax or fetch here
+                // Handle Contact Form Submission
+                $('#contactForm').on('submit', function (e) {
+                    e.preventDefault();
+                // Simulate AJAX request
+                // In a real app, you would use $.ajax or fetch here
 
-        // Show success message (optional)
-        alert('Thank you! Your message has been sent successfully.');
+                // Show success message (optional)
+                alert('Thank you! Your message has been sent successfully.');
 
-        // Clear inputs
-        $(this).trigger("reset");
+                // Clear inputs
+                $(this).trigger("reset");
             });
 
                 // Handle Newsletter Form Submission
                 $('#newsletterForm').on('submit', function (e) {
                     e.preventDefault();
-                
+
                 // Show success message
                 alert('Thank you for subscribing to our newsletter!');
-                
+
                 // Clear input
                 $(this).find('input').val('');
             });
