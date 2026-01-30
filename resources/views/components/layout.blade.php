@@ -369,8 +369,11 @@
             <div class="footer-bottom">
                 <div class="footer-bottom-info">
                     <div class="footer-copy-right">
-                        <span class="copyrights-text">© 2025<span class="site-text-primary">Moto Nova</span> All rights
+                        <span class="copyrights-text">© 2025 <span class="site-text-primary">Moto Nova</span> All rights
                             reserved.</span>
+                    </div>
+                    <div class="footer-developed-by">
+                        <span>Developed by <a href="https://fossphorus.com" target="_blank" class="site-text-primary">Fossphorus</a></span>
                     </div>
                 </div>
             </div>
