@@ -3560,6 +3560,11 @@ ol li {
     background-size: cover;
     /*______Widget Services______*/
 }
+.footer-dark .logo-footer img {
+    width: 100%;
+    max-width: 200px;
+    padding-top: 40px;
+}
 @media (max-width: 991px) {
     .footer-dark {
         padding-top: 40px;
@@ -3606,8 +3611,6 @@ ol li {
 }
 .footer-dark .logo-footer {
     margin-bottom: 30px;
-    background-color: var(--theme-black);
-    padding: 85px 55px 45px 55px;
     border-radius: 0px 0px 30px 30px;
 }
 @media (max-width: 991px) {
@@ -3771,8 +3774,6 @@ ol li {
 }
 .footer-light .logo-footer {
     margin-bottom: 30px;
-    background-color: var(--theme-white);
-    padding: 85px 55px 45px 55px;
     border-radius: 0px 0px 30px 30px;
 }
 @media (max-width: 991px) {
