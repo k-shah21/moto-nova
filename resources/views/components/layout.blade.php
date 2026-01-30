@@ -219,27 +219,34 @@
                     </div>
                 </div>
                 <div class="container">
-                    <div class="twm-banner-left-content-section">
-                        <div class="twm-banner-left-content">
-                            <div class="twm-sm-title left">The Future of Automotive</div>
-                            <h2 class="twm-banner-title">
-                                <em>One Platform<span class="txt-type" data-wait="3000" data-words='["to Invest", "to Trade", "to Grow"]'></span></em>
-                                <span>Buy</span>Sell & Manage
-                            </h2>
-                            <div class="twm-bnr-discription">
-                                The all-in-one SaaS platform for automotive investors, dealers, and teams.
-                                Manage portfolios, track performance, and close deals faster.
-                            </div>
-                            <!-- SaaS CTA Section -->
-                            <div class="twm-bnr-cta-wrap">
-                                <div class="twm-bnr-buttons">
-                                    <a href="#contact-us" class="site-button-secondry btn-large cta-secondary">
-                                        <em><i class="ri-rocket-line"></i>Request a Demo</em>
-                                    </a>
+                    <div class="twm-banner-content-row">
+                        <div class="twm-banner-left-content-section">
+                            <div class="twm-banner-left-content">
+                                <div class="twm-sm-title left">The Future of Automotive</div>
+                                <h2 class="twm-banner-title">
+                                    <em>One Platform<span class="txt-type" data-wait="3000"
+                                            data-words='["to Invest", "to Trade", "to Grow"]'></span></em>
+                                    <span>Buy</span>Sell & Manage
+                                </h2>
+                                <div class="twm-bnr-discription">
+                                    The all-in-one SaaS platform for automotive investors, dealers, and teams.
+                                    Manage portfolios, track performance, and close deals faster.
+                                </div>
+                                <!-- SaaS CTA Section -->
+                                <div class="twm-bnr-cta-wrap">
+                                    <div class="twm-bnr-buttons">
+                                        <a href="#contact-us" class="site-button-secondry btn-large cta-secondary">
+                                            <em><i class="ri-rocket-line"></i>Request a Demo</em>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                            <!-- Hero Car Image -->
+                            <div class="twm-banner-right-image">
+                                <img src="{{ asset('images/hero-right.png') }}" alt="Luxury Car - Moto Nova Platform">
+                            </div>
+                            </div>
                 </div>
                 <div class="twm-bnr-lg-text">
                     <span>Moto Nova</span>
@@ -277,16 +284,16 @@
                                 <div class="twm-social">
                                     <ul>
                                         <li>
-                                            <a href="/"><i class="ri-twitter-line"></i></a>
+                                            <a href="#" target="_blank"><i class="ri-twitter-line"></i></a>
                                         </li>
                                         <li>
-                                            <a href="/"><i class="ri-facebook-line"></i></a>
+                                            <a href="#" target="_blank"><i class="ri-facebook-line"></i></a>
                                         </li>
                                         <li>
-                                            <a href="/"><i class="ri-global-line"></i></a>
+                                            <a href="#" target="_blank"><i class="ri-global-line"></i></a>
                                         </li>
                                         <li>
-                                            <a href="/"><i class="ri-linkedin-line"></i>
+                                            <a href="#" target="_blank"><i class="ri-linkedin-line"></i>
                                             </a>
                                         </li>
                                     </ul>

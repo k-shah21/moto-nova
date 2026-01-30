@@ -158,16 +158,16 @@
                     </div>
                 </div>
             </div>
-            </div>
-            <!--WHY CHOOSE US SECTION END-->
-            
-            <!--PRODUCT TOUR SECTION START -->
+        </div>
+        <!--WHY CHOOSE US SECTION END-->
+        
+        <!--PRODUCT TOUR SECTION START -->
         <div class="section-full p-t150 p-b150 twm-product-tour-section wow fadeInDown" data-wow-offset="100"
             data-wow-delay="0.2" id="portfolio">
             <div class="container">
                 <!-- TITLE START-->
                 <div class="section-head center text-white m-b80">
-                    <div class="twm-sm-title">Product Tour</div>
+                    <div class="twm-sm-title left">Product Tour</div>
                     <h2 style="color: #fff; font-weight: bolder;">See the Moto Nova portal in action</h2>
                     <p style="color: #fff;">Everything you need to manage vehicles, investors and deals – all in one
                         platform
@@ -275,36 +275,36 @@
                                         </div>
                                     </div>
                                 </div>
-                                </div>
-                                
-                                <!-- Slide 2: Reporting & Analytics -->
-                                <div class="swiper-slide">
-                                    <div class="tour-slide-content" data-category="reporting">
-                                        <!-- Left Preview Image -->
-                                        <div class="tour-preview-container">
-                                            <div class="tour-preview-image active" data-thumb="1">
-                                                <img src="{{ asset('images/portfolio.png') }}" alt="Custom Reports">
-                                                <div class="tour-preview-overlay"></div>
-                                            </div>
-                                            <div class="tour-preview-image" data-thumb="2">
-                                                <img src="{{ asset('images/portfolio.png') }}" alt="Data Export">
-                                                <div class="tour-preview-overlay"></div>
-                                            </div>
-                                            <div class="tour-preview-image" data-thumb="3">
-                                                <img src="{{ asset('images/portfolio.png') }}" alt="Advanced Filters">
-                                                <div class="tour-preview-overlay"></div>
-                                            </div>
-                                            <div class="tour-preview-image" data-thumb="4">
-                                                <img src="{{ asset('images/portfolio.png') }}" alt="Trend Analysis">
-                                                <div class="tour-preview-overlay"></div>
-                                            </div>
+                            </div>
+                            
+                            <!-- Slide 2: Reporting & Analytics -->
+                            <div class="swiper-slide">
+                                <div class="tour-slide-content" data-category="reporting">
+                                    <!-- Left Preview Image -->
+                                    <div class="tour-preview-container">
+                                        <div class="tour-preview-image active" data-thumb="1">
+                                            <img src="{{ asset('images/portfolio.png') }}" alt="Custom Reports">
+                                            <div class="tour-preview-overlay"></div>
                                         </div>
-                                
-                                        <!-- Right Info Panel -->
-                                        <div class="tour-info-panel">
-                                            <div class="tour-main-info">
-                                                <div class="tour-category-badge">
-                                                    <i class="ri-bar-chart-box-line"></i>
+                                        <div class="tour-preview-image" data-thumb="2">
+                                            <img src="{{ asset('images/portfolio.png') }}" alt="Data Export">
+                                            <div class="tour-preview-overlay"></div>
+                                        </div>
+                                        <div class="tour-preview-image" data-thumb="3">
+                                            <img src="{{ asset('images/portfolio.png') }}" alt="Advanced Filters">
+                                            <div class="tour-preview-overlay"></div>
+                                        </div>
+                                        <div class="tour-preview-image" data-thumb="4">
+                                            <img src="{{ asset('images/portfolio.png') }}" alt="Trend Analysis">
+                                            <div class="tour-preview-overlay"></div>
+                                        </div>
+                                    </div>
+                            
+                                    <!-- Right Info Panel -->
+                                    <div class="tour-info-panel">
+                                        <div class="tour-main-info">
+                                            <div class="tour-category-badge">
+                                                <i class="ri-bar-chart-box-line"></i>
                                                 <span>Reporting & Analytics</span>
                                             </div>
                                             <h3 class="tour-dynamic-title">
@@ -373,7 +373,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <!-- Slide 3: Dealer Dashboard -->
                             <div class="swiper-slide">
                                 <div class="tour-slide-content" data-category="dealer">
@@ -396,7 +396,7 @@
                                             <div class="tour-preview-overlay"></div>
                                         </div>
                                     </div>
-                            
+
                                     <!-- Right Info Panel -->
                                     <div class="tour-info-panel">
                                         <div class="tour-main-info">
@@ -470,8 +470,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    </div>
-                                    </div>
+                                </div>
+                                </div>
 
                             <!-- Slide 4: Stock & SOR -->
                             <div class="swiper-slide">
@@ -699,90 +699,93 @@
                 <!-- TITLE END-->
 
                 <div class="section-content">
-                    <div class="row d-flex justify-content-center">
-                        <!-- Basic Plan -->
+                    <div class="row d-flex justify-content-center pricing-cards-row">
+                    
+                        <!-- Starter Plan -->
                         <div class="col-lg-4 col-md-6 m-b30">
-                            <div class="pricing-block">
-                                <div class="pricing-head">
-                                    <div class="pricing-head-content">
-                                        <div class="pricing-head-left">
-                                            <h3 class="plan-name">Starter</h3>
-                                            <div class="price-value">
-                                                <span class="currency">$</span>12<span class="duration">/mo</span>
-                                            </div>
-                                        </div>
-                                        <div class="pricing-head-right">
-                                            <img src="images/need-h-pic.png" alt="decoration" class="pricing-decoration" />
-                                            </div>
-                                            </div>
-                                            </div>
-                                            <div class="pricing-body">
-                                                <ul class="features-list">
-                                                    <li><i class="ri-check-line"></i> Investor portal access</li>
-                                                    <li><i class="ri-check-line"></i> Basic dashboards & reports</li>
-                                                    <li class="disable"><i class="ri-close-line"></i> SOR Management</li>
-                                                    <li class="disable"><i class="ri-close-line"></i> Sales & deal pipeline</li>
-                                                    <li class="disable"><i class="ri-close-line"></i> Accounts module</li>
-                                                </ul>
-                                                <a href="#" class="pricing-cta-btn">Get Started</a>
-                                            </div>
-                                            </div>
-                                            </div>
-
-                        <!-- Standard Plan -->
-                        <div class="col-lg-4 col-md-6 m-b30">
-                            <div class="pricing-block active">
-                                <div class="pricing-head">
-                                    <div class="pricing-head-content">
-                                        <div class="pricing-head-left">
-                                            <h3 class="plan-name">Growth</h3>
-                                            <div class="price-value">
-                                                <span class="currency">$</span>29<span class="duration">/mo</span>
-                                            </div>
-                                        </div>
-                                        <div class="pricing-head-right">
-                                            <img src="images/need-h-pic.png" alt="decoration" class="pricing-decoration">
-                                        </div>
+                            <div class="pricing-card">
+                                <div class="pricing-top-badge">Ideal for individual investors</div>
+                                <div class="pricing-card-content">
+                                    <div class="pricing-header">
+                                        <i class="ri-flashlight-line pricing-icon"></i>
+                                        <h3 class="pricing-plan-name">Starter</h3>
                                     </div>
-                                </div>
-                                <div class="pricing-body">
-                                    <ul class="features-list">
-                                        <li><i class="ri-check-line"></i> Investor & dealer access</li>
-                                        <li><i class="ri-check-line"></i> Admin dashboard & user roles</li>
-                                        <li><i class="ri-check-line"></i> SOR & stock management</li>
-                                        <li><i class="ri-check-line"></i> Sales & offers pipeline</li>
-                                        <li class="disable"><i class="ri-close-line"></i> Advanced accounts module</li>
-                                    </ul>
-                                    <a href="#" class="pricing-cta-btn">Get Started</a>
+                                    <p class="pricing-desc">Essential tools for automotive investing and portfolio tracking.</p>
+                                    <div class="pricing-amount">
+                                        <span class="pricing-currency">$</span>
+                                        <span class="pricing-value">12</span>
+                                        <span class="pricing-duration">/user/mo</span>
+                                    </div>
+                                    <a href="#contact-us" class="pricing-btn">Talk to an expert</a>
+                                    <div class="pricing-features">
+                                        <span class="features-label">Starter includes:</span>
+                                        <ul class="features-list">
+                                            <li><i class="ri-check-line"></i> Investor portal access</li>
+                                            <li><i class="ri-check-line"></i> Basic dashboards & reports</li>
+                                            <li><i class="ri-check-line"></i> Vehicle tracking</li>
+                                            <li><i class="ri-check-line"></i> Email support</li>
+                                            </ul>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </div>
+
+                        <!-- Growth Plan (Featured) -->
+                        <div class="col-lg-4 col-md-6 m-b30">
+                            <div class="pricing-card featured">
+                                <div class="pricing-top-badge">Ideal for growing dealerships</div>
+                                <div class="pricing-card-content">
+                                    <div class="pricing-header">
+                                        <i class="ri-rocket-2-line pricing-icon"></i>
+                                        <h3 class="pricing-plan-name">Growth</h3>
+                                    </div>
+                                    <p class="pricing-desc">Complete SaaS suite for dealers managing stock, sales & investors.</p>
+                                    <div class="pricing-amount">
+                                        <span class="pricing-currency">$</span>
+                                        <span class="pricing-value">29</span>
+                                        <span class="pricing-duration">/user/mo</span>
+                                    </div>
+                                    <a href="#contact-us" class="pricing-btn">Talk to an expert <i class="ri-message-3-line"></i></a>
+                                    <div class="pricing-features">
+                                        <span class="features-label">Everything in Starter, plus:</span>
+                                        <ul class="features-list">
+                                            <li><i class="ri-check-line"></i> Investor & dealer access</li>
+                                            <li><i class="ri-check-line"></i> SOR & stock management</li>
+                                            <li><i class="ri-check-line"></i> Sales & offers pipeline</li>
+                                            <li><i class="ri-check-line"></i> Admin dashboard & roles</li>
+                                            <li><i class="ri-check-line"></i> Priority support</li>
+                                            </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Premium Plan -->
+                        <!-- Enterprise Plan -->
                         <div class="col-lg-4 col-md-6 m-b30">
-                            <div class="pricing-block">
-                                <div class="pricing-head">
-                                    <div class="pricing-head-content">
-                                        <div class="pricing-head-left">
-                                            <h3 class="plan-name">Enterprise</h3>
-                                            <div class="price-value">
-                                                <span class="currency">$</span>79<span class="duration">/mo</span>
-                                            </div>
-                                        </div>
-                                        <div class="pricing-head-right">
-                                            <img src="images/need-h-pic.png" alt="decoration" class="pricing-decoration">
-                                        </div>
+                            <div class="pricing-card">
+                                <div class="pricing-top-badge">Ideal for enterprise companies</div>
+                                <div class="pricing-card-content">
+                                    <div class="pricing-header">
+                                        <i class="ri-building-2-line pricing-icon"></i>
+                                        <h3 class="pricing-plan-name">Enterprise</h3>
                                     </div>
-                                </div>
-                                <div class="pricing-body">
-                                    <ul class="features-list">
-                                        <li><i class="ri-check-line"></i> Full investor, dealer & admin access</li>
-                                        <li><i class="ri-check-line"></i> Advanced SOR, sales & accounts modules</li>
-                                        <li><i class="ri-check-line"></i> Custom reporting & exports</li>
-                                        <li><i class="ri-check-line"></i> Dedicated success manager</li>
-                                        <li><i class="ri-check-line"></i> Priority support & onboarding</li>
-                                    </ul>
-                                    <a href="#" class="pricing-cta-btn">Get Started</a>
+                                    <p class="pricing-desc">Full-featured platform for multi-location dealerships & large teams.</p>
+                                    <div class="pricing-amount">
+                                        <span class="pricing-currency">$</span>
+                                        <span class="pricing-value">79</span>
+                                        <span class="pricing-duration">/user/mo</span>
+                                    </div>
+                                    <a href="#contact-us" class="pricing-btn">Talk to an expert</a>
+                                    <div class="pricing-features">
+                                        <span class="features-label">Everything in Growth, plus:</span>
+                                        <ul class="features-list">
+                                            <li><i class="ri-check-line"></i> Advanced accounts module</li>
+                                            <li><i class="ri-check-line"></i> Custom reporting & exports</li>
+                                            <li><i class="ri-check-line"></i> Dedicated success manager</li>
+                                            <li><i class="ri-check-line"></i> API access & integrations</li>
+                                            <li><i class="ri-check-line"></i> Priority onboarding</li>
+                                            </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -850,7 +853,7 @@
                     </div>
                 </div>
             </div>
-            </div>
+        </div>
         <!--WIDE RANGE SECTION END-->
 
         <!--PLATFORM VALUE SECTION START-->
@@ -918,8 +921,8 @@
                         </div>
                     </div>
                 </div>
-                </div>
-                </div>
+            </div>
+            </div>
         <!--LET'S YOUR ADVENTURE SECTION END-->
 
         <!--PROCESS SECTION START-->
@@ -927,7 +930,7 @@
             <div class="container">
                 <!-- TITLE START-->
                 <div class="section-head center m-b80">
-                    <div class="twm-sm-title">How Moto Nova works</div>
+                    <div class="twm-sm-title left">How Moto Nova works</div>
                     <h2 class="twm-large-title site-text-dark">
                         Launch your automotive portal in four steps<span class="site-text-primary">.</span>
                     </h2>
@@ -962,7 +965,7 @@
                                 opportunity lives in one place.
                             </p>
                         </div>
-                        </div>
+                    </div>
 
                     <!-- Card 3 -->
                     <div class="col-lg-3 col-md-6 col-sm-12 m-b30">
@@ -990,8 +993,8 @@
                                 pipeline – and adjust strategy
                                 quickly.</p>
                         </div>
-                        </div>
-                        </div>
+                    </div>
+                    </div>
 
             </div>
         </div>
@@ -999,7 +1002,6 @@
 
         <!--TESTIMONIAL SECTION START-->
         <div class="section-full p-t150 p-b150 site-bg-dark twm-testimonial-section-wrap wow fadeInDown"
-            style="background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0f0f0f 100%) !important;"
             data-wow-offset="100" data-wow-delay="0.2">
             <div class="container">
                 <div class="row">
@@ -1215,27 +1217,28 @@
                         </div>
                     </div>
                 </div>
-                </div>
-                </div>
-                <!--TESTIMONIAL SECTION END-->
-                <div class="section-full p-t150 p-b120 site-bg-white twm-faq-section-wrap">
-                    <div class="container">
+            </div>
+            </div>
+            <!--TESTIMONIAL SECTION END-->
+            <div class="section-full p-t150 p-b120 site-bg-white twm-faq-section-wrap">
+                <div class="container">
 
                 <div class="section-content">
 
                     <div class="row twm-faq-section-1 m-b30">
                         <div class="col-lg-4 col-md-12 m-b30  wow fadeInDown" data-wow-delay="0.2" style="visibility: visible;">
-                            <div class="video-section-outer">
-                                <div class="video-section">
-                                    <img src="images/faq-pic1.jpg" alt="Video Bg Image">
-                                </div>
+                            <div class="video-section">
+                                <img src="images/faq-mockup.png" alt="Dashboard Mockup">
                             </div>
                         </div>
                         <div class="col-lg-8 col-md-12  wow fadeInDown" data-wow-delay="0.2" style="visibility: visible;">
                             <div class="twm-faq-info-wrap">
                                 <!-- TITLE START-->
-                                <div class="section-head left">
-                                    <h2 class="twm-large-title site-text-dark">General Questions</h2>
+                                <div class="section-head center">
+                                    <div class="twm-sm-title left">FAQ's</div>
+                                    <h2 class="twm-large-title site-text-dark">
+                                        General Questions
+                                    </h2>
                                 </div>
                                 <!-- TITLE END-->
 
@@ -1260,8 +1263,8 @@
                                                     tracking, financial reporting, and complete business analytics—all
                                                     in one
                                                     unified platform.
-                                                    </div>
-                                                    </div>
+                                                </div>
+                                                </div>
 
                                         </div>
 
@@ -1282,8 +1285,8 @@
                                                     multi-location dealership, our flexible plans scale to meet your
                                                     needs from
                                                     Basic investor access to full Enterprise solutions.
-                                                    </div>
-                                                    </div>
+                                                </div>
+                                                </div>
 
                                         </div>
 
@@ -1304,9 +1307,9 @@
                                                     import your existing inventory data, configure your preferences, and
                                                     train
                                                     your staff to use the platform efficiently.
-                                                    </div>
-                                                    </div>
-                                                    </div>
+                                                </div>
+                                                </div>
+                                                </div>
 
                                         <!--Four-->
                                         <div class="accordion-item">
@@ -1325,9 +1328,9 @@
                                                     strict access controls. Your financial and customer information is
                                                     safe
                                                     with enterprise-grade security measures.
-                                                    </div>
-                                                    </div>
-                                                    </div>
+                                                </div>
+                                                </div>
+                                                </div>
 
                                         <!--Five-->
                                         <div class="accordion-item">
@@ -1346,9 +1349,9 @@
                                                     track deals from anywhere—whether you're at the lot, in a meeting,
                                                     or on
                                                     the go.
-                                                    </div>
-                                                    </div>
-                                                    </div>
+                                                </div>
+                                                </div>
+                                                </div>
 
                                         <!--Six-->
                                         <div class="accordion-item">
@@ -1367,19 +1370,19 @@
                                                     Our team is available via phone, email, and WhatsApp to help you
                                                     with any
                                                     questions or issues.
-                                                    </div>
-                                                    </div>
-                                                    </div>
+                                                </div>
+                                                </div>
+                                                </div>
 
 
 
                                     </div>
-                                    </div>
-                                    </div>
-                                    </div>
-                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
 
-                
+
 
                 </div>
 
@@ -1388,13 +1391,13 @@
         </div>
 
         <!-- NETWORK FIRMS SECTION START -->
-        <div class="section-full p-t120 p-b120 twm-network-firms-section wow fadeInDown" data-wow-offset="100"
+        <div class="section-full p-t120 p-b120 site-bg-dark twm-network-firms-section wow fadeInDown" data-wow-offset="100"
             data-wow-delay="0.2">
             <div class="container">
                 <!-- TITLE START -->
                 <div class="section-head center m-b60">
                     <div class="twm-sm-title left">Our Partners</div>
-                    <h2 class="twm-large-title site-text-dark">
+                    <h2 class="twm-large-title site-text-white">
                         <em class="site-text-primary" style="font-weight:lighter !important;">Powered by</em> Trusted
                         Collaborations
                     </h2>
@@ -1405,7 +1408,7 @@
                         <div class="firm-badge">Accounting Partner</div>
                         <div class="firm-card-inner">
                             <div class="firm-logo">
-                                <img src="{{ asset('images/partners/ab-black.png') }}" alt="Account bookkeepers">
+                                <img src="{{ asset('images/partners/ab-white.png') }}" alt="Account bookkeepers">
                             </div>
                         </div>
                     </div>
@@ -1415,7 +1418,7 @@
                         <div class="firm-badge">Developed By</div>
                         <div class="firm-card-inner">
                             <div class="firm-logo">
-                                <img src="{{ asset('images/partners/fp-black.png') }}" alt="Fossphorus">
+                                <img src="{{ asset('images/partners/fp-white.png') }}" alt="Fossphorus">
                             </div>
                         </div>
                     </div>
@@ -1425,15 +1428,15 @@
                         <div class="firm-badge">Tax Partner</div>
                         <div class="firm-card-inner">
                             <div class="firm-logo">
-                                <img src="{{ asset('images/partners/kc-black.png') }}" alt="Kore Consulting">
+                                <img src="{{ asset('images/partners/kc-white.png') }}" alt="Kore Consulting">
                             </div>
                         </div>
                     </div>
-                    </div>
+                </div>
 
             </div>
-            </div>
-            <!-- NETWORK FIRMS SECTION END -->
+        </div>
+        <!-- NETWORK FIRMS SECTION END -->
 
         <!-- Contact Form SECTION START -->
         <div class="section-full p-t150 p-b120 site-bg-white twm-contact-section-wrap" id="contact-us">
@@ -1479,23 +1482,23 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        </ul>
+                                    </ul>
 
                                     <div class="twm-social">
                                         <h3 class="twm-title">Follow Us</h3>
                                         <ul>
-                                            <li><a href="https://www.x.com/"><i class="ri-twitter-x-line"></i></a>
+                                            <li><a href="#" target="_blank"><i class="ri-twitter-x-line"></i></a>
                                             </li>
-                                            <li><a href="https://www.facebook.com/"><i class="ri-facebook-fill"></i></a>
+                                            <li><a href="#" target="_blank"><i class="ri-facebook-fill"></i></a>
                                             </li>
-                                            <li><a href="https://www.instagram.com/"><i class="ri-instagram-line"></i></a>
+                                            <li><a href="#" target="_blank"><i class="ri-instagram-line"></i></a>
                                             </li>
-                                            <li><a href="https://www.pinterest.com/"><i class="ri-pinterest-fill"></i></a>
+                                            <li><a href="#" target="_blank"><i class="ri-pinterest-fill"></i></a>
                                             </li>
-                                            </ul>
-                                            </div>
-                                            </div>
-                                            </div>
+                                        </ul>
+                                        </div>
+                                        </div>
+                                        </div>
 
                             <div class="col-xl-5 col-lg-6 col-md-12">
                                 <div class="twm-contact-page-detail">
@@ -1567,15 +1570,15 @@
                                                 </div>
 
                                             </form>
-                                            </div>
-                                            </div>
+                                        </div>
+                                        </div>
 
                                 </div>
-                                </div>
+                            </div>
 
                         </div>
-                        </div>
-                        </div>
+                    </div>
+                    </div>
 
             </div>
 

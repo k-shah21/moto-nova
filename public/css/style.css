@@ -1792,6 +1792,7 @@ ol li {
     cursor: pointer;
     display: inline-flex;
     align-items: center;
+    border-radius: 20px;
     padding: 5px 15px;
     color: var(--theme-white);
     transition: 0.5s all ease;
@@ -1809,7 +1810,6 @@ ol li {
     font-weight: 500;
 }
 .site-button:hover {
-    border-radius: 20px;
     color: var(--theme-primary);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
@@ -1820,6 +1820,7 @@ ol li {
     font-family: "Work Sans", sans-serif;
     cursor: pointer;
     display: inline-flex;
+    border-radius: 20px;
     align-items: center;
     padding: 5px 15px;
     color: var(--theme-white);
@@ -1838,7 +1839,6 @@ ol li {
     color: #18191d;
 }
 .site-button-secondry:hover {
-    border-radius: 20px;
     color: var(--theme-white);
     transform: skew(0deg);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
@@ -6659,7 +6659,7 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
     padding: 10px 20px;
     background-color: var(--theme-white);
     border: 0px;
-    border-radius: 40px;
+    border-radius: 12px;
     font-size: 16px;
 }
 @media (max-width: 575px) {
@@ -11226,7 +11226,8 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
 .twm-home2-bnr .twm-banner-left-content-section {
     padding-top: 230px;
     padding-bottom: 180px;
-    max-width: 800px;
+    flex: 0 0 55%;
+    max-width: 55%;
 }
 @media (max-width: 1365px) {
     .twm-home2-bnr .twm-banner-left-content-section {
@@ -11235,12 +11236,14 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
 }
 @media (max-width: 1199px) {
     .twm-home2-bnr .twm-banner-left-content-section {
-        max-width: 570px;
+        flex: 0 0 60%;
+        max-width: 60%;
     }
 }
 @media (max-width: 991px) {
     .twm-home2-bnr .twm-banner-left-content-section {
-        max-width: 450px;
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 }
 @media (max-width: 767px) {
@@ -11603,7 +11606,95 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
     }
 }
 
-/*______Zoom in out Animation______*/
+/* Hero Banner Content Row - Flex Layout */
+.twm-banner-content-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+@media (max-width: 991px) {
+    .twm-banner-content-row {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Hero Right Car Image */
+.twm-banner-right-image {
+    position: relative;
+    flex: 0 0 45%;
+    max-width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 2;
+}
+
+.twm-banner-right-image img {
+    max-width: 100%;
+    height: auto;
+    scale: 1.3;
+    object-fit: contain;
+    filter: drop-shadow(0 20px 50px rgba(0, 0, 0, 0.5));
+    animation: slideCar .8s ease-out;
+    transform-origin: center center;
+}
+
+@keyframes slideCar {
+    0% {
+        transform: translateY(500px);
+        transform: translateX(800px);
+    }
+    100% {
+        transform: translateY(0px);
+        transform: translateX(0px);
+    }
+}
+
+/* Responsive: Tablet */
+@media (max-width: 1199px) {
+    .twm-banner-right-image {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+}
+
+/* Responsive: Mobile Landscape */
+@media (max-width: 991px) {
+    .twm-banner-right-image {
+        flex: 0 0 100%;
+        max-width: 100%;
+        justify-content: center;
+        margin-top: 40px;
+        padding-bottom: 30px;
+    }
+    
+    .twm-banner-right-image img {
+        max-width: 80%;
+    }
+}
+
+/* Responsive: Mobile Portrait */
+@media (max-width: 767px) {
+    .twm-banner-right-image {
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+    
+    .twm-banner-right-image img {
+        max-width: 90%;
+    }
+}
+
+/* Responsive: Small Mobile */
+@media (max-width: 480px) {
+    .twm-banner-right-image img {
+        max-width: 100%;
+    }
+}
+
 .zoom-in-out-element {
     animation: zoom-in-zoom-out 6s ease infinite;
 }
@@ -12026,277 +12117,303 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
     background: -webkit-linear-gradient(to right, #ffffff, #ffefba);
     background: linear-gradient(to right, #ffffff, #ffefba);
 }
-.twm-pricing-section-wrap .pricing-block {
+
+/* ========== NEW PRICING CARD STYLES ========== */
+
+.pricing-cards-row {
+    align-items: stretch;
+}
+
+/* Base Card - Clean, No Border */
+.pricing-card {
     background: var(--theme-white);
     border-radius: 24px;
-    overflow: hidden;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border: none; /* Removed border */
+    overflow: visible;
+    position: relative;
     height: 100%;
     display: flex;
     flex-direction: column;
-    border: 1px solid rgba(0, 0, 0, 0.04);
+    transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+    z-index: 1; /* Ensure card content stays above */
 }
 
-.twm-pricing-section-wrap .pricing-block:hover {
-    box-shadow:
-        0px 24px 72px rgba(0, 0, 0, 0.12),
-        0px 8px 24px rgba(0, 0, 0, 0.06);
-    transform: translateY(-8px);
-}
-
-.twm-pricing-section-wrap .pricing-block.active {
-    border: 2px solid var(--theme-secondary);
-    transform: scale(1.05);
-    position: relative;
-    z-index: 10;
-}
-
-.twm-pricing-section-wrap .pricing-block.active::before {
-    content: "MOST POPULAR";
-    position: absolute;
-    top: 20px;
-    right: -35px;
-    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
-    color: #fff;
-    padding: 6px 40px;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    transform: rotate(45deg);
-    box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4);
-    z-index: 20;
-}
-
-.twm-pricing-section-wrap .pricing-block.active:hover {
-    transform: scale(1.05) translateY(-8px);
-}
-
-/* Pricing Header - Colored Top Section */
-.twm-pricing-section-wrap .pricing-head {
-    background: linear-gradient(
-        135deg,
-        var(--theme-secondary) 0%,
-        #dc2626 50%,
-        var(--theme-secondary) 100%
-    );
-    background-size: 200% 200%;
-    animation: gradientShift 8s ease infinite;
-    padding: 45px 35px;
-    position: relative;
-    overflow: hidden;
-}
-
-@keyframes gradientShift {
-    0%,
-    100% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-}
-
-.twm-pricing-section-wrap .pricing-head::before {
+/* Background/Glow Layer using Pseudo-element */
+.pricing-card::before {
     content: "";
     position: absolute;
-    top: -50%;
-    right: -20%;
-    width: 250px;
-    height: 250px;
-    background: radial-gradient(
-        circle,
-        rgba(255, 255, 255, 0.1) 0%,
-        transparent 70%
-    );
-    border-radius: 50%;
-    animation: float 6s ease-in-out infinite;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 24px;
+    background: linear-gradient(135deg, #fca5a5 0%, #fcd34d 100%); /* Lighter Red/Gold gradient (Sharp/Light) */
+    z-index: -1; /* Behind the white card background */
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    opacity: 0; /* Hidden by default */
 }
 
-@keyframes float {
-    0%,
-    100% {
-        transform: translate(0, 0);
-    }
-    50% {
-        transform: translate(-20px, 20px);
-    }
-}
-
-.twm-pricing-section-wrap .pricing-head::after {
-    content: "";
-    position: absolute;
-    bottom: -30%;
-    left: -15%;
-    width: 180px;
-    height: 180px;
-    background: radial-gradient(
-        circle,
-        rgba(255, 255, 255, 0.08) 0%,
-        transparent 70%
-    );
-    border-radius: 50%;
-}
-
-.twm-pricing-section-wrap .pricing-block.active .pricing-head {
-    background: linear-gradient(
-        135deg,
-        #7c2d12 0%,
-        #991b1b 25%,
-        var(--theme-secondary) 50%,
-        #dc2626 75%,
-        #ef4444 100%
-    );
-}
-
-.twm-pricing-section-wrap .pricing-head-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* Card Content Background (to cover the middle of the glow) */
+.pricing-card-content {
+    background: var(--theme-white);
+    border-radius: 24px;
+    height: 100%;
+    width: 100%;
     position: relative;
     z-index: 2;
-}
-
-.twm-pricing-section-wrap .pricing-head-left {
-    flex: 1;
-}
-
-.twm-pricing-section-wrap .pricing-head-right {
-    flex-shrink: 0;
-    opacity: 0.25;
-    max-width: 120px;
-    transition: opacity 0.3s ease;
-}
-
-.twm-pricing-section-wrap .pricing-block:hover .pricing-head-right {
-    opacity: 0.4;
-}
-
-.twm-pricing-section-wrap .pricing-decoration {
-    width: 100%;
-    height: auto;
-    scale: 3;
-    filter: brightness(0.5) contrast(1.2);
-}
-
-.twm-pricing-section-wrap .pricing-head .plan-name {
-    font-size: 28px;
-    font-weight: 800;
-    color: var(--theme-white);
-    margin: 0 0 18px 0;
-    text-transform: capitalize;
-    letter-spacing: 0.8px;
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-}
-
-.twm-pricing-section-wrap .pricing-head .price-value {
-    font-size: 56px;
-    font-weight: 800;
-    color: var(--theme-white);
-    line-height: 1;
-    text-shadow: 0 3px 12px rgba(0, 0, 0, 0.25);
-}
-
-.twm-pricing-section-wrap .pricing-head .price-value .currency {
-    font-size: 36px;
-    vertical-align: super;
-    font-weight: 700;
-}
-
-.twm-pricing-section-wrap .pricing-head .price-value .duration {
-    font-size: 20px;
-    font-weight: 500;
-    opacity: 0.95;
-}
-
-/* Pricing Body - White Bottom Section */
-.twm-pricing-section-wrap .pricing-body {
-    padding: 45px 35px;
-    background: var(--theme-white);
-    flex-grow: 1;
+    padding: 50px 35px 40px;
     display: flex;
     flex-direction: column;
-}
-
-.twm-pricing-section-wrap .pricing-body .features-list {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 35px 0;
-    text-align: left;
     flex-grow: 1;
 }
 
-.twm-pricing-section-wrap .pricing-body .features-list li {
-    padding: 14px 0;
-    position: relative;
-    font-size: 15px;
-    color: #18191d;
-    font-weight: 500;
-    line-height: 1.6;
-    transition: all 0.2s ease;
+/* Hover State - Show and Expand Glow */
+.pricing-card:hover {
+    transform: none; /* No lift */
+    box-shadow: none; /* Remove default shadow, let glow do the work */
 }
 
-.twm-pricing-section-wrap .pricing-body .features-list li:hover {
-    padding-left: 4px;
+.pricing-card:hover::before {
+    opacity: 1;
+    top: -40px; /* Expands larger at top for text */
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
 }
 
-.twm-pricing-section-wrap .pricing-body .features-list li i {
-    margin-right: 14px;
-    color: var(--theme-secondary);
-    font-size: 18px;
-    font-weight: 900;
+/* Remove default Featured/Active styling */
+.pricing-card.featured {
+    border: none;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
 }
 
-.twm-pricing-section-wrap .pricing-body .features-list li.disable {
-    opacity: 0.35;
-    color: rgba(0, 0, 0, 0.9);
+.pricing-card.featured:hover {
+    transform: none;
 }
 
-.twm-pricing-section-wrap .pricing-body .features-list li.disable i {
-    color: rgba(0, 0, 0, 0.9);
+/* Ensure no default glow on featured card, only on hover (as requested "jo hover pe ho wahi ho") */
+.pricing-card.featured::before {
+    opacity: 0; 
+}
+.pricing-card.featured:hover::before {
+    opacity: 1;
 }
 
-/* Get Started Button */
-.twm-pricing-section-wrap .pricing-cta-btn {
-    display: block;
-    width: 100%;
-    padding: 16px 32px;
-    background: var(--theme-secondary);
-    color: var(--theme-white);
-    font-size: 17px;
+/* Top Badge Text - Positioned to sit on the top extended glow */
+.pricing-top-badge {
+    position: absolute;
+    top: -32px; /* Positioned within the top expanded area */
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #ffffff; /* Dark text for contrast against light gradient? Or White? User said "sharp color" */
+    font-size: 13px;
     font-weight: 700;
+    letter-spacing: 0.5px;
+    opacity: 0;
+    transition: opacity 0.3s ease 0.1s; /* Slight delay to wait for glow expansion */
+    z-index: 3;
+    pointer-events: none;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Show badge text on hover */
+.pricing-card:hover .pricing-top-badge {
+    opacity: 1;
+}
+
+/* Header with Icon + Plan Name */
+.pricing-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.pricing-icon {
+    font-size: 22px;
+    color: var(--theme-secondary);
+    transition: transform 0.3s ease;
+}
+
+.pricing-card:hover .pricing-icon {
+    transform: scale(1.15);
+}
+
+.pricing-plan-name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #18191d;
+    margin: 0;
+    letter-spacing: -0.3px;
+}
+
+/* Description */
+.pricing-desc {
+    font-size: 15px;
+    color: #6b7280;
+    line-height: 1.6;
+    margin: 0 0 24px 0;
+}
+
+/* Price Amount */
+.pricing-amount {
+    margin-bottom: 28px;
+    line-height: 1;
+}
+
+.pricing-currency {
+    font-size: 24px;
+    font-weight: 600;
+    color: #18191d;
+    vertical-align: top;
+    position: relative;
+    top: 8px;
+}
+
+.pricing-value {
+    font-size: 52px;
+    font-weight: 800;
+    color: #18191d;
+    letter-spacing: -2px;
+}
+
+.pricing-duration {
+    font-size: 14px;
+    font-weight: 500;
+    color: #9ca3af;
+    margin-left: 4px;
+}
+
+/* CTA Button - Default Ghost Style */
+.pricing-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    padding: 16px 28px;
+    background: transparent;
+    color: #18191d;
+    font-size: 15px;
+    font-weight: 600;
     text-align: center;
     border-radius: 60px;
-    border: 2px solid var(--theme-secondary);
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 2px solid #18191d;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     text-decoration: none;
-    margin-top: auto;
-    box-shadow: 0 4px 16px rgba(185, 28, 28, 0.25);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    font-size: 15px;
+    margin-bottom: 32px;
+    cursor: pointer;
 }
 
-.twm-pricing-section-wrap .pricing-cta-btn:hover {
-    background: #991b1b;
-    border-color: #991b1b;
+.pricing-btn:hover {
+    background: #18191d;
     color: var(--theme-white);
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(153, 27, 27, 0.35);
+    box-shadow: 0 6px 16px rgba(24, 25, 29, 0.25);
 }
 
-.twm-pricing-section-wrap .pricing-block.active .pricing-cta-btn {
+/* Featured card button - Always filled */
+.pricing-card.featured .pricing-btn {
     background: #18191d;
     color: var(--theme-white);
     border-color: #18191d;
-    box-shadow: 0 6px 20px rgba(24, 25, 29, 0.3);
+    box-shadow: 0 4px 12px rgba(24, 25, 29, 0.2);
 }
 
-.twm-pricing-section-wrap .pricing-block.active .pricing-cta-btn:hover {
+.pricing-card.featured .pricing-btn:hover {
     background: var(--theme-secondary);
-    color: var(--theme-white);
     border-color: var(--theme-secondary);
-    transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(185, 28, 28, 0.4);
+    box-shadow: 0 8px 20px rgba(185, 28, 28, 0.35);
+}
+
+/* Hover state fills button */
+.pricing-card:hover .pricing-btn {
+    background: #18191d;
+    color: var(--theme-white);
+    border-color: #18191d;
+}
+
+/* Features Section */
+.pricing-features {
+    flex-grow: 1;
+}
+
+.features-label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #9ca3af;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.pricing-features .features-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pricing-features .features-list li {
+    padding: 10px 0;
+    font-size: 14px;
+    color: #374151;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.2s ease;
+}
+
+.pricing-features .features-list li:hover {
+    padding-left: 4px;
+    color: #18191d;
+}
+
+.pricing-features .features-list li i {
+    color: var(--theme-secondary);
+    font-size: 16px;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+    .pricing-card-content {
+        padding: 45px 28px 35px;
+    }
+    
+    .pricing-value {
+        font-size: 44px;
+    }
+}
+
+@media (max-width: 767px) {
+    .pricing-top-badge {
+        font-size: 11px;
+        padding: 6px 18px;
+    }
+    
+    .pricing-card-content {
+        padding: 40px 24px 30px;
+    }
+    
+    .pricing-plan-name {
+        font-size: 22px;
+    }
+    
+    .pricing-value {
+        font-size: 40px;
+    }
+    
+    .pricing-btn {
+        padding: 14px 24px;
+        font-size: 14px;
+    }
 }
 
 /* Section Head Description */
@@ -12722,41 +12839,9 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
 
 .twm-testimonial-section-wrap {
     position: relative;
-    background: linear-gradient(180deg, #ffffff 0%, var(--bg-light) 100%);
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0f0f0f 100%);
     padding-top: 120px;
     padding-bottom: 120px;
-}
-
-/*=== Improved Section Headings ===*/
-.section-head {
-    margin-bottom: 60px;
-}
-
-.section-head .twm-sm-title {
-    display: inline-block;
-    padding: 8px 20px;
-    background: linear-gradient(
-        135deg,
-        rgba(212, 175, 55, 0.1) 0%,
-        rgba(185, 28, 28, 0.1) 100%
-    );
-    border-radius: 30px;
-    margin-bottom: 15px;
-    font-weight: 600;
-    letter-spacing: 1px;
-}
-
-.section-head .twm-large-title {
-    font-size: 42px;
-    line-height: 1.3;
-    margin-bottom: 20px;
-    font-weight: 700;
-}
-
-@media (max-width: 768px) {
-    .section-head .twm-large-title {
-        font-size: 32px;
-    }
 }
 
 /*=== Enhanced Icon Styling ===*/
@@ -12914,15 +12999,6 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
     line-height: 1.3;
     margin-bottom: 20px;
     font-weight: 700;
-}
-
-@media (max-width: 768px) {
-    .section-head .twm-large-title {
-        font-size: 32px;
-    }
-}
-
-.section-head .twm-large-title {
     background: linear-gradient(135deg, var(--text-dark) 0%, #2a2a2a 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -12939,6 +13015,12 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+@media (max-width: 768px) {
+    .section-head .twm-large-title {
+        font-size: 32px;
+    }
 }
 
 /* Google Maps Container */
@@ -12958,11 +13040,11 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
 }
 
 /* ======================================
-   NETWORK FIRMS SECTION - Static Badge Style
+   NETWORK FIRMS SECTION - Dark Theme Style
    ====================================== */
 
 .twm-network-firms-section {
-    background-color: #f8f9fa;
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0f0f0f 100%);
     position: relative;
 }
 
@@ -12973,35 +13055,52 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
     flex-wrap: wrap;
 }
 
-/* Individual Firm Card - Static Badge Style */
+/* Individual Firm Card - Dark Theme Style */
 .network-firm-card {
     position: relative;
     width: 340px;
-    background: var(--theme-white);
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
     border-radius: 16px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-    overflow: visible; /* Important for badge */
-    margin-top: 20px; /* Space for badge */
-    transition: all 0.3s ease;
-    border: 2px solid #e5e7eb;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    overflow: visible;
+    margin-top: 20px;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .network-firm-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+    transform: translateY(-8px);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+    border-color: rgba(212, 175, 55, 0.4);
 }
 
-/* Card Color Themes */
+/* Card Color Themes - Glow Effects */
 .network-firm-card.card-theme-yellow {
-    border-color: #f59e0b;
+    border-color: rgba(245, 158, 11, 0.3);
+}
+
+.network-firm-card.card-theme-yellow:hover {
+    box-shadow: 0 20px 50px rgba(245, 158, 11, 0.2);
+    border-color: rgba(245, 158, 11, 0.6);
 }
 
 .network-firm-card.card-theme-red {
-    border-color: #dc2626;
+    border-color: rgba(220, 38, 38, 0.3);
+}
+
+.network-firm-card.card-theme-red:hover {
+    box-shadow: 0 20px 50px rgba(220, 38, 38, 0.2);
+    border-color: rgba(220, 38, 38, 0.6);
 }
 
 .network-firm-card.card-theme-blue {
-    border-color: #1e40af;
+    border-color: rgba(30, 64, 175, 0.3);
+}
+
+.network-firm-card.card-theme-blue:hover {
+    box-shadow: 0 20px 50px rgba(30, 64, 175, 0.2);
+    border-color: rgba(30, 64, 175, 0.6);
 }
 
 /* Badge Styling */
@@ -13012,12 +13111,13 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
     transform: translateX(-50%);
     padding: 6px 20px;
     border-radius: 20px;
+    text-transform: uppercase;
     color: #fff;
     font-weight: 600;
     font-size: 13px;
     white-space: nowrap;
     z-index: 10;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .card-theme-yellow .firm-badge {
@@ -13039,9 +13139,11 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
     align-items: center;
     justify-content: center;
     min-height: 220px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 14px;
 }
 
-/* Logo Display */
+/* Logo Display - Invert for dark theme */
 .firm-logo {
     display: flex;
     align-items: center;
@@ -13053,6 +13155,13 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
     max-width: 240px;
     max-height: 120px;
     object-fit: contain;
+
+    opacity: 0.9;
+    transition: all 0.3s ease;
+}
+
+.network-firm-card:hover .firm-logo img {
+    opacity: 1;
 }
 
 /* Responsive Design */
@@ -13086,17 +13195,12 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
 }
 
 /* Video Section Styling */
-.video-section-outer {
-    position: relative;
-    border-radius: 16px;
-    overflow: hidden;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-    background: #000;
-}
+
 
 .video-section {
     width: 100%;
     height: 100%;
+    margin-top: 100px;
 }
 
 .video-section img {
@@ -13107,24 +13211,20 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
     object-position: center;
 }
 
-/* Desktop: Match height with content using Absolute Positioning */
 @media (min-width: 992px) {
-    /* Image column becomes the positioning context */
     .twm-faq-section-1 .col-lg-4,
     .twm-faq-section-2 .col-lg-4 {
         position: relative;
-        /* min-height ensures column participates in row height calculation */
     }
     
-    /* Image wrapper fills the column absolutely - doesn't push height */
     .twm-faq-section-1 .video-section-outer,
     .twm-faq-section-2 .video-section-outer {
         position: absolute;
         top: 0;
-        left: 15px;   /* Bootstrap gutter */
-        right: 15px;  /* Bootstrap gutter */
+        left: 15px;  
+        right: 15px; 
         bottom: 0;
-        height: 100%;
+   
         width: calc(100% - 30px);
     }
     
@@ -13140,7 +13240,6 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
     }
 }
 
-/* Mobile: Limit height for tall images */
 @media (max-width: 991px) {
     .video-section-outer {
         max-height: 400px;
@@ -13256,7 +13355,7 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
 
 /* Section Title Styling for FAQ */
 .twm-faq-info-wrap .section-head h2 {
-    font-size: 32px;
+    font-size: 42px;
     font-weight: 700;
     margin-bottom: 30px;
     color: #1a1a1a;
@@ -13324,9 +13423,9 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
     position: absolute;
     top: 10px;
     right: 15px;
-    font-size: 64px;
+    font-size: 40px;
     font-weight: 800;
-    color: rgba(212, 175, 55, 0.1);
+    color: rgba(212, 175, 55, 0.3);
     line-height: 1;
     z-index: 0;
     font-family: 'Poppins', sans-serif;
